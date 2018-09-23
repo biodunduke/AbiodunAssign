@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Abiodun</string>
+    <string name="app_info">This is my first App. It is the very first assignment in Android App making</string>
+    <string name="text_but_activity">Activity</string>
+    <string name="text_but_camera">Camera</string>
+    <string name="text_but_toast">Toast</string>
+    <string name="text_but_gohome">Go Home</string>
+    <string name="text_but_dial">Dial</string>
+    <string name="text_hs_toast">Welcome to the new age!</string>
+    <string name="text_url_redirect">You have been redirected to my GitHub.</string>
+    <string name="text_imagename">Image</string>
+    <string name="text_toast_land">This is Activity 2 in Landscape</string>
+    <string name="text_toast">This is Activity 2 in Portrait</string>
+    <string name="textView_full_name">Abiodun Ojo</string>
+    <string name="textView_studentID">N01178447</string>
+    <string name="textView_my_name">Abiodun</string>
+    <string name="textView_screenname">Home Screen</string>
+    <string name="textView_screenname2">Activity 2 Screen</string>
+    <string name="text_time">Time</string>
+    <string name="text_date">Date</string>
+    <string name="text_img_act1">Activity 1 Image</string>
+    <string name="text_img_act2">Activity 2 Image</string>
+    <string name="menu_item_help">Help</string>
+    <string name="menu_item_info">Info</string>
+    <string name="menu_item_myname">Abiodun</string>
+    <string name="weblink">http://github.com/biodunduke/MyApplication</string>
+
+</resources>

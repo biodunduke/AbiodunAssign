@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Abiodun</string>
+    <string name="app_info">Ceci est ma première application. C\'est la toute première affectation dans la réalisation d'applications Android</string>
+    <string name="text_but_activity">Activité</string>
+    <string name="text_but_camera">Caméra</string>
+    <string name="text_but_toast">Pain grillé</string>
+    <string name="text_but_gohome">Rentrer Chez Soi</string>
+    <string name="text_but_dial">Cadran</string>
+    <string name="text_hs_toast">Bienvenue dans la nouvelle ère!</string>
+    <string name="text_url_redirect">Vous avez été redirigé vers mon GitHub.</string>
+    <string name="text_imagename">Image</string>
+    <string name="text_toast_land">Ceci est l\'activité 2 en paysage.</string>
+    <string name="text_toast">Ceci est l\'activité 2 en Portrait.</string>
+    <string name="textView_full_name">Abiodun Ojo</string>
+    <string name="textView_studentID">N01178447</string>
+    <string name="textView_my_name">Abiodun</string>
+    <string name="textView_screenname">Écran d\'accueil</string>
+    <string name="textView_screenname2">Écran Activité 2</string>
+    <string name="text_time">Temps</string>
+    <string name="text_date">Rendez-vous amoureux</string>
+    <string name="text_img_act1">Activité 1 Image</string>
+    <string name="text_img_act2">Activité 2 Image</string>
+    <string name="menu_item_help">Aidez-moi</string>
+    <string name="menu_item_info">Info</string>
+    <string name="menu_item_myname">Abiodun</string>
+    <string name="weblink">http://github.com/biodunduke/MyApplication</string>
+</resources>
