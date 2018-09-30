@@ -1,1 +1,1 @@
-include ':app', ':Abiodun'
+include ':app', ':Abiodun', ':AccelerometerExample', ':DynamicView', ':RuntimePermissions', ':ScreenLayoutDetect', ':ClockModule', ':AbiodunLab', ':BookMeUp'

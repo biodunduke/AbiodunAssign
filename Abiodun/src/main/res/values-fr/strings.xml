@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Abiodun</string>
-    <string name="app_info">Ceci est ma première application. C\'est la toute première affectation dans la réalisation d'applications Android</string>
+    <string name="app_info">Android</string>
     <string name="text_but_activity">Activité</string>
     <string name="text_but_camera">Caméra</string>
     <string name="text_but_toast">Pain grillé</string>
@@ -24,5 +24,8 @@
     <string name="menu_item_help">Aidez-moi</string>
     <string name="menu_item_info">Info</string>
     <string name="menu_item_myname">Abiodun</string>
-    <string name="weblink">http://github.com/biodunduke/MyApplication</string>
+    <string name="weblink">http://github.com/biodunduke/AbiodunAssign1</string>
+    <string name="toast_permission_granted">Permission accordée!</string>
+    <string name="toast_permission_not_granted">La permission n\'est pas accordée!</string>
+    <string name="toast_permission_needed">La permission est requise!</string>
 </resources>

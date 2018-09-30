@@ -5,9 +5,15 @@
  */
 package abiodun.ojo;
 
+import android.Manifest;
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.net.Uri;
+import android.provider.MediaStore;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.app.NavUtils;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -26,13 +32,15 @@ public class AbiodunActivity2 extends AppCompatActivity {
      * Abiodun Ojo
      * N01178447
      * Assignment 1
-     * */
+     */
     private Button butDial;
+    public static final int REQUEST_CODE = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_abiodun2);
+        final int permission = ContextCompat.checkSelfPermission(AbiodunActivity2.this, Manifest.permission.CALL_PHONE);
 
         String date = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(Calendar.getInstance().getTime());
         TextView dateText = (TextView) findViewById(R.id.text_time);
@@ -53,9 +61,17 @@ public class AbiodunActivity2 extends AppCompatActivity {
             butDial.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Uri number = Uri.parse("tel:6477793641");
-                    Intent intent = new Intent(Intent.ACTION_DIAL, number);
-                    startActivity(intent);
+                    if (permission != PackageManager.PERMISSION_GRANTED) {
+                        ActivityCompat.requestPermissions(AbiodunActivity2.this, new String[]{Manifest.permission.CALL_PHONE}, REQUEST_CODE);
+
+                        if (ActivityCompat.shouldShowRequestPermissionRationale(AbiodunActivity2.this, Manifest.permission.CALL_PHONE)) {
+                            Toast.makeText(AbiodunActivity2.this, R.string.toast_permission_needed, Toast.LENGTH_SHORT).show();
+                        }
+                    } else {
+                        Uri number = Uri.parse("tel:6477793641");
+                        Intent intent = new Intent(Intent.ACTION_DIAL, number);
+                        startActivity(intent);
+                    }
                 }
             });
         } catch (IOError error) {
@@ -119,8 +135,11 @@ public class AbiodunActivity2 extends AppCompatActivity {
                     System.err.println("IOError: " + error.getMessage());
                 }
                 break;
+            case R.id.homeAsUp: //Takes you to previous parent activity
+                NavUtils.navigateUpFromSameTask(this);
+                return true;
         }
-        return true;
+        return super.onOptionsItemSelected(menu);
     }
 
     @Override
@@ -128,5 +147,22 @@ public class AbiodunActivity2 extends AppCompatActivity {
         super.onSupportNavigateUp();
         finish();
         return true;
+    }
+
+    //Checking the result of Permission Request
+    @Override
+    public void onRequestPermissionsResult(int requestCode, String permissions[], int[] grantResults) {
+        switch (requestCode) {
+            case REQUEST_CODE: { //If permission is allowed
+                if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                    Uri number = Uri.parse("tel:6477793641");
+                    Intent intent = new Intent(Intent.ACTION_DIAL, number);
+                    startActivity(intent);
+                } else { //If permission is not allowed
+                    Toast.makeText(AbiodunActivity2.this, R.string.toast_permission_not_granted, Toast.LENGTH_SHORT).show();
+                }
+            }
+            return;
+        }
     }
 }

@@ -23,6 +23,9 @@
     <string name="menu_item_help">Help</string>
     <string name="menu_item_info">Info</string>
     <string name="menu_item_myname">Abiodun</string>
-    <string name="weblink">http://github.com/biodunduke/MyApplication</string>
+    <string name="weblink">http://github.com/biodunduke/AbiodunAssign1</string>
+    <string name="toast_permission_granted">Permission granted!</string>
+    <string name="toast_permission_not_granted">Permission not granted!</string>
+    <string name="toast_permission_needed">Permission is required!</string>
 
 </resources>
