@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Radio Button</string>
+    <string name="but_display">Display!</string>
+    <string name="rad_1">Radio Option 1</string>
+    <string name="rad_2">Radio Option 2</string>
+    <string name="rad_3">Radio Option 3</string>
+    <string name="rad_4">Radio Option 4</string>
+    <string name="checked">Checked!</string>
+    <string name="not_checked">Unchecked</string>
+</resources>
