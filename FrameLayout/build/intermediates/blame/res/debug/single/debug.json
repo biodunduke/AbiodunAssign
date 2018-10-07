@@ -1,26 +1,26 @@
 [
     {
-        "merged": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\FrameLayout\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_main.xml.flat",
-        "source": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\FrameLayout\\src\\main\\res\\layout-land\\activity_main.xml"
+        "merged": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\Framelayout\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_green_rect.jpg.flat",
+        "source": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\Framelayout\\src\\main\\res\\drawable-xhdpi\\green_rect.jpg"
     },
     {
-        "merged": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\FrameLayout\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\FrameLayout\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\Framelayout\\build\\intermediates\\res\\merged\\debug\\menu_main.xml.flat",
+        "source": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\Framelayout\\src\\main\\res\\menu\\main.xml"
     },
     {
-        "merged": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\FrameLayout\\build\\intermediates\\res\\merged\\debug\\menu_main.xml.flat",
-        "source": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\FrameLayout\\src\\main\\res\\menu\\main.xml"
+        "merged": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\Framelayout\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_red_oval.jpg.flat",
+        "source": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\Framelayout\\src\\main\\res\\drawable-xhdpi\\red_oval.jpg"
     },
     {
-        "merged": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\FrameLayout\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_green_rect.jpg.flat",
-        "source": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\FrameLayout\\src\\main\\res\\drawable-xhdpi\\green_rect.jpg"
+        "merged": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\Framelayout\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\Framelayout\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\FrameLayout\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_red_oval.jpg.flat",
-        "source": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\FrameLayout\\src\\main\\res\\drawable-xhdpi\\red_oval.jpg"
+        "merged": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\Framelayout\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\Framelayout\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\FrameLayout\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\FrameLayout\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\Framelayout\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_main.xml.flat",
+        "source": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\Framelayout\\src\\main\\res\\layout-land\\activity_main.xml"
     }
 ]

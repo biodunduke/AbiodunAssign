@@ -1,10 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\FrameLayout\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\Framelayout\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\FrameLayout\\src\\main\\res\\values\\styles.xml",
+                    "source": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\Framelayout\\src\\main\\res\\values\\dimens.xml",
+                    "from": {
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "92,151",
+                        "endColumns": "57,55",
+                        "endOffsets": "145,202"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,113",
+                        "endColumns": "57,55",
+                        "endOffsets": "108,164"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\Framelayout\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "6,15",
                         "startColumns": "4,4",
@@ -23,7 +40,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\FrameLayout\\src\\main\\res\\values\\strings.xml",
+                    "source": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\Framelayout\\src\\main\\res\\values\\strings.xml",
                     "from": {
                         "startLines": "4,3,6,5",
                         "startColumns": "4,4,4,4",
@@ -37,23 +54,6 @@
                         "startOffsets": "169,222,271,324",
                         "endColumns": "52,48,52,52",
                         "endOffsets": "217,266,319,372"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\FrameLayout\\src\\main\\res\\values\\dimens.xml",
-                    "from": {
-                        "startLines": "3,4",
-                        "startColumns": "4,4",
-                        "startOffsets": "92,151",
-                        "endColumns": "57,55",
-                        "endOffsets": "145,202"
-                    },
-                    "to": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,113",
-                        "endColumns": "57,55",
-                        "endOffsets": "108,164"
                     }
                 }
             ]
