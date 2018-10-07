@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+		android:id="@+id/start"
+		android:title="Start!"
+		android:orderInCategory="1"></item>
+		<item
+		android:id="@+id/stop"
+		android:title="Stop!"
+		android:orderInCategory="4"></item>
+		<item
+		android:id="@+id/accel"
+		android:title="Vroom! Accelerate!"
+		android:orderInCategory="2"></item>
+		<item
+		android:id="@+id/decel"
+		android:title="Decelerate!"
+		android:orderInCategory="3">
+		</item>
+
+
+</menu>
