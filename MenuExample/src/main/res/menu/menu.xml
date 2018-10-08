@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+
+    <item
+        style="@style/AppTheme"
+        android:id="@+id/start"
+        android:title="Start!"
+        app:showAsAction="always"
+        android:orderInCategory="1"></item>
+    <item
+        style="@style/AppTheme"
+        android:id="@+id/stop"
+        android:title="Stop!"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="4"></item>
+    <item
+        style="@style/AppTheme"
+        android:id="@+id/accel"
+        android:title="Speed up!"
+        app:showAsAction="never"
+        android:orderInCategory="2"></item>
+    <item
+        style="@style/AppTheme"
+        android:id="@+id/decel"
+        android:title="Slow Down!"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="3"></item>
+
+</menu>
