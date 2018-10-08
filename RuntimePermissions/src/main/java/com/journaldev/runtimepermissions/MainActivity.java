@@ -35,8 +35,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Button request_permission = (Button) findViewById(R.id.request_permission);
         check_permission.setOnClickListener(this);
         request_permission.setOnClickListener(this);
-
-
     }
 
 
@@ -64,12 +62,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
                 } else {
 
-                    Snackbar.make(view, "Permission already granted.", Snackbar.LENGTH_LONG).show();
+                    Snackbar.make(view, "Permission has already been granted.", Snackbar.LENGTH_LONG).show();
 
                 }
                 break;
         }
-
     }
 
     private boolean checkPermission() {

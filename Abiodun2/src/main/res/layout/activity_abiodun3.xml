@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/abiodun_constraint_3_0"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AbiodunActivity3">
+
+    <Button
+        android:id="@+id/abiodun_shop_but_next"
+        android:layout_width="99dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="4dp"
+        android:text="@string/but_next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/abiodun_selection" />
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/abiodun_constraint_shop_image"
+        android:layout_width="383dp"
+        android:layout_height="179dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/abiodun_shop_image"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:contentDescription="@string/desc_pizza_shop"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+    </android.support.constraint.ConstraintLayout>
+
+    <LinearLayout
+        android:id="@+id/abiodun_selection"
+        android:layout_width="368dp"
+        android:layout_height="275dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/abiodun_constraint_shop_image">
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/abiodun_selection_size"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/abiodun_text_size"
+                android:layout_width="32dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/text_size"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <RadioGroup
+                android:id="@+id/abiodun_rg_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/abiodun_text_size">
+
+                <RadioButton
+                    android:id="@+id/abiodun_rad_size_large"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/size_large"
+                    android:visibility="gone" />
+
+                <RadioButton
+                    android:id="@+id/abiodun_rad_size_medium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/size_medium"
+                    android:visibility="gone" />
+
+                <RadioButton
+                    android:id="@+id/abiodun_rad_size_small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/size_small"
+                    android:visibility="gone" />
+            </RadioGroup>
+
+        </android.support.constraint.ConstraintLayout>
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/abiodun_selection_type"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="125dp">
+
+            <TextView
+                android:id="@+id/abiodun_text_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/text_type"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <RadioGroup
+                android:id="@+id/abiodun_rg_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/abiodun_text_type">
+
+                <RadioButton
+                    android:id="@+id/abiodun_rad_type_thick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/type_thick"
+                    android:visibility="gone" />
+
+                <RadioButton
+                    android:id="@+id/abiodun_rad_type_regular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/type_regular"
+                    android:visibility="gone" />
+
+                <RadioButton
+                    android:id="@+id/abiodun_rad_type_thin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/type_thin"
+                    android:visibility="gone" />
+
+            </RadioGroup>
+        </android.support.constraint.ConstraintLayout>
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/abiodun_selection_topping"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/abiodun_text_topping"
+                android:layout_width="wrap_content"
+                android:layout_height="22dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/text_toppings"
+                android:visibility="visible"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <CheckBox
+                android:id="@+id/abiodun_chkbx_mushroom"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:checked="false"
+                android:text="@string/topping_mushroom"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/abiodun_text_topping" />
+
+            <CheckBox
+                android:id="@+id/abiodun_chkbx_bacon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/topping_bacon"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="@+id/abiodun_chkbx_mushroom"
+                app:layout_constraintTop_toBottomOf="@+id/abiodun_chkbx_mushroom" />
+
+            <CheckBox
+                android:id="@+id/abiodun_chkbx_beef"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/topping_beef"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="@+id/abiodun_chkbx_mushroom"
+                app:layout_constraintTop_toBottomOf="@+id/abiodun_chkbx_bacon" />
+
+            <CheckBox
+                android:id="@+id/abiodun_chkbx_lettuce"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/topping_lettuce"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="@+id/abiodun_chkbx_mushroom"
+                app:layout_constraintTop_toBottomOf="@+id/abiodun_chkbx_beef" />
+
+            <CheckBox
+                android:id="@+id/abiodun_chkbx_ham"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/topping_ham"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="@+id/abiodun_chkbx_mushroom"
+                app:layout_constraintTop_toBottomOf="@+id/abiodun_chkbx_lettuce" />
+
+            <CheckBox
+                android:id="@+id/abiodun_chkbx_chicken"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/topping_chicken"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="@+id/abiodun_chkbx_mushroom"
+                app:layout_constraintTop_toBottomOf="@+id/abiodun_chkbx_ham" />
+
+            <CheckBox
+                android:id="@+id/abiodun_chkbx_pepperoni"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/topping_pepperoni"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="@+id/abiodun_chkbx_mushroom"
+                app:layout_constraintTop_toBottomOf="@+id/abiodun_chkbx_chicken" />
+
+        </android.support.constraint.ConstraintLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

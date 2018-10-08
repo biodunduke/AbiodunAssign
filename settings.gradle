@@ -1,1 +1,1 @@
-include ':app', ':Abiodun', ':AccelerometerExample', ':DynamicView', ':RuntimePermissions',':FrameLayout',':LinearLayoutExample', ':AlertDialog',':ScreenLayoutDetect', ':ClockModule', ':AbiodunLab', ':BookMeUp', ':RadioButton', ':StyleExample', ':Abiodun2'
+include ':app', ':Abiodun', ':AccelerometerExample', ':DynamicView', ':RuntimePermissions', ':FrameLayout', ':LinearLayoutExample', ':AlertDialog', ':ScreenLayoutDetect', ':ClockModule', ':AbiodunLab', ':BookMeUp', ':RadioButton', ':StyleExample', ':Abiodun2', ':MenuExample'
