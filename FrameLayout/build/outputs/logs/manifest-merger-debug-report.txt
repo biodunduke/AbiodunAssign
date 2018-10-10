@@ -4,6 +4,12 @@ ADDED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\FrameLayout\src\
 INJECTED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\FrameLayout\src\main\AndroidManifest.xml:2:1-27:12
 INJECTED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\FrameLayout\src\main\AndroidManifest.xml:2:1-27:12
 INJECTED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\FrameLayout\src\main\AndroidManifest.xml:2:1-27:12
+MERGED from [com.android.support:support-v4:26.0.0] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\c9b11a1f63c0c91cca41ced325bfcd5a\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.0.0] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0.aar\e338e02f241d9a9b6a85c93bb98ce136\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.0.0] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0.aar\937db3c30b83cbb1f490c7557a031d3e\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\7e67ae125e3d6238e9d81014e7657448\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\6c64be778c50dfca12a99f02349d02cf\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.0.0] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\3d34977abf991c64cdbc865f59e1177e\AndroidManifest.xml:17:1-31:12
 INJECTED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\FrameLayout\src\main\AndroidManifest.xml:2:1-27:12
 INJECTED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\FrameLayout\src\main\AndroidManifest.xml:2:1-27:12
 INJECTED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\FrameLayout\src\main\AndroidManifest.xml:2:1-27:12
@@ -25,8 +31,22 @@ uses-sdk
 ADDED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\FrameLayout\src\main\AndroidManifest.xml:7:5-8:39
 INJECTED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\FrameLayout\src\main\AndroidManifest.xml:7:5-8:39
 INJECTED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\FrameLayout\src\main\AndroidManifest.xml:7:5-8:39
+MERGED from [com.android.support:support-v4:26.0.0] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\c9b11a1f63c0c91cca41ced325bfcd5a\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.0.0] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\c9b11a1f63c0c91cca41ced325bfcd5a\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0.aar\e338e02f241d9a9b6a85c93bb98ce136\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.0.0] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0.aar\e338e02f241d9a9b6a85c93bb98ce136\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0.aar\937db3c30b83cbb1f490c7557a031d3e\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.0.0] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0.aar\937db3c30b83cbb1f490c7557a031d3e\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\7e67ae125e3d6238e9d81014e7657448\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\7e67ae125e3d6238e9d81014e7657448\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\6c64be778c50dfca12a99f02349d02cf\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\6c64be778c50dfca12a99f02349d02cf\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.0] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\3d34977abf991c64cdbc865f59e1177e\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.0] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\3d34977abf991c64cdbc865f59e1177e\AndroidManifest.xml:21:5-23:58
 INJECTED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\FrameLayout\src\main\AndroidManifest.xml:7:5-8:39
 INJECTED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\FrameLayout\src\main\AndroidManifest.xml:7:5-8:39
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:26.0.0] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\c9b11a1f63c0c91cca41ced325bfcd5a\AndroidManifest.xml:23:9-51
 	android:targetSdkVersion
 		ADDED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\FrameLayout\src\main\AndroidManifest.xml:8:8-37
 		INJECTED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\FrameLayout\src\main\AndroidManifest.xml
@@ -37,6 +57,18 @@ INJECTED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\FrameLayout\s
 		INJECTED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\FrameLayout\src\main\AndroidManifest.xml
 application
 ADDED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\FrameLayout\src\main\AndroidManifest.xml:11:5-25:19
+MERGED from [com.android.support:support-v4:26.0.0] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\c9b11a1f63c0c91cca41ced325bfcd5a\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.0.0] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\c9b11a1f63c0c91cca41ced325bfcd5a\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.0.0] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0.aar\e338e02f241d9a9b6a85c93bb98ce136\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.0.0] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0.aar\e338e02f241d9a9b6a85c93bb98ce136\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.0.0] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0.aar\937db3c30b83cbb1f490c7557a031d3e\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.0.0] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0.aar\937db3c30b83cbb1f490c7557a031d3e\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\7e67ae125e3d6238e9d81014e7657448\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\7e67ae125e3d6238e9d81014e7657448\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\6c64be778c50dfca12a99f02349d02cf\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\6c64be778c50dfca12a99f02349d02cf\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.0] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\3d34977abf991c64cdbc865f59e1177e\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.0] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\3d34977abf991c64cdbc865f59e1177e\AndroidManifest.xml:25:5-29:19
 	android:label
 		ADDED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\FrameLayout\src\main\AndroidManifest.xml:14:9-41
 	android:icon
@@ -61,3 +93,19 @@ category#android.intent.category.LAUNCHER
 ADDED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\FrameLayout\src\main\AndroidManifest.xml:22:17-77
 	android:name
 		ADDED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\FrameLayout\src\main\AndroidManifest.xml:22:27-74
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v4:26.0.0] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\c9b11a1f63c0c91cca41ced325bfcd5a\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.0.0] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0.aar\e338e02f241d9a9b6a85c93bb98ce136\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.0.0] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0.aar\e338e02f241d9a9b6a85c93bb98ce136\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.0.0] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0.aar\937db3c30b83cbb1f490c7557a031d3e\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.0.0] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0.aar\937db3c30b83cbb1f490c7557a031d3e\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\7e67ae125e3d6238e9d81014e7657448\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\7e67ae125e3d6238e9d81014e7657448\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\6c64be778c50dfca12a99f02349d02cf\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\6c64be778c50dfca12a99f02349d02cf\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.0.0] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\3d34977abf991c64cdbc865f59e1177e\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.0.0] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\3d34977abf991c64cdbc865f59e1177e\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:support-v4:26.0.0] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\c9b11a1f63c0c91cca41ced325bfcd5a\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:support-v4:26.0.0] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\c9b11a1f63c0c91cca41ced325bfcd5a\AndroidManifest.xml:27:13-51

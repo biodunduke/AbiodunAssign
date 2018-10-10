@@ -5,10 +5,12 @@
  */
 package abiodun.ojo;
 
+import android.content.Intent;
 import android.support.v4.app.NavUtils;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
@@ -26,25 +28,120 @@ public class AbiodunActivity3 extends AppCompatActivity {
         final int selectionID=bundle.getInt("selection"); //Retrieve the items passed
         String size = bundle.getString("size");
         String type = bundle.getString("type");
-        String [] array = bundle.getStringArray("toppings");
-        String toppings=""; //Making a string to hold the toppings selected
-        for (int i=0; i<array.length;i++) {
-            if(array[i]!=null){
-                if(i==array.length-1)
-                    toppings = toppings + array[i] + ".";
-                else
-                    toppings = toppings + array[i] + ", ";
-            }
-        }
+        String toppings = bundle.getString("toppings");
 
         TextView tv = (TextView)findViewById(R.id.abiodun_order_detail);
         tv.setTextSize(18);
-        tv.setText(getString(R.string.text_order_details)+"\n"+getString(R.string.text_size)+": "+ size+"\n"+getString(R.string.text_type)+": "+type+"\n"+getString(R.string.text_toppings)+": "+toppings);
+        tv.setText(getString(R.string.text_order_details)+"\n"+getString(R.string.text_size)+": "+ size+"\n"+getString(R.string.text_type)+": "+type+"\n"+getString(R.string.text_toppings)+": "+toppings+".\n");
 
         ImageView img = (ImageView)findViewById(R.id.abiodun_shop_image);
         img.setImageResource(selectionID);
         Button butOrder = (Button)findViewById(R.id.abiodun_but_order);
 
+        customerName = (EditText)findViewById(R.id.abiodun_edit_text_customer_name);
+        customerAddress = (EditText)findViewById(R.id.abiodun_edit_text_customer_address);
+        creditCardNo = (EditText)findViewById(R.id.abiodun_edit_text_credit_card_no);
+        creditCardExpiry = (EditText)findViewById(R.id.abiodun_edit_text_credit_card_expiry);
+
+
+        // Validations
+        customerName.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+            @Override
+            public void onFocusChange(View v, boolean hasFocus) {
+                String name = customerName.getText().toString().trim();
+                if(name.isEmpty())
+                    customerName.setError(getString(R.string.error_empty_edittext));
+                else if(name.length()<3)
+                    customerName.setError(getString(R.string.error_name_length));
+                    if (isAlpha(name)==false) //Call the function to check if a number is present
+                        customerName.setError(getString(R.string.error_name_char));
+            }
+        });
+        customerAddress.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+            @Override
+            public void onFocusChange(View v, boolean hasFocus) {
+                String address = customerAddress.getText().toString().trim();
+                if(address.isEmpty())
+                    customerAddress.setError(getString(R.string.error_empty_edittext));
+            }
+        });
+        creditCardNo.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+            @Override
+            public void onFocusChange(View v, boolean hasFocus) {
+                String string = creditCardNo.getText().toString().trim();
+                if(string.isEmpty())
+                    creditCardNo.setError(getString(R.string.error_empty_edittext));
+                else if (string.length()!=16)
+                    creditCardNo.setError(getString(R.string.error_creditcard_length));
+            }
+        });
+
+        creditCardExpiry.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+            @Override
+            public void onFocusChange(View v, boolean hasFocus) {
+                String string = creditCardExpiry.getText().toString().trim();
+                if(string.isEmpty())
+                    creditCardExpiry.setError(getString(R.string.error_empty_edittext));
+             else if(string.length()!=4)
+                creditCardExpiry.setError(getString(R.string.error_creditcard_expiry));
+            }
+        });
+
+        butOrder.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //Submit Validations
+                //Empty
+                if (customerName.getText().toString().trim().isEmpty() == true){
+                    Toast.makeText(AbiodunActivity3.this, getString(R.string.error_empty_edittext), Toast.LENGTH_SHORT).show();
+                    customerName.requestFocus();
+                    }
+                else if (customerAddress.getText().toString().trim().isEmpty()==true) {
+                    Toast.makeText(AbiodunActivity3.this, getString(R.string.error_empty_edittext), Toast.LENGTH_SHORT).show();
+                    customerAddress.requestFocus();
+                }
+                else if (creditCardNo.getText().toString().trim().isEmpty()==true){
+                    Toast.makeText(AbiodunActivity3.this, getString(R.string.error_empty_edittext), Toast.LENGTH_SHORT).show();
+                    creditCardNo.requestFocus();
+                }
+                else if (creditCardExpiry.getText().toString().trim().isEmpty()==true){
+                    Toast.makeText(AbiodunActivity3.this, getString(R.string.error_empty_edittext), Toast.LENGTH_SHORT).show();
+                    creditCardExpiry.requestFocus();
+                }
+                //Short Customer Name length
+                else if(customerName.getText().toString().trim().length()<3){
+                    Toast.makeText(AbiodunActivity3.this, getString(R.string.error_name_length), Toast.LENGTH_SHORT).show();
+                    customerName.requestFocus();
+                }
+                //Customer name must not contain letter
+                else if(!isAlpha(customerName.getText().toString().trim())){
+                    Toast.makeText(AbiodunActivity3.this, getString(R.string.error_name_char), Toast.LENGTH_SHORT).show();
+                    customerName.requestFocus();
+                }
+                else if(creditCardNo.getText().toString().trim().length()!=16){
+                    Toast.makeText(AbiodunActivity3.this, getString(R.string.error_creditcard_length), Toast.LENGTH_SHORT).show();
+                    creditCardNo.requestFocus();
+                }
+                else if(creditCardExpiry.getText().toString().trim().length()!=4){
+                    Toast.makeText(AbiodunActivity3.this,getString(R.string.error_creditcard_expiry),Toast.LENGTH_SHORT).show();
+                    creditCardExpiry.requestFocus();
+                }
+                else {
+                    Intent intent = new Intent(AbiodunActivity3.this,AbiodunActivity2.class); //This is to be modified
+                }
+            }
+        });
+
+    }
+
+    //Function to check for numbers in a string
+    public boolean isAlpha(String name){
+        char[] chars = name.toCharArray();
+        for(char c : chars){
+            if(!Character.isLetter(c))
+                return false;
+        }
+        return true;
     }
     @Override
     public boolean onOptionsItemSelected(MenuItem menu){

@@ -20,12 +20,16 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class AbiodunActivity2 extends AppCompatActivity {
     String selectedSize="";
     String selectedType="";
-    String selectedTopping;
+    String selectedTopping="";
     int i,numOfToppings =0;
     String []topping = new String[numOfToppings];
+    List<String> list = new ArrayList<>();
     RadioGroup rdgSize, rdgType;
     RadioButton thick,thin, regular,large,medium,small;
     CheckBox mushroom,bacon,lettuce,pepperoni,ham,beef,chicken;
@@ -98,79 +102,7 @@ public class AbiodunActivity2 extends AppCompatActivity {
         ham = (CheckBox)findViewById(R.id.abiodun_chkbx_ham);
         chicken = (CheckBox)findViewById(R.id.abiodun_chkbx_chicken);
 
-       /* mushroom.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if(mushroom.isChecked()) {
-                    selectedTopping = mushroom.getText().toString();
-                    topping[0] = selectedTopping;
-                    i++;
-                }
-            }
-        });
-        beef.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if(beef.isChecked()) {
-                    selectedTopping = beef.getText().toString();
-                    topping[1] = selectedTopping;
-                    i++;
-                }
-            }
-        });
-        bacon.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if(bacon.isChecked()) {
-                    selectedTopping = bacon.getText().toString();
-                    topping[2] = selectedTopping;
-                    i++;
-                }
-            }
-        });
-        pepperoni.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if(pepperoni.isChecked()) {
-                    selectedTopping = pepperoni.getText().toString();
-                    topping[3] = selectedTopping;
-                    i++;
-                }
-            }
-        });
-        lettuce.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if(lettuce.isChecked()) {
-                    selectedTopping = lettuce.getText().toString();
-                    topping[4] = selectedTopping;
-                    i++;
-                }
-            }
-        });
-        ham.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if(ham.isChecked()) {
-                    selectedTopping = ham.getText().toString();
-                    topping[5] = selectedTopping;
-                    i++;
-                }
-            }
-        });
-        chicken.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if(chicken.isChecked()) {
-                    selectedTopping = chicken.getText().toString();
-                    topping[6] = selectedTopping;
-                    i++;
-                }
-            }
-        });
-*/
-
-        but_shop_next.setOnClickListener(new View.OnClickListener() {
+            but_shop_next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(AbiodunActivity2.this, AbiodunActivity3.class);
@@ -189,10 +121,25 @@ public class AbiodunActivity2 extends AppCompatActivity {
                     intent.putExtra("selection", R.drawable.logo_pizzapizza);
                 intent.putExtra("size", selectedSize);
                 intent.putExtra("type", selectedType);
-              //  topping=toppingSelected();
-                    intent.putExtra("toppings", topping);
-                    startActivity(intent);
+                    int i=0;
+                    if(bacon.isChecked())
+                    {selectedTopping=selectedTopping +" "+bacon.getText().toString();i++;}
+                    if(mushroom.isChecked())
+                    {selectedTopping=selectedTopping +" "+mushroom.getText().toString();i++;}
+                    if(pepperoni.isChecked())
+                    {selectedTopping=selectedTopping +" "+pepperoni.getText().toString();i++;}
+                    if(beef.isChecked())
+                    {selectedTopping=selectedTopping +" "+beef.getText().toString();i++;}
+                    if(chicken.isChecked())
+                    {selectedTopping=selectedTopping +" "+chicken.getText().toString();i++;}
+                    if(lettuce.isChecked())
+                    {selectedTopping=selectedTopping +" "+lettuce.getText().toString();i++;}
+                    if(ham.isChecked())
+                    {selectedTopping=selectedTopping +" "+ham.getText().toString();}
 
+               //Toast.makeText(getApplicationContext(),selectedTopping,Toast.LENGTH_LONG).show();
+                   intent.putExtra("toppings", selectedTopping);
+              startActivity(intent);
             }
             }
         });
@@ -243,7 +190,7 @@ public class AbiodunActivity2 extends AppCompatActivity {
         return num;
     }
 
-    public String[] toppingSelected(){
+    public String toppingSelected(){
         String array[]=new String[numOfToppings];
         int i=0;
         if(bacon.isChecked())
@@ -260,7 +207,9 @@ public class AbiodunActivity2 extends AppCompatActivity {
         {array[i]=lettuce.getText().toString();i++;}
         if(ham.isChecked())
         {array[i]=ham.getText().toString();}
-        Toast.makeText(AbiodunActivity2.this,array.toString(),Toast.LENGTH_LONG).show();
-        return array;
+        String string="";
+        for(i=0; i<array.length;i++)
+            string = string +", " + array[i];
+        return string;
     }
 }
