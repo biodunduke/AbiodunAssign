@@ -3,10 +3,14 @@
     <string name="menu_help">Help</string>
     <string name="menu_pizza">Pizza</string>
     <string name="menu_abiodun">Abiodun</string>
+    <string name="text_pizzahut">Pizza Hut</string>
+    <string name="text_pizzanova">Pizza Nova</string>
+    <string name="text_pizzapizza">Pizza Pizza</string>
     <string name="toast_permission_granted">Permission granted!</string>
     <string name="toast_permission_not_granted">Permission not granted!</string>
     <string name="toast_permission_needed">Permission is required!</string>
     <string name="but_next">Next</string>
+    <string name="but_order">Order</string>
     <string name="desc_pizzahut">Image of Pizza Hut</string>
     <string name="desc_pizzanova">Image of Pizza Nova</string>
     <string name="desc_pizza_pizza">Image of Pizza Pizza</string>
@@ -34,4 +38,11 @@
     <string name="error_select_type">Select the Pizza type</string>
     <string name="desc_pizza_shop">Image of Pizza Shop</string>
     <string name="select_toppings">Select at least 5 toppings</string>
+    <string name="hint_name">Full Name</string>
+    <string name="hint_address">Address</string>
+    <string name="hint_credit_card_no">Credit Card Number</string>
+    <string name="hint_credit_card_expiry">CC Expiry Date (MMYY)</string>
+    <string name="hint_credit_card_ccv2">3 digit CCV2</string>
+    <string name="text_order_details">Order details: </string>
+    <string name="text_customer_details">Customer Details</string>
 </resources>

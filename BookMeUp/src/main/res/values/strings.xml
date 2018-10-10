@@ -14,4 +14,5 @@
     <string name="text_forgot_password">Forgot Password?</string>
     <string name="version">Version</string>
     <string name="logo_description">Book Me Up Logo</string>
+    <string name="login_fb">Facebook Login</string>
 </resources>

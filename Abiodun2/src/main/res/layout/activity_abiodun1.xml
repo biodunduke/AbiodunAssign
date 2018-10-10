@@ -33,6 +33,14 @@
             android:paddingBottom="5dp"
             app:srcCompat="@drawable/logo_pizzahut" />
 
+        <TextView
+            android:id="@+id/abiodun_text_pizzahut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/text_pizzahut" />
+
         <ImageButton
             android:id="@+id/abiodun_pizzanova"
             android:layout_width="match_parent"
@@ -45,6 +53,14 @@
             android:paddingBottom="5dp"
             app:srcCompat="@drawable/logo_pizzanova" />
 
+        <TextView
+            android:id="@+id/abiodun_text_pizzanova"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/text_pizzanova" />
+
         <ImageButton
             android:id="@+id/abiodun_pizzapizza"
             android:layout_width="match_parent"
@@ -55,6 +71,14 @@
             android:padding="5dp"
             android:paddingTop="5dp"
             app:srcCompat="@drawable/logo_pizzapizza" />
+
+        <TextView
+            android:id="@+id/abiodun_text_pizzapizza"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/text_pizzapizza" />
 
     </LinearLayout>
 
