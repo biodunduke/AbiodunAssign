@@ -4,15 +4,15 @@ ADDED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\ScreenLayoutDete
 INJECTED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\ScreenLayoutDetect\src\main\AndroidManifest.xml:2:1-28:12
 INJECTED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\ScreenLayoutDetect\src\main\AndroidManifest.xml:2:1-28:12
 INJECTED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\ScreenLayoutDetect\src\main\AndroidManifest.xml:2:1-28:12
-MERGED from [com.android.support:appcompat-v7:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-beta1.aar\0e967e36d7fb84256dfc914afa3463fc\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:animated-vector-drawable:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-beta1.aar\224fb4b784496dee81830d56925a9098\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-vector-drawable:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-beta1.aar\369c9439d9076a2f81c28e9f23f1bab4\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-v4:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-beta1.aar\3a051e0d4c17ffb4676359722d20ef72\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-media-compat:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-beta1.aar\68bd2fcd4125eb297ace770f4e49d0e9\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-fragment:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-beta1.aar\f9ad10f55a7dd1e2ec326cd1a925369a\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-utils:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-beta1.aar\c39adadaf935ecf5cda24d610336b31f\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-ui:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-beta1.aar\e8019e5cb13010ca6220d3c3fd2de052\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-compat:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-beta1.aar\4f4a75730c6bee9125d7f97cf5a3775f\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-beta1.aar\26debea36c5fce4c502202686bd974ee\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-beta1.aar\30b882b5e1fae15ddadff693d5f245bc\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-beta1.aar\7dd0a3d6b5feb8286e6c90f136ae991a\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-beta1.aar\a050741d72234cca3bd091555fdf2195\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-beta1.aar\35eb623c0a546210fc057e9bfab3cac4\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-beta1.aar\096b71da4cd76f94cc09f05d87aa99d5\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-beta1.aar\383948b25d7ae2efbc3cad18cb7abc4a\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-beta1.aar\7cd477e0b49d9d85e8938a440e20c53d\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-beta1.aar\28cf1fc1965b60b61c30ff58a711ef3e\AndroidManifest.xml:17:1-31:12
 INJECTED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\ScreenLayoutDetect\src\main\AndroidManifest.xml:2:1-28:12
 INJECTED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\ScreenLayoutDetect\src\main\AndroidManifest.xml:2:1-28:12
 INJECTED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\ScreenLayoutDetect\src\main\AndroidManifest.xml:2:1-28:12
@@ -34,28 +34,28 @@ uses-sdk
 ADDED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\ScreenLayoutDetect\src\main\AndroidManifest.xml:7:5-47
 INJECTED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\ScreenLayoutDetect\src\main\AndroidManifest.xml:7:5-47
 INJECTED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\ScreenLayoutDetect\src\main\AndroidManifest.xml:7:5-47
-MERGED from [com.android.support:appcompat-v7:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-beta1.aar\0e967e36d7fb84256dfc914afa3463fc\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-beta1.aar\0e967e36d7fb84256dfc914afa3463fc\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-beta1.aar\224fb4b784496dee81830d56925a9098\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-beta1.aar\224fb4b784496dee81830d56925a9098\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-beta1.aar\369c9439d9076a2f81c28e9f23f1bab4\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-beta1.aar\369c9439d9076a2f81c28e9f23f1bab4\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-beta1.aar\3a051e0d4c17ffb4676359722d20ef72\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-beta1.aar\3a051e0d4c17ffb4676359722d20ef72\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-media-compat:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-beta1.aar\68bd2fcd4125eb297ace770f4e49d0e9\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-media-compat:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-beta1.aar\68bd2fcd4125eb297ace770f4e49d0e9\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-fragment:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-beta1.aar\f9ad10f55a7dd1e2ec326cd1a925369a\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-fragment:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-beta1.aar\f9ad10f55a7dd1e2ec326cd1a925369a\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-utils:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-beta1.aar\c39adadaf935ecf5cda24d610336b31f\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-utils:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-beta1.aar\c39adadaf935ecf5cda24d610336b31f\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-ui:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-beta1.aar\e8019e5cb13010ca6220d3c3fd2de052\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-beta1.aar\e8019e5cb13010ca6220d3c3fd2de052\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-beta1.aar\4f4a75730c6bee9125d7f97cf5a3775f\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-beta1.aar\4f4a75730c6bee9125d7f97cf5a3775f\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:appcompat-v7:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-beta1.aar\26debea36c5fce4c502202686bd974ee\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-beta1.aar\26debea36c5fce4c502202686bd974ee\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-beta1.aar\30b882b5e1fae15ddadff693d5f245bc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-beta1.aar\30b882b5e1fae15ddadff693d5f245bc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-beta1.aar\7dd0a3d6b5feb8286e6c90f136ae991a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-beta1.aar\7dd0a3d6b5feb8286e6c90f136ae991a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-beta1.aar\a050741d72234cca3bd091555fdf2195\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-beta1.aar\a050741d72234cca3bd091555fdf2195\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-beta1.aar\35eb623c0a546210fc057e9bfab3cac4\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-beta1.aar\35eb623c0a546210fc057e9bfab3cac4\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-beta1.aar\096b71da4cd76f94cc09f05d87aa99d5\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-beta1.aar\096b71da4cd76f94cc09f05d87aa99d5\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-beta1.aar\383948b25d7ae2efbc3cad18cb7abc4a\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-beta1.aar\383948b25d7ae2efbc3cad18cb7abc4a\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-beta1.aar\7cd477e0b49d9d85e8938a440e20c53d\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-beta1.aar\7cd477e0b49d9d85e8938a440e20c53d\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-beta1.aar\28cf1fc1965b60b61c30ff58a711ef3e\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-beta1.aar\28cf1fc1965b60b61c30ff58a711ef3e\AndroidManifest.xml:21:5-23:58
 INJECTED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\ScreenLayoutDetect\src\main\AndroidManifest.xml:7:5-47
 INJECTED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\ScreenLayoutDetect\src\main\AndroidManifest.xml:7:5-47
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-beta1.aar\0e967e36d7fb84256dfc914afa3463fc\AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-beta1.aar\26debea36c5fce4c502202686bd974ee\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
 		ADDED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\ScreenLayoutDetect\src\main\AndroidManifest.xml:7:15-44
 		INJECTED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\ScreenLayoutDetect\src\main\AndroidManifest.xml
@@ -70,24 +70,24 @@ ADDED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\ScreenLayoutDete
 		ADDED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\ScreenLayoutDetect\src\main\AndroidManifest.xml:9:22-70
 application
 ADDED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\ScreenLayoutDetect\src\main\AndroidManifest.xml:11:5-26:19
-MERGED from [com.android.support:appcompat-v7:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-beta1.aar\0e967e36d7fb84256dfc914afa3463fc\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:appcompat-v7:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-beta1.aar\0e967e36d7fb84256dfc914afa3463fc\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:animated-vector-drawable:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-beta1.aar\224fb4b784496dee81830d56925a9098\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:animated-vector-drawable:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-beta1.aar\224fb4b784496dee81830d56925a9098\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-beta1.aar\369c9439d9076a2f81c28e9f23f1bab4\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-beta1.aar\369c9439d9076a2f81c28e9f23f1bab4\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-v4:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-beta1.aar\3a051e0d4c17ffb4676359722d20ef72\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-v4:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-beta1.aar\3a051e0d4c17ffb4676359722d20ef72\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-beta1.aar\68bd2fcd4125eb297ace770f4e49d0e9\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-beta1.aar\68bd2fcd4125eb297ace770f4e49d0e9\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-beta1.aar\f9ad10f55a7dd1e2ec326cd1a925369a\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-beta1.aar\f9ad10f55a7dd1e2ec326cd1a925369a\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-beta1.aar\c39adadaf935ecf5cda24d610336b31f\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-beta1.aar\c39adadaf935ecf5cda24d610336b31f\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-beta1.aar\e8019e5cb13010ca6220d3c3fd2de052\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-beta1.aar\e8019e5cb13010ca6220d3c3fd2de052\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-beta1.aar\4f4a75730c6bee9125d7f97cf5a3775f\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-beta1.aar\4f4a75730c6bee9125d7f97cf5a3775f\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-beta1.aar\26debea36c5fce4c502202686bd974ee\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-beta1.aar\26debea36c5fce4c502202686bd974ee\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-beta1.aar\30b882b5e1fae15ddadff693d5f245bc\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-beta1.aar\30b882b5e1fae15ddadff693d5f245bc\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-beta1.aar\7dd0a3d6b5feb8286e6c90f136ae991a\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-beta1.aar\7dd0a3d6b5feb8286e6c90f136ae991a\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-beta1.aar\a050741d72234cca3bd091555fdf2195\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-beta1.aar\a050741d72234cca3bd091555fdf2195\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-beta1.aar\35eb623c0a546210fc057e9bfab3cac4\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-beta1.aar\35eb623c0a546210fc057e9bfab3cac4\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-beta1.aar\096b71da4cd76f94cc09f05d87aa99d5\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-beta1.aar\096b71da4cd76f94cc09f05d87aa99d5\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-beta1.aar\383948b25d7ae2efbc3cad18cb7abc4a\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-beta1.aar\383948b25d7ae2efbc3cad18cb7abc4a\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-beta1.aar\7cd477e0b49d9d85e8938a440e20c53d\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-beta1.aar\7cd477e0b49d9d85e8938a440e20c53d\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-beta1.aar\28cf1fc1965b60b61c30ff58a711ef3e\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-beta1.aar\28cf1fc1965b60b61c30ff58a711ef3e\AndroidManifest.xml:25:5-29:19
 	android:label
 		ADDED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\ScreenLayoutDetect\src\main\AndroidManifest.xml:14:9-41
 	android:icon
@@ -115,24 +115,24 @@ ADDED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\ScreenLayoutDete
 	android:name
 		ADDED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\ScreenLayoutDetect\src\main\AndroidManifest.xml:23:27-74
 meta-data#android.support.VERSION
-ADDED from [com.android.support:appcompat-v7:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-beta1.aar\0e967e36d7fb84256dfc914afa3463fc\AndroidManifest.xml:26:9-28:44
-MERGED from [com.android.support:animated-vector-drawable:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-beta1.aar\224fb4b784496dee81830d56925a9098\AndroidManifest.xml:23:9-25:44
-MERGED from [com.android.support:animated-vector-drawable:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-beta1.aar\224fb4b784496dee81830d56925a9098\AndroidManifest.xml:23:9-25:44
-MERGED from [com.android.support:support-vector-drawable:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-beta1.aar\369c9439d9076a2f81c28e9f23f1bab4\AndroidManifest.xml:23:9-25:44
-MERGED from [com.android.support:support-vector-drawable:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-beta1.aar\369c9439d9076a2f81c28e9f23f1bab4\AndroidManifest.xml:23:9-25:44
-MERGED from [com.android.support:support-v4:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-beta1.aar\3a051e0d4c17ffb4676359722d20ef72\AndroidManifest.xml:26:9-28:44
-MERGED from [com.android.support:support-v4:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-beta1.aar\3a051e0d4c17ffb4676359722d20ef72\AndroidManifest.xml:26:9-28:44
-MERGED from [com.android.support:support-media-compat:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-beta1.aar\68bd2fcd4125eb297ace770f4e49d0e9\AndroidManifest.xml:26:9-28:44
-MERGED from [com.android.support:support-media-compat:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-beta1.aar\68bd2fcd4125eb297ace770f4e49d0e9\AndroidManifest.xml:26:9-28:44
-MERGED from [com.android.support:support-fragment:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-beta1.aar\f9ad10f55a7dd1e2ec326cd1a925369a\AndroidManifest.xml:26:9-28:44
-MERGED from [com.android.support:support-fragment:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-beta1.aar\f9ad10f55a7dd1e2ec326cd1a925369a\AndroidManifest.xml:26:9-28:44
-MERGED from [com.android.support:support-core-utils:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-beta1.aar\c39adadaf935ecf5cda24d610336b31f\AndroidManifest.xml:26:9-28:44
-MERGED from [com.android.support:support-core-utils:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-beta1.aar\c39adadaf935ecf5cda24d610336b31f\AndroidManifest.xml:26:9-28:44
-MERGED from [com.android.support:support-core-ui:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-beta1.aar\e8019e5cb13010ca6220d3c3fd2de052\AndroidManifest.xml:26:9-28:44
-MERGED from [com.android.support:support-core-ui:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-beta1.aar\e8019e5cb13010ca6220d3c3fd2de052\AndroidManifest.xml:26:9-28:44
-MERGED from [com.android.support:support-compat:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-beta1.aar\4f4a75730c6bee9125d7f97cf5a3775f\AndroidManifest.xml:26:9-28:44
-MERGED from [com.android.support:support-compat:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-beta1.aar\4f4a75730c6bee9125d7f97cf5a3775f\AndroidManifest.xml:26:9-28:44
+ADDED from [com.android.support:appcompat-v7:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-beta1.aar\26debea36c5fce4c502202686bd974ee\AndroidManifest.xml:26:9-28:44
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-beta1.aar\30b882b5e1fae15ddadff693d5f245bc\AndroidManifest.xml:23:9-25:44
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-beta1.aar\30b882b5e1fae15ddadff693d5f245bc\AndroidManifest.xml:23:9-25:44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-beta1.aar\7dd0a3d6b5feb8286e6c90f136ae991a\AndroidManifest.xml:23:9-25:44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-beta1.aar\7dd0a3d6b5feb8286e6c90f136ae991a\AndroidManifest.xml:23:9-25:44
+MERGED from [com.android.support:support-v4:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-beta1.aar\a050741d72234cca3bd091555fdf2195\AndroidManifest.xml:26:9-28:44
+MERGED from [com.android.support:support-v4:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-beta1.aar\a050741d72234cca3bd091555fdf2195\AndroidManifest.xml:26:9-28:44
+MERGED from [com.android.support:support-media-compat:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-beta1.aar\35eb623c0a546210fc057e9bfab3cac4\AndroidManifest.xml:26:9-28:44
+MERGED from [com.android.support:support-media-compat:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-beta1.aar\35eb623c0a546210fc057e9bfab3cac4\AndroidManifest.xml:26:9-28:44
+MERGED from [com.android.support:support-fragment:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-beta1.aar\096b71da4cd76f94cc09f05d87aa99d5\AndroidManifest.xml:26:9-28:44
+MERGED from [com.android.support:support-fragment:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-beta1.aar\096b71da4cd76f94cc09f05d87aa99d5\AndroidManifest.xml:26:9-28:44
+MERGED from [com.android.support:support-core-utils:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-beta1.aar\383948b25d7ae2efbc3cad18cb7abc4a\AndroidManifest.xml:26:9-28:44
+MERGED from [com.android.support:support-core-utils:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-beta1.aar\383948b25d7ae2efbc3cad18cb7abc4a\AndroidManifest.xml:26:9-28:44
+MERGED from [com.android.support:support-core-ui:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-beta1.aar\7cd477e0b49d9d85e8938a440e20c53d\AndroidManifest.xml:26:9-28:44
+MERGED from [com.android.support:support-core-ui:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-beta1.aar\7cd477e0b49d9d85e8938a440e20c53d\AndroidManifest.xml:26:9-28:44
+MERGED from [com.android.support:support-compat:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-beta1.aar\28cf1fc1965b60b61c30ff58a711ef3e\AndroidManifest.xml:26:9-28:44
+MERGED from [com.android.support:support-compat:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-beta1.aar\28cf1fc1965b60b61c30ff58a711ef3e\AndroidManifest.xml:26:9-28:44
 	android:value
-		ADDED from [com.android.support:appcompat-v7:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-beta1.aar\0e967e36d7fb84256dfc914afa3463fc\AndroidManifest.xml:28:13-41
+		ADDED from [com.android.support:appcompat-v7:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-beta1.aar\26debea36c5fce4c502202686bd974ee\AndroidManifest.xml:28:13-41
 	android:name
-		ADDED from [com.android.support:appcompat-v7:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-beta1.aar\0e967e36d7fb84256dfc914afa3463fc\AndroidManifest.xml:27:13-51
+		ADDED from [com.android.support:appcompat-v7:26.0.0-beta1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-beta1.aar\26debea36c5fce4c502202686bd974ee\AndroidManifest.xml:27:13-51

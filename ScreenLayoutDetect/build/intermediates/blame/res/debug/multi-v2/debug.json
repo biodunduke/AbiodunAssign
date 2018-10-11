@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-port_values-port.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-port\\values-port.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-port\\values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -19,7 +19,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-in_values-in.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-in\\values-in.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-in\\values-in.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -34,7 +34,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-iw_values-iw.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-iw\\values-iw.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-iw\\values-iw.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -49,7 +49,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-pt_values-pt.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-pt\\values-pt.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-pt\\values-pt.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -64,7 +64,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-v18_values-v18.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-v18\\values-v18.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-v18\\values-v18.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -79,7 +79,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-ja_values-ja.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-ja\\values-ja.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-ja\\values-ja.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -94,7 +94,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-en-rIN_values-en-rIN.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-en-rIN\\values-en-rIN.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-en-rIN\\values-en-rIN.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -109,7 +109,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-hi_values-hi.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-hi\\values-hi.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-hi\\values-hi.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -124,7 +124,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-ka_values-ka.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-ka\\values-ka.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-ka\\values-ka.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -139,7 +139,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-tl_values-tl.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-tl\\values-tl.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-tl\\values-tl.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -154,7 +154,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-sl_values-sl.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-sl\\values-sl.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-sl\\values-sl.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -168,6 +168,25 @@
         {
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-v14_values-v14.arsc.flat",
             "map": [
+                {
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-v14\\values-v14.xml",
+                    "from": {
+                        "startLines": "2,7,8,9,15,21,22,23,24,25,28,29",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,331,402,485,895,1317,1437,1569,1689,1752,1906,1969",
+                        "endLines": "6,7,8,14,20,21,22,23,24,27,28,29",
+                        "endColumns": "12,70,82,12,12,119,131,119,62,12,62,131",
+                        "endOffsets": "326,397,480,890,1312,1432,1564,1684,1747,1901,1964,2096"
+                    },
+                    "to": {
+                        "startLines": "5,10,11,12,18,24,25,26,27,28,31,32",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "206,482,553,636,1046,1468,1588,1720,1840,1903,2057,2120",
+                        "endLines": "9,10,11,17,23,24,25,26,27,30,31,32",
+                        "endColumns": "12,70,82,12,12,119,131,119,62,12,62,131",
+                        "endOffsets": "477,548,631,1041,1463,1583,1715,1835,1898,2052,2115,2247"
+                    }
+                },
                 {
                     "source": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\src\\main\\res\\values-v14\\styles.xml",
                     "from": {
@@ -186,31 +205,29 @@
                         "endColumns": "12",
                         "endOffsets": "201"
                     }
-                },
-                {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-v14\\values-v14.xml",
-                    "from": {
-                        "startLines": "2,7,8,9,15,21,22,23,24,25,28,29",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,331,402,485,895,1317,1437,1569,1689,1752,1906,1969",
-                        "endLines": "6,7,8,14,20,21,22,23,24,27,28,29",
-                        "endColumns": "12,70,82,12,12,119,131,119,62,12,62,131",
-                        "endOffsets": "326,397,480,890,1312,1432,1564,1684,1747,1901,1964,2096"
-                    },
-                    "to": {
-                        "startLines": "5,10,11,12,18,24,25,26,27,28,31,32",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "206,482,553,636,1046,1468,1588,1720,1840,1903,2057,2120",
-                        "endLines": "9,10,11,17,23,24,25,26,27,30,31,32",
-                        "endColumns": "12,70,82,12,12,119,131,119,62,12,62,131",
-                        "endOffsets": "477,548,631,1041,1463,1583,1715,1835,1898,2052,2115,2247"
-                    }
                 }
             ]
         },
         {
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-fr_values-fr.arsc.flat",
             "map": [
+                {
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-fr\\values-fr.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,166,274,397,512,623,705,811,941,1024,1104,1190,1300,1412,1515,1626,1733,1840,1962,2061,2147",
+                        "endColumns": "110,107,122,114,110,81,105,129,82,79,85,109,111,102,110,106,106,121,98,85,100",
+                        "endOffsets": "161,269,392,507,618,700,806,936,1019,1099,1185,1295,1407,1510,1621,1728,1835,1957,2056,2142,2243"
+                    },
+                    "to": {
+                        "startLines": "7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,29,30",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "185,296,404,527,642,753,835,941,1071,1154,1234,1320,1430,1542,1645,1756,1863,1970,2092,2342,2428",
+                        "endColumns": "110,107,122,114,110,81,105,129,82,79,85,109,111,102,110,106,106,121,98,85,100",
+                        "endOffsets": "291,399,522,637,748,830,936,1066,1149,1229,1315,1425,1537,1640,1751,1858,1965,2087,2186,2423,2524"
+                    }
+                },
                 {
                     "source": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\src\\main\\res\\values-fr\\strings.xml",
                     "from": {
@@ -229,23 +246,6 @@
                         "endColumns": "15,52,44,52",
                         "endOffsets": "180,2239,2284,2337"
                     }
-                },
-                {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-fr\\values-fr.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,166,274,397,512,623,705,811,941,1024,1104,1190,1300,1412,1515,1626,1733,1840,1962,2061,2147",
-                        "endColumns": "110,107,122,114,110,81,105,129,82,79,85,109,111,102,110,106,106,121,98,85,100",
-                        "endOffsets": "161,269,392,507,618,700,806,936,1019,1099,1185,1295,1407,1510,1621,1728,1835,1957,2056,2142,2243"
-                    },
-                    "to": {
-                        "startLines": "7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,29,30",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "185,296,404,527,642,753,835,941,1071,1154,1234,1320,1430,1542,1645,1756,1863,1970,2092,2342,2428",
-                        "endColumns": "110,107,122,114,110,81,105,129,82,79,85,109,111,102,110,106,106,121,98,85,100",
-                        "endOffsets": "291,399,522,637,748,830,936,1066,1149,1229,1315,1425,1537,1640,1751,1858,1965,2087,2186,2423,2524"
-                    }
                 }
             ]
         },
@@ -253,7 +253,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-v11_values-v11.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-v11\\values-v11.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-v11\\values-v11.xml",
                     "from": {
                         "startLines": "2,8,14,20,26,32,38,39,43,47,48,52,56,57,61,66,71,76,78,80,81,82,136,191",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -296,7 +296,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-mk_values-mk.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-mk\\values-mk.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-mk\\values-mk.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -311,7 +311,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-hdpi-v4_values-hdpi-v4.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -327,7 +327,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-kn_values-kn.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-kn\\values-kn.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-kn\\values-kn.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -342,7 +342,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-az_values-az.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-az\\values-az.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-az\\values-az.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -357,7 +357,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-xlarge-v4_values-xlarge-v4.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7",
                         "startColumns": "4,4,4,4,4,4",
@@ -372,7 +372,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-sq_values-sq.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-sq\\values-sq.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-sq\\values-sq.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -387,7 +387,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-ms_values-ms.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-ms\\values-ms.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-ms\\values-ms.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -402,7 +402,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-hr_values-hr.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-hr\\values-hr.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-hr\\values-hr.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -417,7 +417,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-v24_values-v24.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7",
                         "startColumns": "4,4,4,4,4,4",
@@ -432,7 +432,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-th_values-th.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-th\\values-th.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-th\\values-th.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -447,7 +447,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-kk_values-kk.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-kk\\values-kk.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-kk\\values-kk.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -462,7 +462,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-bg_values-bg.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-bg\\values-bg.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-bg\\values-bg.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -477,7 +477,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-mn_values-mn.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-mn\\values-mn.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-mn\\values-mn.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -492,7 +492,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-nb_values-nb.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-nb\\values-nb.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-nb\\values-nb.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -507,7 +507,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-pt-rBR_values-pt-rBR.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-pt-rBR\\values-pt-rBR.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-pt-rBR\\values-pt-rBR.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -522,7 +522,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-v23_values-v23.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
@@ -538,7 +538,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-pl_values-pl.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-pl\\values-pl.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-pl\\values-pl.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -553,7 +553,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-el_values-el.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-el\\values-el.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-el\\values-el.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -568,7 +568,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-ro_values-ro.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-ro\\values-ro.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-ro\\values-ro.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -582,6 +582,23 @@
         {
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-de_values-de.arsc.flat",
             "map": [
+                {
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-de\\values-de.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,160,268,391,489,601,687,792,907,984,1060,1142,1253,1356,1455,1566,1668,1775,1897,1999,2081",
+                        "endColumns": "104,107,122,97,111,85,104,114,76,75,81,110,102,98,110,101,106,121,101,81,100",
+                        "endOffsets": "155,263,386,484,596,682,787,902,979,1055,1137,1248,1351,1450,1561,1663,1770,1892,1994,2076,2177"
+                    },
+                    "to": {
+                        "startLines": "7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,29,30",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "185,290,398,521,619,731,817,922,1037,1114,1190,1272,1383,1486,1585,1696,1798,1905,2027,2278,2360",
+                        "endColumns": "104,107,122,97,111,85,104,114,76,75,81,110,102,98,110,101,106,121,101,81,100",
+                        "endOffsets": "285,393,516,614,726,812,917,1032,1109,1185,1267,1378,1481,1580,1691,1793,1900,2022,2124,2355,2456"
+                    }
+                },
                 {
                     "source": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\src\\main\\res\\values-de\\strings.xml",
                     "from": {
@@ -600,23 +617,6 @@
                         "endColumns": "15,52,42,52",
                         "endOffsets": "180,2177,2220,2273"
                     }
-                },
-                {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-de\\values-de.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,160,268,391,489,601,687,792,907,984,1060,1142,1253,1356,1455,1566,1668,1775,1897,1999,2081",
-                        "endColumns": "104,107,122,97,111,85,104,114,76,75,81,110,102,98,110,101,106,121,101,81,100",
-                        "endOffsets": "155,263,386,484,596,682,787,902,979,1055,1137,1248,1351,1450,1561,1663,1770,1892,1994,2076,2177"
-                    },
-                    "to": {
-                        "startLines": "7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,29,30",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "185,290,398,521,619,731,817,922,1037,1114,1190,1272,1383,1486,1585,1696,1798,1905,2027,2278,2360",
-                        "endColumns": "104,107,122,97,111,85,104,114,76,75,81,110,102,98,110,101,106,121,101,81,100",
-                        "endOffsets": "285,393,516,614,726,812,917,1032,1109,1185,1267,1378,1481,1580,1691,1793,1900,2022,2124,2355,2456"
-                    }
                 }
             ]
         },
@@ -624,7 +624,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-eu_values-eu.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-eu\\values-eu.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-eu\\values-eu.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -661,7 +661,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-pa_values-pa.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-pa\\values-pa.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-pa\\values-pa.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -676,7 +676,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-ur_values-ur.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-ur\\values-ur.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-ur\\values-ur.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -691,7 +691,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-mr_values-mr.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-mr\\values-mr.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-mr\\values-mr.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -706,7 +706,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-v17_values-v17.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-v17\\values-v17.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-v17\\values-v17.xml",
                     "from": {
                         "startLines": "2,5,9,12,15,18,22,26,29,32,35,39,42,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -722,7 +722,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-v13_values-v13.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-v13\\values-v13.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-v13\\values-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -737,7 +737,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-ne_values-ne.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-ne\\values-ne.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-ne\\values-ne.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -752,7 +752,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-km_values-km.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-km\\values-km.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-km\\values-km.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -767,7 +767,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-ml_values-ml.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-ml\\values-ml.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-ml\\values-ml.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -782,7 +782,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-night-v8_values-night-v8.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-night-v8\\values-night-v8.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-night-v8\\values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",
@@ -797,7 +797,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-af_values-af.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-af\\values-af.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-af\\values-af.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -812,7 +812,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-sr_values-sr.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-sr\\values-sr.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-sr\\values-sr.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -827,7 +827,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-ru_values-ru.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-ru\\values-ru.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-ru\\values-ru.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -842,7 +842,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-gl_values-gl.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-gl\\values-gl.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-gl\\values-gl.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -857,7 +857,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-gu_values-gu.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-gu\\values-gu.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-gu\\values-gu.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -872,7 +872,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-ca_values-ca.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-ca\\values-ca.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-ca\\values-ca.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -887,7 +887,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-es-rUS_values-es-rUS.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-es-rUS\\values-es-rUS.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -902,7 +902,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-lt_values-lt.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-lt\\values-lt.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-lt\\values-lt.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -917,7 +917,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-lo_values-lo.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-lo\\values-lo.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-lo\\values-lo.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -932,7 +932,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-fr-rCA_values-fr-rCA.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-fr-rCA\\values-fr-rCA.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-fr-rCA\\values-fr-rCA.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -947,7 +947,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-si_values-si.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-si\\values-si.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-si\\values-si.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -962,7 +962,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-zh-rHK_values-zh-rHK.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-zh-rHK\\values-zh-rHK.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-zh-rHK\\values-zh-rHK.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -977,7 +977,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-fi_values-fi.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-fi\\values-fi.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-fi\\values-fi.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -992,7 +992,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-ta_values-ta.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-ta\\values-ta.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-ta\\values-ta.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -1007,7 +1007,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-bs_values-bs.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-bs\\values-bs.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-bs\\values-bs.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -1022,7 +1022,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-sw_values-sw.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-sw\\values-sw.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-sw\\values-sw.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -1037,7 +1037,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-et_values-et.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-et\\values-et.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-et\\values-et.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -1052,7 +1052,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-v16_values-v16.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -1068,7 +1068,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-te_values-te.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-te\\values-te.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-te\\values-te.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -1083,7 +1083,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-b+sr+Latn_values-b+sr+Latn.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-b+sr+Latn\\values-b+sr+Latn.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-b+sr+Latn\\values-b+sr+Latn.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -1098,7 +1098,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-v12_values-v12.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-v12\\values-v12.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-v12\\values-v12.xml",
                     "from": {
                         "startLines": "2,5,8,9",
                         "startColumns": "4,4,4,4",
@@ -1114,7 +1114,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-sw600dp-v13_values-sw600dp-v13.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -1129,7 +1129,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-be_values-be.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-be\\values-be.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-be\\values-be.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -1144,22 +1144,22 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values\\values.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.0.0-beta1.aar\\28cf1fc1965b60b61c30ff58a711ef3e\\res\\values\\values.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,92,93,94,95,96,97,98,110,124,125,131,134,135,136,148,150,156,157,158,159,198,199,200,201,202,203,204,231,232,238,239,251,252,253,254,255,256,257,258,259,260,261,262,263,264,265,266,267,268,269,270,271,272,273,274,275,276,277,278,279,280,281,282,283,284,285,286,287,288,289,290,291,292,293,294,295,296,297,298,299,300,301,302,303,304,305,306,307,308,309,310,311,312,313,314,315,316,317,318,319,320,321,322,323,324,325,326,327,328,329,330,331,332,333,334,335,336,337,338,339,340,341,342,343,344,345,346,347,348,349,350,351,352,353,354,355,356,357,358,359,360,361,362,363,364,365,366,367,368,369,370,371,372,373,374,375,376,377,378,379,380,381,382,383,384,385,386,387,388,389,390,391,392,393,394,395,396,397,398,399,400,401,402,403,404,405,406,407,408,409,410,411,412,419,420,424,428,432,437,443,450,454,458,463,467,471,475,479,483,487,491,495,499,503,507,511,516,520,523,527,531,535,539,543,547,550,554,558,562,566,570,571,572,573,576,579,582,585,589,590,591,592,593,596,598,600,602,607,608,612,618,622,623,625,636,637,641,647,651,652,653,657,684,688,689,693,721,887,909,1075,1097,1124,1131,1136,1150,1172,1177,1182,1192,1201,1210,1214,1221,1229,1236,1237,1246,1249,1252,1256,1260,1264,1267,1268,1272,1276,1286,1291,1298,1304,1305,1308,1312,1317,1319,1321,1324,1327,1329,1333,1336,1343,1346,1349,1353,1355,1359,1361,1367,1369,1373,1381,1389,1401,1407,1416,1419,1430,1433,1438,1439,1444,1486,1529,1530,1540,1549,1550,1552,1556,1559,1562,1565,1568,1572,1575,1578,1581,1585,1588,1592,1596,1597,1598,1599,1600,1601,1602,1603,1604,1605,1606,1607,1608,1609,1610,1611,1612,1613,1614,1615,1616,1620,1624,1625,1626,1627,1628,1632,1633,1637,1638,1640,1642,1643,1644,1645,1646,1647,1648,1649,1651,1652,1654,1655,1657,1659,1660,1662,1663,1664,1665,1666,1667,1669,1670,1671,1672,1673,1674,1675,1676,1677,1678,1679,1681,1683,1685,1686,1687,1688,1689,1690,1691,1692,1693,1694,1695,1696,1697,1699,1700,1701,1702,1703,1704,1706,1710,1714,1715,1716,1717,1718,1719,1720,1721,1723,1725,1727,1729,1731,1732,1733,1734,1736,1738,1740,1741,1742,1743,1744,1745,1746,1747,1748,1749,1750,1751,1754,1755,1756,1757,1759,1761,1762,1764,1765,1767,1769,1771,1772,1773,1774,1775,1776,1777,1778,1779,1780,1781,1782,1784,1785,1786,1787,1789,1790,1791,1792,1793,1794,1795,1797,1799,1801,1803,1804,1805,1806,1807,1808,1809,1810,1811,1812,1813,1814,1815,1816",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,110,155,204,245,300,358,420,488,566,647,708,783,859,936,1014,1099,1181,1257,1333,1410,1488,1594,1700,1779,1859,1916,1974,2048,2123,2188,2254,2330,2407,2479,2552,2619,2687,2746,2805,2864,2923,2982,3036,3090,3143,3197,3251,3305,3359,3411,3463,3532,3595,3684,3758,3837,3910,3984,4055,4127,4199,4272,4329,4387,4460,4534,4608,4683,4755,4828,4898,4969,5029,5090,7005,7109,7210,7257,7505,7697,8088,8592,9166,9486,10034,16674,16786,16947,17419,18105,18698,18919,19078,19337,21464,21903,22091,22219,22393,23174,23391,24722,25176,26549,26794,27284,27437,27506,27575,27645,27719,27795,27859,27936,28012,28089,28153,28218,28287,28364,28439,28508,28576,28653,28719,28816,28881,28950,29049,29120,29179,29237,29294,29353,29424,29496,29568,29640,29712,29779,29847,29915,29974,30037,30101,30191,30282,30342,30408,30475,30541,30611,30675,30728,30841,30899,30962,31027,31092,31167,31240,31312,31361,31422,31483,31544,31606,31670,31734,31798,31863,31926,31986,32047,32113,32172,32232,32294,32365,32425,32493,32579,32666,32756,32843,32931,33013,33096,33186,33277,33338,33399,33461,33525,33587,33648,33716,33816,33876,33942,34015,34084,34141,34193,34255,34307,34365,34410,34476,34540,34597,34654,34708,34780,34856,34913,34961,35010,35061,35095,35142,35191,35237,35269,35333,35395,35455,35512,35582,35656,35734,35827,35897,35975,36029,36099,36184,36232,36278,36349,36427,36505,36577,36651,36725,36799,36879,36952,37021,37093,37170,37222,37295,37369,37438,37513,37587,37661,37750,37820,37873,37944,38022,38112,38200,38296,38386,38887,38976,39223,39504,39748,40033,40426,40903,41125,41347,41615,41842,42072,42302,42532,42762,42989,43228,43454,43699,43929,44177,44396,44679,44887,45018,45245,45491,45716,45963,46184,46429,46549,46825,47126,47450,47741,48055,48192,48323,48428,48670,48837,49041,49249,49520,49632,49744,49849,49966,50180,50326,50466,50552,50900,50988,51218,51636,51869,51951,52049,52666,52766,53002,53426,53665,53759,53848,54085,56137,56379,56481,56718,58902,69447,70698,81341,82604,84096,84632,84962,86023,87288,87544,87780,88327,88821,89426,89624,90204,90768,91143,91261,91799,91956,92152,92425,92681,92851,92992,93056,93338,93624,94300,94564,94902,95255,95349,95535,95841,96103,96228,96355,96594,96805,96924,97117,97294,97749,97930,98052,98311,98424,98611,98713,99157,99281,99556,100064,100560,101437,101731,102301,102450,103182,103354,103690,103782,104060,107246,110575,110637,111267,111881,111967,112080,112309,112469,112621,112792,112959,113202,113372,113545,113716,113990,114189,114394,114724,114808,114904,115000,115098,115198,115300,115402,115504,115606,115708,115808,115904,116016,116145,116268,116399,116530,116628,116742,116836,117035,117239,117308,117424,117552,117616,117820,117889,118092,118162,118302,118436,118532,118644,118744,118860,118956,119068,119168,119308,119444,119608,119738,119896,120046,120187,120331,120466,120578,120728,120856,120984,121120,121252,121382,121512,121624,121764,121832,121905,121979,122052,122126,122272,122416,122554,122620,122710,122786,122890,122980,123082,123190,123298,123398,123478,123570,123668,123778,123856,123962,124054,124158,124268,124390,124553,124710,124790,124890,124980,125090,125184,125290,125382,125482,125594,125708,125824,125940,126034,126148,126260,126362,126482,126604,126686,126790,126910,127036,127134,127228,127316,127428,127544,127666,127778,127953,128069,128155,128247,128359,128483,128550,128676,128744,128872,129016,129144,129213,129308,129423,129536,129635,129744,129855,129966,130067,130172,130272,130402,130493,130616,130710,130822,130908,131012,131108,131183,131253,131341,131459,131563,131667,131793,131881,131989,132089,132179,132289,132373,132475,132559,132613,132677,132783,132893,132977",
-                        "endLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,91,92,93,94,95,96,97,109,123,124,130,133,134,135,147,148,155,156,157,158,197,198,199,200,201,202,203,230,231,237,238,250,251,252,253,254,255,256,257,258,259,260,261,262,263,264,265,266,267,268,269,270,271,272,273,274,275,276,277,278,279,280,281,282,283,284,285,286,287,288,289,290,291,292,293,294,295,296,297,298,299,300,301,302,303,304,305,306,307,308,309,310,311,312,313,314,315,316,317,318,319,320,321,322,323,324,325,326,327,328,329,330,331,332,333,334,335,336,337,338,339,340,341,342,343,344,345,346,347,348,349,350,351,352,353,354,355,356,357,358,359,360,361,362,363,364,365,366,367,368,369,370,371,372,373,374,375,376,377,378,379,380,381,382,383,384,385,386,387,388,389,390,391,392,393,394,395,396,397,398,399,400,401,402,403,404,405,406,407,408,409,410,411,418,419,423,427,431,436,442,449,453,457,462,466,470,474,478,482,486,490,494,498,502,506,510,515,519,522,526,530,534,538,542,546,549,553,557,561,565,569,570,571,572,575,578,581,584,588,589,590,591,592,595,597,599,601,606,607,611,617,621,622,624,635,636,640,646,650,651,652,656,683,687,688,692,720,886,908,1074,1096,1123,1130,1135,1149,1171,1176,1181,1191,1200,1209,1213,1220,1228,1235,1236,1245,1248,1251,1255,1259,1263,1266,1267,1271,1275,1285,1290,1297,1303,1304,1307,1311,1316,1318,1320,1323,1326,1328,1332,1335,1342,1345,1348,1352,1354,1358,1360,1366,1368,1372,1380,1388,1400,1406,1415,1418,1429,1432,1437,1438,1443,1485,1528,1529,1539,1548,1549,1551,1555,1558,1561,1564,1567,1571,1574,1577,1580,1584,1587,1591,1595,1596,1597,1598,1599,1600,1601,1602,1603,1604,1605,1606,1607,1608,1609,1610,1611,1612,1613,1614,1615,1619,1623,1624,1625,1626,1627,1631,1632,1636,1637,1639,1641,1642,1643,1644,1645,1646,1647,1648,1650,1651,1653,1654,1656,1658,1659,1661,1662,1663,1664,1665,1666,1668,1669,1670,1671,1672,1673,1674,1675,1676,1677,1678,1680,1682,1684,1685,1686,1687,1688,1689,1690,1691,1692,1693,1694,1695,1696,1698,1699,1700,1701,1702,1703,1705,1709,1713,1714,1715,1716,1717,1718,1719,1720,1722,1724,1726,1728,1730,1731,1732,1733,1735,1737,1739,1740,1741,1742,1743,1744,1745,1746,1747,1748,1749,1750,1753,1754,1755,1756,1758,1760,1761,1763,1764,1766,1768,1770,1771,1772,1773,1774,1775,1776,1777,1778,1779,1780,1781,1783,1784,1785,1786,1788,1789,1790,1791,1792,1793,1794,1796,1798,1800,1802,1803,1804,1805,1806,1807,1808,1809,1810,1811,1812,1813,1814,1815,1816",
-                        "endColumns": "54,44,48,40,54,57,61,67,77,80,60,74,75,76,77,84,81,75,75,76,77,105,105,78,79,56,57,73,74,64,65,75,76,71,72,66,67,58,58,58,58,58,53,53,52,53,53,53,53,51,51,68,62,88,73,78,72,73,70,71,71,72,56,57,72,73,73,74,71,72,69,70,59,60,1290,103,100,46,247,191,390,35,35,319,251,5300,111,160,35,422,83,220,158,258,35,438,187,127,173,780,216,375,453,458,244,35,152,68,68,69,73,75,63,76,75,76,63,64,68,76,74,68,67,76,65,96,64,68,98,70,58,57,56,58,70,71,71,71,71,66,67,67,58,62,63,89,90,59,65,66,65,69,63,52,112,57,62,64,64,74,72,71,48,60,60,60,61,63,63,63,64,62,59,60,65,58,59,61,70,59,67,85,86,89,86,87,81,82,89,90,60,60,61,63,61,60,67,99,59,65,72,68,56,51,61,51,57,44,65,63,56,56,53,71,75,56,47,48,50,33,46,48,45,31,63,61,59,56,69,73,77,92,69,77,53,69,84,47,45,70,77,77,71,73,73,73,79,72,68,71,76,51,72,73,68,74,73,73,88,69,52,70,77,89,87,95,89,12,88,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,136,130,104,12,12,12,12,12,111,111,104,116,12,12,12,12,12,87,12,12,12,81,12,12,99,12,12,12,93,88,12,12,12,101,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,117,12,12,12,12,12,12,12,63,12,12,12,12,12,12,93,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,91,12,12,12,61,12,12,85,12,12,12,12,12,12,12,12,12,12,12,12,12,12,83,95,95,97,99,101,101,101,101,101,99,95,111,128,122,130,130,97,113,93,12,12,68,115,127,63,12,68,12,69,12,12,95,111,99,115,95,111,99,12,135,12,129,12,12,140,12,134,111,149,127,127,12,131,129,129,111,139,67,72,73,72,73,12,12,12,65,89,75,103,89,101,107,107,99,79,91,97,12,77,105,91,103,109,12,12,12,79,99,89,109,93,105,91,12,12,12,12,12,93,113,111,12,12,12,81,103,119,125,97,93,87,111,115,121,111,12,115,85,91,12,12,66,12,67,12,12,12,68,94,114,112,98,108,110,110,100,104,99,12,90,122,93,12,85,103,95,74,69,87,12,12,12,12,87,107,99,89,109,83,101,83,53,63,105,109,83,119",
-                        "endOffsets": "105,150,199,240,295,353,415,483,561,642,703,778,854,931,1009,1094,1176,1252,1328,1405,1483,1589,1695,1774,1854,1911,1969,2043,2118,2183,2249,2325,2402,2474,2547,2614,2682,2741,2800,2859,2918,2977,3031,3085,3138,3192,3246,3300,3354,3406,3458,3527,3590,3679,3753,3832,3905,3979,4050,4122,4194,4267,4324,4382,4455,4529,4603,4678,4750,4823,4893,4964,5024,5085,7000,7104,7205,7252,7500,7692,8083,8587,9161,9481,10029,16669,16781,16942,17414,17837,18693,18914,19073,19332,21459,21898,22086,22214,22388,23169,23386,24717,25171,26544,26789,27279,27432,27501,27570,27640,27714,27790,27854,27931,28007,28084,28148,28213,28282,28359,28434,28503,28571,28648,28714,28811,28876,28945,29044,29115,29174,29232,29289,29348,29419,29491,29563,29635,29707,29774,29842,29910,29969,30032,30096,30186,30277,30337,30403,30470,30536,30606,30670,30723,30836,30894,30957,31022,31087,31162,31235,31307,31356,31417,31478,31539,31601,31665,31729,31793,31858,31921,31981,32042,32108,32167,32227,32289,32360,32420,32488,32574,32661,32751,32838,32926,33008,33091,33181,33272,33333,33394,33456,33520,33582,33643,33711,33811,33871,33937,34010,34079,34136,34188,34250,34302,34360,34405,34471,34535,34592,34649,34703,34775,34851,34908,34956,35005,35056,35090,35137,35186,35232,35264,35328,35390,35450,35507,35577,35651,35729,35822,35892,35970,36024,36094,36179,36227,36273,36344,36422,36500,36572,36646,36720,36794,36874,36947,37016,37088,37165,37217,37290,37364,37433,37508,37582,37656,37745,37815,37868,37939,38017,38107,38195,38291,38381,38882,38971,39218,39499,39743,40028,40421,40898,41120,41342,41610,41837,42067,42297,42527,42757,42984,43223,43449,43694,43924,44172,44391,44674,44882,45013,45240,45486,45711,45958,46179,46424,46544,46820,47121,47445,47736,48050,48187,48318,48423,48665,48832,49036,49244,49515,49627,49739,49844,49961,50175,50321,50461,50547,50895,50983,51213,51631,51864,51946,52044,52661,52761,52997,53421,53660,53754,53843,54080,56132,56374,56476,56713,58897,69442,70693,81336,82599,84091,84627,84957,86018,87283,87539,87775,88322,88816,89421,89619,90199,90763,91138,91256,91794,91951,92147,92420,92676,92846,92987,93051,93333,93619,94295,94559,94897,95250,95344,95530,95836,96098,96223,96350,96589,96800,96919,97112,97289,97744,97925,98047,98306,98419,98606,98708,99152,99276,99551,100059,100555,101432,101726,102296,102445,103177,103349,103685,103777,104055,107241,110570,110632,111262,111876,111962,112075,112304,112464,112616,112787,112954,113197,113367,113540,113711,113985,114184,114389,114719,114803,114899,114995,115093,115193,115295,115397,115499,115601,115703,115803,115899,116011,116140,116263,116394,116525,116623,116737,116831,117030,117234,117303,117419,117547,117611,117815,117884,118087,118157,118297,118431,118527,118639,118739,118855,118951,119063,119163,119303,119439,119603,119733,119891,120041,120182,120326,120461,120573,120723,120851,120979,121115,121247,121377,121507,121619,121759,121827,121900,121974,122047,122121,122267,122411,122549,122615,122705,122781,122885,122975,123077,123185,123293,123393,123473,123565,123663,123773,123851,123957,124049,124153,124263,124385,124548,124705,124785,124885,124975,125085,125179,125285,125377,125477,125589,125703,125819,125935,126029,126143,126255,126357,126477,126599,126681,126785,126905,127031,127129,127223,127311,127423,127539,127661,127773,127948,128064,128150,128242,128354,128478,128545,128671,128739,128867,129011,129139,129208,129303,129418,129531,129630,129739,129850,129961,130062,130167,130267,130397,130488,130611,130705,130817,130903,131007,131103,131178,131248,131336,131454,131558,131662,131788,131876,131984,132084,132174,132284,132368,132470,132554,132608,132672,132778,132888,132972,133092"
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "318",
+                        "endLines": "6",
+                        "endColumns": "115",
+                        "endOffsets": "586"
                     },
                     "to": {
-                        "startLines": "7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,100,101,102,103,104,105,106,118,132,133,139,142,143,144,156,162,168,169,170,171,210,211,212,213,214,215,216,243,244,250,251,263,264,265,266,267,268,269,270,271,272,273,274,275,276,277,278,279,280,281,282,283,284,285,286,287,288,289,290,291,292,293,294,295,296,297,298,299,300,301,302,303,304,305,306,307,308,309,310,311,312,313,314,315,316,317,318,319,320,321,322,323,324,325,326,327,328,329,330,331,332,333,334,335,336,337,340,341,342,343,344,345,346,347,348,349,350,351,352,353,354,355,356,357,358,359,360,361,362,363,364,365,366,367,368,369,370,371,372,373,374,375,376,377,378,379,380,381,382,383,384,385,386,387,388,389,390,391,392,393,394,395,396,397,398,399,400,401,402,403,404,405,406,407,408,409,410,411,412,413,414,415,416,417,418,422,423,424,425,426,427,428,435,442,443,447,451,455,460,466,473,477,481,486,490,494,498,502,506,510,514,518,522,526,530,534,539,543,546,550,554,558,562,566,570,573,577,581,585,589,593,594,595,596,599,602,605,608,612,613,614,615,616,619,621,623,625,630,631,635,641,645,646,648,659,660,664,670,674,675,676,680,707,711,712,716,744,910,932,1098,1120,1147,1154,1159,1173,1195,1200,1205,1215,1224,1233,1237,1244,1252,1259,1260,1269,1272,1275,1279,1283,1287,1290,1291,1295,1299,1309,1314,1321,1327,1328,1331,1335,1340,1342,1344,1347,1350,1352,1356,1359,1366,1369,1372,1376,1378,1382,1384,1390,1392,1396,1404,1412,1424,1430,1439,1442,1453,1456,1461,1462,1467,1509,1552,1553,1563,1572,1573,1575,1579,1582,1585,1588,1591,1595,1598,1601,1604,1608,1611,1615,1619,1620,1621,1622,1623,1624,1625,1626,1627,1628,1629,1630,1631,1632,1633,1634,1635,1636,1637,1638,1639,1643,1647,1648,1649,1650,1651,1655,1656,1660,1661,1663,1665,1666,1667,1668,1669,1670,1671,1672,1674,1675,1677,1678,1680,1682,1683,1685,1686,1687,1688,1689,1690,1692,1693,1694,1695,1696,1697,1698,1699,1700,1701,1702,1704,1706,1708,1709,1710,1711,1712,1713,1714,1715,1716,1717,1718,1719,1720,1722,1723,1724,1725,1726,1727,1729,1733,1737,1738,1739,1740,1741,1742,1743,1744,1746,1748,1750,1752,1754,1755,1756,1757,1759,1761,1763,1764,1765,1766,1767,1768,1769,1770,1771,1772,1773,1774,1777,1778,1779,1780,1782,1784,1785,1787,1788,1790,1792,1794,1795,1796,1797,1798,1799,1800,1801,1802,1803,1804,1805,1807,1808,1809,1810,1812,1813,1814,1815,1816,1817,1818,1820,1822,1824,1826,1827,1828,1829,1830,1831,1832,1833,1834,1835,1836,1837,1838,1839",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "185,240,285,334,375,430,488,550,618,696,777,838,913,989,1066,1144,1229,1311,1387,1463,1540,1618,1724,1830,1909,1989,2046,2248,2322,2397,2462,2528,2604,2681,2753,2826,2893,2961,3020,3079,3138,3197,3256,3310,3364,3417,3471,3525,3579,3633,3685,3737,3806,3869,3958,4032,4111,4184,4258,4329,4401,4473,4546,4603,4661,4734,4808,4882,4957,5029,5102,5172,5243,5303,5364,7279,7383,7484,7531,7779,7971,8362,8866,9440,9760,10308,16948,17060,17221,17693,18652,19245,19466,19625,19884,22011,22450,22638,22766,22940,23721,23938,25269,25723,27096,27341,27831,27984,28053,28122,28192,28266,28342,28406,28483,28559,28636,28700,28765,28834,28911,28986,29055,29123,29200,29266,29363,29428,29497,29596,29667,29726,29784,29841,29900,29971,30043,30115,30187,30259,30326,30394,30462,30521,30584,30648,30738,30829,30889,30955,31022,31088,31158,31222,31275,31388,31446,31509,31574,31639,31714,31787,31859,31908,31969,32030,32091,32153,32217,32281,32345,32410,32473,32533,32594,32660,32719,32779,32841,32912,32972,33154,33240,33327,33417,33504,33592,33674,33757,33847,33938,33999,34060,34122,34186,34248,34309,34377,34477,34537,34603,34676,34745,34802,34854,34916,34968,35026,35071,35137,35201,35258,35315,35369,35441,35517,35574,35622,35671,35722,35756,35803,35852,35898,35930,35994,36056,36116,36173,36243,36317,36395,36488,36558,36636,36690,36760,36845,36893,36939,37010,37088,37166,37238,37312,37386,37460,37540,37613,37682,37754,37831,37883,37956,38030,38099,38174,38248,38322,38411,38643,38696,38767,38845,38935,39023,39119,39528,40029,40118,40365,40646,40890,41175,41568,42045,42267,42489,42757,42984,43214,43444,43674,43904,44131,44370,44596,44841,45071,45319,45538,45821,46029,46160,46387,46633,46858,47105,47326,47571,47691,47967,48268,48592,48883,49197,49334,49465,49570,49812,49979,50183,50391,50662,50774,50886,50991,51108,51322,51468,51608,51694,52042,52130,52360,52778,53011,53093,53191,53808,53908,54144,54568,54807,54901,54990,55227,57279,57521,57623,57860,60044,70589,71840,82483,83746,85238,85774,86104,87165,88430,88686,88922,89469,89963,90568,90766,91346,91910,92285,92403,92941,93098,93294,93567,93823,93993,94134,94198,94480,94766,95442,95706,96044,96397,96491,96677,96983,97245,97370,97497,97736,97947,98066,98259,98436,98891,99072,99194,99453,99566,99753,99855,100299,100423,100698,101206,101702,102579,102873,103443,103592,104324,104496,104832,104924,105202,108388,111717,111779,112409,113023,113109,113222,113451,113611,113763,113934,114101,114344,114514,114687,114858,115132,115331,115536,115866,115950,116046,116142,116240,116340,116442,116544,116646,116748,116850,116950,117046,117158,117287,117410,117541,117672,117770,117884,117978,118177,118381,118450,118566,118694,118758,118962,119031,119234,119304,119444,119578,119674,119786,119886,120002,120098,120210,120310,120450,120586,120750,120880,121038,121188,121329,121473,121608,121720,121870,121998,122126,122262,122394,122524,122654,122766,122906,122974,123047,123121,123194,123268,123414,123558,123696,123762,123852,123928,124032,124122,124224,124332,124440,124540,124620,124712,124810,124920,124998,125104,125196,125300,125410,125532,125695,125852,125932,126032,126122,126232,126326,126432,126524,126624,126736,126850,126966,127082,127176,127290,127402,127504,127624,127746,127828,127932,128052,128178,128276,128370,128458,128570,128686,128808,128920,129095,129211,129297,129389,129501,129625,129692,129818,129886,130014,130158,130286,130355,130450,130565,130678,130777,130886,130997,131108,131209,131314,131414,131544,131635,131758,131852,131964,132050,132154,132250,132325,132395,132483,132601,132705,132809,132935,133023,133131,133231,133321,133431,133515,133617,133701,133755,133819,133925,134035,134119",
-                        "endLines": "7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,99,100,101,102,103,104,105,117,131,132,138,141,142,143,155,156,167,168,169,170,209,210,211,212,213,214,215,242,243,249,250,262,263,264,265,266,267,268,269,270,271,272,273,274,275,276,277,278,279,280,281,282,283,284,285,286,287,288,289,290,291,292,293,294,295,296,297,298,299,300,301,302,303,304,305,306,307,308,309,310,311,312,313,314,315,316,317,318,319,320,321,322,323,324,325,326,327,328,329,330,331,332,333,334,335,336,337,340,341,342,343,344,345,346,347,348,349,350,351,352,353,354,355,356,357,358,359,360,361,362,363,364,365,366,367,368,369,370,371,372,373,374,375,376,377,378,379,380,381,382,383,384,385,386,387,388,389,390,391,392,393,394,395,396,397,398,399,400,401,402,403,404,405,406,407,408,409,410,411,412,413,414,415,416,417,418,422,423,424,425,426,427,428,441,442,446,450,454,459,465,472,476,480,485,489,493,497,501,505,509,513,517,521,525,529,533,538,542,545,549,553,557,561,565,569,572,576,580,584,588,592,593,594,595,598,601,604,607,611,612,613,614,615,618,620,622,624,629,630,634,640,644,645,647,658,659,663,669,673,674,675,679,706,710,711,715,743,909,931,1097,1119,1146,1153,1158,1172,1194,1199,1204,1214,1223,1232,1236,1243,1251,1258,1259,1268,1271,1274,1278,1282,1286,1289,1290,1294,1298,1308,1313,1320,1326,1327,1330,1334,1339,1341,1343,1346,1349,1351,1355,1358,1365,1368,1371,1375,1377,1381,1383,1389,1391,1395,1403,1411,1423,1429,1438,1441,1452,1455,1460,1461,1466,1508,1551,1552,1562,1571,1572,1574,1578,1581,1584,1587,1590,1594,1597,1600,1603,1607,1610,1614,1618,1619,1620,1621,1622,1623,1624,1625,1626,1627,1628,1629,1630,1631,1632,1633,1634,1635,1636,1637,1638,1642,1646,1647,1648,1649,1650,1654,1655,1659,1660,1662,1664,1665,1666,1667,1668,1669,1670,1671,1673,1674,1676,1677,1679,1681,1682,1684,1685,1686,1687,1688,1689,1691,1692,1693,1694,1695,1696,1697,1698,1699,1700,1701,1703,1705,1707,1708,1709,1710,1711,1712,1713,1714,1715,1716,1717,1718,1719,1721,1722,1723,1724,1725,1726,1728,1732,1736,1737,1738,1739,1740,1741,1742,1743,1745,1747,1749,1751,1753,1754,1755,1756,1758,1760,1762,1763,1764,1765,1766,1767,1768,1769,1770,1771,1772,1773,1776,1777,1778,1779,1781,1783,1784,1786,1787,1789,1791,1793,1794,1795,1796,1797,1798,1799,1800,1801,1802,1803,1804,1806,1807,1808,1809,1811,1812,1813,1814,1815,1816,1817,1819,1821,1823,1825,1826,1827,1828,1829,1830,1831,1832,1833,1834,1835,1836,1837,1838,1839",
-                        "endColumns": "54,44,48,40,54,57,61,67,77,80,60,74,75,76,77,84,81,75,75,76,77,105,105,78,79,56,57,73,74,64,65,75,76,71,72,66,67,58,58,58,58,58,53,53,52,53,53,53,53,51,51,68,62,88,73,78,72,73,70,71,71,72,56,57,72,73,73,74,71,72,69,70,59,60,1290,103,100,46,247,191,390,35,35,319,251,5300,111,160,35,422,83,220,158,258,35,438,187,127,173,780,216,375,453,458,244,35,152,68,68,69,73,75,63,76,75,76,63,64,68,76,74,68,67,76,65,96,64,68,98,70,58,57,56,58,70,71,71,71,71,66,67,67,58,62,63,89,90,59,65,66,65,69,63,52,112,57,62,64,64,74,72,71,48,60,60,60,61,63,63,63,64,62,59,60,65,58,59,61,70,59,67,85,86,89,86,87,81,82,89,90,60,60,61,63,61,60,67,99,59,65,72,68,56,51,61,51,57,44,65,63,56,56,53,71,75,56,47,48,50,33,46,48,45,31,63,61,59,56,69,73,77,92,69,77,53,69,84,47,45,70,77,77,71,73,73,73,79,72,68,71,76,51,72,73,68,74,73,73,88,69,52,70,77,89,87,95,89,12,88,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,136,130,104,12,12,12,12,12,111,111,104,116,12,12,12,12,12,87,12,12,12,81,12,12,99,12,12,12,93,88,12,12,12,101,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,117,12,12,12,12,12,12,12,63,12,12,12,12,12,12,93,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,91,12,12,12,61,12,12,85,12,12,12,12,12,12,12,12,12,12,12,12,12,12,83,95,95,97,99,101,101,101,101,101,99,95,111,128,122,130,130,97,113,93,12,12,68,115,127,63,12,68,12,69,12,12,95,111,99,115,95,111,99,12,135,12,129,12,12,140,12,134,111,149,127,127,12,131,129,129,111,139,67,72,73,72,73,12,12,12,65,89,75,103,89,101,107,107,99,79,91,97,12,77,105,91,103,109,12,12,12,79,99,89,109,93,105,91,12,12,12,12,12,93,113,111,12,12,12,81,103,119,125,97,93,87,111,115,121,111,12,115,85,91,12,12,66,12,67,12,12,12,68,94,114,112,98,108,110,110,100,104,99,12,90,122,93,12,85,103,95,74,69,87,12,12,12,12,87,107,99,89,109,83,101,83,53,63,105,109,83,119",
-                        "endOffsets": "235,280,329,370,425,483,545,613,691,772,833,908,984,1061,1139,1224,1306,1382,1458,1535,1613,1719,1825,1904,1984,2041,2099,2317,2392,2457,2523,2599,2676,2748,2821,2888,2956,3015,3074,3133,3192,3251,3305,3359,3412,3466,3520,3574,3628,3680,3732,3801,3864,3953,4027,4106,4179,4253,4324,4396,4468,4541,4598,4656,4729,4803,4877,4952,5024,5097,5167,5238,5298,5359,7274,7378,7479,7526,7774,7966,8357,8861,9435,9755,10303,16943,17055,17216,17688,18111,19240,19461,19620,19879,22006,22445,22633,22761,22935,23716,23933,25264,25718,27091,27336,27826,27979,28048,28117,28187,28261,28337,28401,28478,28554,28631,28695,28760,28829,28906,28981,29050,29118,29195,29261,29358,29423,29492,29591,29662,29721,29779,29836,29895,29966,30038,30110,30182,30254,30321,30389,30457,30516,30579,30643,30733,30824,30884,30950,31017,31083,31153,31217,31270,31383,31441,31504,31569,31634,31709,31782,31854,31903,31964,32025,32086,32148,32212,32276,32340,32405,32468,32528,32589,32655,32714,32774,32836,32907,32967,33035,33235,33322,33412,33499,33587,33669,33752,33842,33933,33994,34055,34117,34181,34243,34304,34372,34472,34532,34598,34671,34740,34797,34849,34911,34963,35021,35066,35132,35196,35253,35310,35364,35436,35512,35569,35617,35666,35717,35751,35798,35847,35893,35925,35989,36051,36111,36168,36238,36312,36390,36483,36553,36631,36685,36755,36840,36888,36934,37005,37083,37161,37233,37307,37381,37455,37535,37608,37677,37749,37826,37878,37951,38025,38094,38169,38243,38317,38406,38476,38691,38762,38840,38930,39018,39114,39204,40024,40113,40360,40641,40885,41170,41563,42040,42262,42484,42752,42979,43209,43439,43669,43899,44126,44365,44591,44836,45066,45314,45533,45816,46024,46155,46382,46628,46853,47100,47321,47566,47686,47962,48263,48587,48878,49192,49329,49460,49565,49807,49974,50178,50386,50657,50769,50881,50986,51103,51317,51463,51603,51689,52037,52125,52355,52773,53006,53088,53186,53803,53903,54139,54563,54802,54896,54985,55222,57274,57516,57618,57855,60039,70584,71835,82478,83741,85233,85769,86099,87160,88425,88681,88917,89464,89958,90563,90761,91341,91905,92280,92398,92936,93093,93289,93562,93818,93988,94129,94193,94475,94761,95437,95701,96039,96392,96486,96672,96978,97240,97365,97492,97731,97942,98061,98254,98431,98886,99067,99189,99448,99561,99748,99850,100294,100418,100693,101201,101697,102574,102868,103438,103587,104319,104491,104827,104919,105197,108383,111712,111774,112404,113018,113104,113217,113446,113606,113758,113929,114096,114339,114509,114682,114853,115127,115326,115531,115861,115945,116041,116137,116235,116335,116437,116539,116641,116743,116845,116945,117041,117153,117282,117405,117536,117667,117765,117879,117973,118172,118376,118445,118561,118689,118753,118957,119026,119229,119299,119439,119573,119669,119781,119881,119997,120093,120205,120305,120445,120581,120745,120875,121033,121183,121324,121468,121603,121715,121865,121993,122121,122257,122389,122519,122649,122761,122901,122969,123042,123116,123189,123263,123409,123553,123691,123757,123847,123923,124027,124117,124219,124327,124435,124535,124615,124707,124805,124915,124993,125099,125191,125295,125405,125527,125690,125847,125927,126027,126117,126227,126321,126427,126519,126619,126731,126845,126961,127077,127171,127285,127397,127499,127619,127741,127823,127927,128047,128173,128271,128365,128453,128565,128681,128803,128915,129090,129206,129292,129384,129496,129620,129687,129813,129881,130009,130153,130281,130350,130445,130560,130673,130772,130881,130992,131103,131204,131309,131409,131539,131630,131753,131847,131959,132045,132149,132245,132320,132390,132478,132596,132700,132804,132930,133018,133126,133226,133316,133426,133510,133612,133696,133750,133814,133920,134030,134114,134234"
+                        "startLines": "158",
+                        "startColumns": "4",
+                        "startOffsets": "18379",
+                        "endLines": "161",
+                        "endColumns": "115",
+                        "endOffsets": "18647"
                     }
                 },
                 {
@@ -1177,25 +1177,6 @@
                         "startOffsets": "33040,33098",
                         "endColumns": "57,55",
                         "endOffsets": "33093,33149"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.0.0-beta1.aar\\4f4a75730c6bee9125d7f97cf5a3775f\\res\\values\\values.xml",
-                    "from": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "318",
-                        "endLines": "6",
-                        "endColumns": "115",
-                        "endOffsets": "586"
-                    },
-                    "to": {
-                        "startLines": "158",
-                        "startColumns": "4",
-                        "startOffsets": "18379",
-                        "endLines": "161",
-                        "endColumns": "115",
-                        "endOffsets": "18647"
                     }
                 },
                 {
@@ -1252,6 +1233,25 @@
                         "endColumns": "12",
                         "endOffsets": "39523"
                     }
+                },
+                {
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,92,93,94,95,96,97,98,110,124,125,131,134,135,136,148,150,156,157,158,159,198,199,200,201,202,203,204,231,232,238,239,251,252,253,254,255,256,257,258,259,260,261,262,263,264,265,266,267,268,269,270,271,272,273,274,275,276,277,278,279,280,281,282,283,284,285,286,287,288,289,290,291,292,293,294,295,296,297,298,299,300,301,302,303,304,305,306,307,308,309,310,311,312,313,314,315,316,317,318,319,320,321,322,323,324,325,326,327,328,329,330,331,332,333,334,335,336,337,338,339,340,341,342,343,344,345,346,347,348,349,350,351,352,353,354,355,356,357,358,359,360,361,362,363,364,365,366,367,368,369,370,371,372,373,374,375,376,377,378,379,380,381,382,383,384,385,386,387,388,389,390,391,392,393,394,395,396,397,398,399,400,401,402,403,404,405,406,407,408,409,410,411,412,419,420,424,428,432,437,443,450,454,458,463,467,471,475,479,483,487,491,495,499,503,507,511,516,520,523,527,531,535,539,543,547,550,554,558,562,566,570,571,572,573,576,579,582,585,589,590,591,592,593,596,598,600,602,607,608,612,618,622,623,625,636,637,641,647,651,652,653,657,684,688,689,693,721,887,909,1075,1097,1124,1131,1136,1150,1172,1177,1182,1192,1201,1210,1214,1221,1229,1236,1237,1246,1249,1252,1256,1260,1264,1267,1268,1272,1276,1286,1291,1298,1304,1305,1308,1312,1317,1319,1321,1324,1327,1329,1333,1336,1343,1346,1349,1353,1355,1359,1361,1367,1369,1373,1381,1389,1401,1407,1416,1419,1430,1433,1438,1439,1444,1486,1529,1530,1540,1549,1550,1552,1556,1559,1562,1565,1568,1572,1575,1578,1581,1585,1588,1592,1596,1597,1598,1599,1600,1601,1602,1603,1604,1605,1606,1607,1608,1609,1610,1611,1612,1613,1614,1615,1616,1620,1624,1625,1626,1627,1628,1632,1633,1637,1638,1640,1642,1643,1644,1645,1646,1647,1648,1649,1651,1652,1654,1655,1657,1659,1660,1662,1663,1664,1665,1666,1667,1669,1670,1671,1672,1673,1674,1675,1676,1677,1678,1679,1681,1683,1685,1686,1687,1688,1689,1690,1691,1692,1693,1694,1695,1696,1697,1699,1700,1701,1702,1703,1704,1706,1710,1714,1715,1716,1717,1718,1719,1720,1721,1723,1725,1727,1729,1731,1732,1733,1734,1736,1738,1740,1741,1742,1743,1744,1745,1746,1747,1748,1749,1750,1751,1754,1755,1756,1757,1759,1761,1762,1764,1765,1767,1769,1771,1772,1773,1774,1775,1776,1777,1778,1779,1780,1781,1782,1784,1785,1786,1787,1789,1790,1791,1792,1793,1794,1795,1797,1799,1801,1803,1804,1805,1806,1807,1808,1809,1810,1811,1812,1813,1814,1815,1816",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,110,155,204,245,300,358,420,488,566,647,708,783,859,936,1014,1099,1181,1257,1333,1410,1488,1594,1700,1779,1859,1916,1974,2048,2123,2188,2254,2330,2407,2479,2552,2619,2687,2746,2805,2864,2923,2982,3036,3090,3143,3197,3251,3305,3359,3411,3463,3532,3595,3684,3758,3837,3910,3984,4055,4127,4199,4272,4329,4387,4460,4534,4608,4683,4755,4828,4898,4969,5029,5090,7005,7109,7210,7257,7505,7697,8088,8592,9166,9486,10034,16674,16786,16947,17419,18105,18698,18919,19078,19337,21464,21903,22091,22219,22393,23174,23391,24722,25176,26549,26794,27284,27437,27506,27575,27645,27719,27795,27859,27936,28012,28089,28153,28218,28287,28364,28439,28508,28576,28653,28719,28816,28881,28950,29049,29120,29179,29237,29294,29353,29424,29496,29568,29640,29712,29779,29847,29915,29974,30037,30101,30191,30282,30342,30408,30475,30541,30611,30675,30728,30841,30899,30962,31027,31092,31167,31240,31312,31361,31422,31483,31544,31606,31670,31734,31798,31863,31926,31986,32047,32113,32172,32232,32294,32365,32425,32493,32579,32666,32756,32843,32931,33013,33096,33186,33277,33338,33399,33461,33525,33587,33648,33716,33816,33876,33942,34015,34084,34141,34193,34255,34307,34365,34410,34476,34540,34597,34654,34708,34780,34856,34913,34961,35010,35061,35095,35142,35191,35237,35269,35333,35395,35455,35512,35582,35656,35734,35827,35897,35975,36029,36099,36184,36232,36278,36349,36427,36505,36577,36651,36725,36799,36879,36952,37021,37093,37170,37222,37295,37369,37438,37513,37587,37661,37750,37820,37873,37944,38022,38112,38200,38296,38386,38887,38976,39223,39504,39748,40033,40426,40903,41125,41347,41615,41842,42072,42302,42532,42762,42989,43228,43454,43699,43929,44177,44396,44679,44887,45018,45245,45491,45716,45963,46184,46429,46549,46825,47126,47450,47741,48055,48192,48323,48428,48670,48837,49041,49249,49520,49632,49744,49849,49966,50180,50326,50466,50552,50900,50988,51218,51636,51869,51951,52049,52666,52766,53002,53426,53665,53759,53848,54085,56137,56379,56481,56718,58902,69447,70698,81341,82604,84096,84632,84962,86023,87288,87544,87780,88327,88821,89426,89624,90204,90768,91143,91261,91799,91956,92152,92425,92681,92851,92992,93056,93338,93624,94300,94564,94902,95255,95349,95535,95841,96103,96228,96355,96594,96805,96924,97117,97294,97749,97930,98052,98311,98424,98611,98713,99157,99281,99556,100064,100560,101437,101731,102301,102450,103182,103354,103690,103782,104060,107246,110575,110637,111267,111881,111967,112080,112309,112469,112621,112792,112959,113202,113372,113545,113716,113990,114189,114394,114724,114808,114904,115000,115098,115198,115300,115402,115504,115606,115708,115808,115904,116016,116145,116268,116399,116530,116628,116742,116836,117035,117239,117308,117424,117552,117616,117820,117889,118092,118162,118302,118436,118532,118644,118744,118860,118956,119068,119168,119308,119444,119608,119738,119896,120046,120187,120331,120466,120578,120728,120856,120984,121120,121252,121382,121512,121624,121764,121832,121905,121979,122052,122126,122272,122416,122554,122620,122710,122786,122890,122980,123082,123190,123298,123398,123478,123570,123668,123778,123856,123962,124054,124158,124268,124390,124553,124710,124790,124890,124980,125090,125184,125290,125382,125482,125594,125708,125824,125940,126034,126148,126260,126362,126482,126604,126686,126790,126910,127036,127134,127228,127316,127428,127544,127666,127778,127953,128069,128155,128247,128359,128483,128550,128676,128744,128872,129016,129144,129213,129308,129423,129536,129635,129744,129855,129966,130067,130172,130272,130402,130493,130616,130710,130822,130908,131012,131108,131183,131253,131341,131459,131563,131667,131793,131881,131989,132089,132179,132289,132373,132475,132559,132613,132677,132783,132893,132977",
+                        "endLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,91,92,93,94,95,96,97,109,123,124,130,133,134,135,147,148,155,156,157,158,197,198,199,200,201,202,203,230,231,237,238,250,251,252,253,254,255,256,257,258,259,260,261,262,263,264,265,266,267,268,269,270,271,272,273,274,275,276,277,278,279,280,281,282,283,284,285,286,287,288,289,290,291,292,293,294,295,296,297,298,299,300,301,302,303,304,305,306,307,308,309,310,311,312,313,314,315,316,317,318,319,320,321,322,323,324,325,326,327,328,329,330,331,332,333,334,335,336,337,338,339,340,341,342,343,344,345,346,347,348,349,350,351,352,353,354,355,356,357,358,359,360,361,362,363,364,365,366,367,368,369,370,371,372,373,374,375,376,377,378,379,380,381,382,383,384,385,386,387,388,389,390,391,392,393,394,395,396,397,398,399,400,401,402,403,404,405,406,407,408,409,410,411,418,419,423,427,431,436,442,449,453,457,462,466,470,474,478,482,486,490,494,498,502,506,510,515,519,522,526,530,534,538,542,546,549,553,557,561,565,569,570,571,572,575,578,581,584,588,589,590,591,592,595,597,599,601,606,607,611,617,621,622,624,635,636,640,646,650,651,652,656,683,687,688,692,720,886,908,1074,1096,1123,1130,1135,1149,1171,1176,1181,1191,1200,1209,1213,1220,1228,1235,1236,1245,1248,1251,1255,1259,1263,1266,1267,1271,1275,1285,1290,1297,1303,1304,1307,1311,1316,1318,1320,1323,1326,1328,1332,1335,1342,1345,1348,1352,1354,1358,1360,1366,1368,1372,1380,1388,1400,1406,1415,1418,1429,1432,1437,1438,1443,1485,1528,1529,1539,1548,1549,1551,1555,1558,1561,1564,1567,1571,1574,1577,1580,1584,1587,1591,1595,1596,1597,1598,1599,1600,1601,1602,1603,1604,1605,1606,1607,1608,1609,1610,1611,1612,1613,1614,1615,1619,1623,1624,1625,1626,1627,1631,1632,1636,1637,1639,1641,1642,1643,1644,1645,1646,1647,1648,1650,1651,1653,1654,1656,1658,1659,1661,1662,1663,1664,1665,1666,1668,1669,1670,1671,1672,1673,1674,1675,1676,1677,1678,1680,1682,1684,1685,1686,1687,1688,1689,1690,1691,1692,1693,1694,1695,1696,1698,1699,1700,1701,1702,1703,1705,1709,1713,1714,1715,1716,1717,1718,1719,1720,1722,1724,1726,1728,1730,1731,1732,1733,1735,1737,1739,1740,1741,1742,1743,1744,1745,1746,1747,1748,1749,1750,1753,1754,1755,1756,1758,1760,1761,1763,1764,1766,1768,1770,1771,1772,1773,1774,1775,1776,1777,1778,1779,1780,1781,1783,1784,1785,1786,1788,1789,1790,1791,1792,1793,1794,1796,1798,1800,1802,1803,1804,1805,1806,1807,1808,1809,1810,1811,1812,1813,1814,1815,1816",
+                        "endColumns": "54,44,48,40,54,57,61,67,77,80,60,74,75,76,77,84,81,75,75,76,77,105,105,78,79,56,57,73,74,64,65,75,76,71,72,66,67,58,58,58,58,58,53,53,52,53,53,53,53,51,51,68,62,88,73,78,72,73,70,71,71,72,56,57,72,73,73,74,71,72,69,70,59,60,1290,103,100,46,247,191,390,35,35,319,251,5300,111,160,35,422,83,220,158,258,35,438,187,127,173,780,216,375,453,458,244,35,152,68,68,69,73,75,63,76,75,76,63,64,68,76,74,68,67,76,65,96,64,68,98,70,58,57,56,58,70,71,71,71,71,66,67,67,58,62,63,89,90,59,65,66,65,69,63,52,112,57,62,64,64,74,72,71,48,60,60,60,61,63,63,63,64,62,59,60,65,58,59,61,70,59,67,85,86,89,86,87,81,82,89,90,60,60,61,63,61,60,67,99,59,65,72,68,56,51,61,51,57,44,65,63,56,56,53,71,75,56,47,48,50,33,46,48,45,31,63,61,59,56,69,73,77,92,69,77,53,69,84,47,45,70,77,77,71,73,73,73,79,72,68,71,76,51,72,73,68,74,73,73,88,69,52,70,77,89,87,95,89,12,88,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,136,130,104,12,12,12,12,12,111,111,104,116,12,12,12,12,12,87,12,12,12,81,12,12,99,12,12,12,93,88,12,12,12,101,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,117,12,12,12,12,12,12,12,63,12,12,12,12,12,12,93,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,91,12,12,12,61,12,12,85,12,12,12,12,12,12,12,12,12,12,12,12,12,12,83,95,95,97,99,101,101,101,101,101,99,95,111,128,122,130,130,97,113,93,12,12,68,115,127,63,12,68,12,69,12,12,95,111,99,115,95,111,99,12,135,12,129,12,12,140,12,134,111,149,127,127,12,131,129,129,111,139,67,72,73,72,73,12,12,12,65,89,75,103,89,101,107,107,99,79,91,97,12,77,105,91,103,109,12,12,12,79,99,89,109,93,105,91,12,12,12,12,12,93,113,111,12,12,12,81,103,119,125,97,93,87,111,115,121,111,12,115,85,91,12,12,66,12,67,12,12,12,68,94,114,112,98,108,110,110,100,104,99,12,90,122,93,12,85,103,95,74,69,87,12,12,12,12,87,107,99,89,109,83,101,83,53,63,105,109,83,119",
+                        "endOffsets": "105,150,199,240,295,353,415,483,561,642,703,778,854,931,1009,1094,1176,1252,1328,1405,1483,1589,1695,1774,1854,1911,1969,2043,2118,2183,2249,2325,2402,2474,2547,2614,2682,2741,2800,2859,2918,2977,3031,3085,3138,3192,3246,3300,3354,3406,3458,3527,3590,3679,3753,3832,3905,3979,4050,4122,4194,4267,4324,4382,4455,4529,4603,4678,4750,4823,4893,4964,5024,5085,7000,7104,7205,7252,7500,7692,8083,8587,9161,9481,10029,16669,16781,16942,17414,17837,18693,18914,19073,19332,21459,21898,22086,22214,22388,23169,23386,24717,25171,26544,26789,27279,27432,27501,27570,27640,27714,27790,27854,27931,28007,28084,28148,28213,28282,28359,28434,28503,28571,28648,28714,28811,28876,28945,29044,29115,29174,29232,29289,29348,29419,29491,29563,29635,29707,29774,29842,29910,29969,30032,30096,30186,30277,30337,30403,30470,30536,30606,30670,30723,30836,30894,30957,31022,31087,31162,31235,31307,31356,31417,31478,31539,31601,31665,31729,31793,31858,31921,31981,32042,32108,32167,32227,32289,32360,32420,32488,32574,32661,32751,32838,32926,33008,33091,33181,33272,33333,33394,33456,33520,33582,33643,33711,33811,33871,33937,34010,34079,34136,34188,34250,34302,34360,34405,34471,34535,34592,34649,34703,34775,34851,34908,34956,35005,35056,35090,35137,35186,35232,35264,35328,35390,35450,35507,35577,35651,35729,35822,35892,35970,36024,36094,36179,36227,36273,36344,36422,36500,36572,36646,36720,36794,36874,36947,37016,37088,37165,37217,37290,37364,37433,37508,37582,37656,37745,37815,37868,37939,38017,38107,38195,38291,38381,38882,38971,39218,39499,39743,40028,40421,40898,41120,41342,41610,41837,42067,42297,42527,42757,42984,43223,43449,43694,43924,44172,44391,44674,44882,45013,45240,45486,45711,45958,46179,46424,46544,46820,47121,47445,47736,48050,48187,48318,48423,48665,48832,49036,49244,49515,49627,49739,49844,49961,50175,50321,50461,50547,50895,50983,51213,51631,51864,51946,52044,52661,52761,52997,53421,53660,53754,53843,54080,56132,56374,56476,56713,58897,69442,70693,81336,82599,84091,84627,84957,86018,87283,87539,87775,88322,88816,89421,89619,90199,90763,91138,91256,91794,91951,92147,92420,92676,92846,92987,93051,93333,93619,94295,94559,94897,95250,95344,95530,95836,96098,96223,96350,96589,96800,96919,97112,97289,97744,97925,98047,98306,98419,98606,98708,99152,99276,99551,100059,100555,101432,101726,102296,102445,103177,103349,103685,103777,104055,107241,110570,110632,111262,111876,111962,112075,112304,112464,112616,112787,112954,113197,113367,113540,113711,113985,114184,114389,114719,114803,114899,114995,115093,115193,115295,115397,115499,115601,115703,115803,115899,116011,116140,116263,116394,116525,116623,116737,116831,117030,117234,117303,117419,117547,117611,117815,117884,118087,118157,118297,118431,118527,118639,118739,118855,118951,119063,119163,119303,119439,119603,119733,119891,120041,120182,120326,120461,120573,120723,120851,120979,121115,121247,121377,121507,121619,121759,121827,121900,121974,122047,122121,122267,122411,122549,122615,122705,122781,122885,122975,123077,123185,123293,123393,123473,123565,123663,123773,123851,123957,124049,124153,124263,124385,124548,124705,124785,124885,124975,125085,125179,125285,125377,125477,125589,125703,125819,125935,126029,126143,126255,126357,126477,126599,126681,126785,126905,127031,127129,127223,127311,127423,127539,127661,127773,127948,128064,128150,128242,128354,128478,128545,128671,128739,128867,129011,129139,129208,129303,129418,129531,129630,129739,129850,129961,130062,130167,130267,130397,130488,130611,130705,130817,130903,131007,131103,131178,131248,131336,131454,131558,131662,131788,131876,131984,132084,132174,132284,132368,132470,132554,132608,132672,132778,132888,132972,133092"
+                    },
+                    "to": {
+                        "startLines": "7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,100,101,102,103,104,105,106,118,132,133,139,142,143,144,156,162,168,169,170,171,210,211,212,213,214,215,216,243,244,250,251,263,264,265,266,267,268,269,270,271,272,273,274,275,276,277,278,279,280,281,282,283,284,285,286,287,288,289,290,291,292,293,294,295,296,297,298,299,300,301,302,303,304,305,306,307,308,309,310,311,312,313,314,315,316,317,318,319,320,321,322,323,324,325,326,327,328,329,330,331,332,333,334,335,336,337,340,341,342,343,344,345,346,347,348,349,350,351,352,353,354,355,356,357,358,359,360,361,362,363,364,365,366,367,368,369,370,371,372,373,374,375,376,377,378,379,380,381,382,383,384,385,386,387,388,389,390,391,392,393,394,395,396,397,398,399,400,401,402,403,404,405,406,407,408,409,410,411,412,413,414,415,416,417,418,422,423,424,425,426,427,428,435,442,443,447,451,455,460,466,473,477,481,486,490,494,498,502,506,510,514,518,522,526,530,534,539,543,546,550,554,558,562,566,570,573,577,581,585,589,593,594,595,596,599,602,605,608,612,613,614,615,616,619,621,623,625,630,631,635,641,645,646,648,659,660,664,670,674,675,676,680,707,711,712,716,744,910,932,1098,1120,1147,1154,1159,1173,1195,1200,1205,1215,1224,1233,1237,1244,1252,1259,1260,1269,1272,1275,1279,1283,1287,1290,1291,1295,1299,1309,1314,1321,1327,1328,1331,1335,1340,1342,1344,1347,1350,1352,1356,1359,1366,1369,1372,1376,1378,1382,1384,1390,1392,1396,1404,1412,1424,1430,1439,1442,1453,1456,1461,1462,1467,1509,1552,1553,1563,1572,1573,1575,1579,1582,1585,1588,1591,1595,1598,1601,1604,1608,1611,1615,1619,1620,1621,1622,1623,1624,1625,1626,1627,1628,1629,1630,1631,1632,1633,1634,1635,1636,1637,1638,1639,1643,1647,1648,1649,1650,1651,1655,1656,1660,1661,1663,1665,1666,1667,1668,1669,1670,1671,1672,1674,1675,1677,1678,1680,1682,1683,1685,1686,1687,1688,1689,1690,1692,1693,1694,1695,1696,1697,1698,1699,1700,1701,1702,1704,1706,1708,1709,1710,1711,1712,1713,1714,1715,1716,1717,1718,1719,1720,1722,1723,1724,1725,1726,1727,1729,1733,1737,1738,1739,1740,1741,1742,1743,1744,1746,1748,1750,1752,1754,1755,1756,1757,1759,1761,1763,1764,1765,1766,1767,1768,1769,1770,1771,1772,1773,1774,1777,1778,1779,1780,1782,1784,1785,1787,1788,1790,1792,1794,1795,1796,1797,1798,1799,1800,1801,1802,1803,1804,1805,1807,1808,1809,1810,1812,1813,1814,1815,1816,1817,1818,1820,1822,1824,1826,1827,1828,1829,1830,1831,1832,1833,1834,1835,1836,1837,1838,1839",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "185,240,285,334,375,430,488,550,618,696,777,838,913,989,1066,1144,1229,1311,1387,1463,1540,1618,1724,1830,1909,1989,2046,2248,2322,2397,2462,2528,2604,2681,2753,2826,2893,2961,3020,3079,3138,3197,3256,3310,3364,3417,3471,3525,3579,3633,3685,3737,3806,3869,3958,4032,4111,4184,4258,4329,4401,4473,4546,4603,4661,4734,4808,4882,4957,5029,5102,5172,5243,5303,5364,7279,7383,7484,7531,7779,7971,8362,8866,9440,9760,10308,16948,17060,17221,17693,18652,19245,19466,19625,19884,22011,22450,22638,22766,22940,23721,23938,25269,25723,27096,27341,27831,27984,28053,28122,28192,28266,28342,28406,28483,28559,28636,28700,28765,28834,28911,28986,29055,29123,29200,29266,29363,29428,29497,29596,29667,29726,29784,29841,29900,29971,30043,30115,30187,30259,30326,30394,30462,30521,30584,30648,30738,30829,30889,30955,31022,31088,31158,31222,31275,31388,31446,31509,31574,31639,31714,31787,31859,31908,31969,32030,32091,32153,32217,32281,32345,32410,32473,32533,32594,32660,32719,32779,32841,32912,32972,33154,33240,33327,33417,33504,33592,33674,33757,33847,33938,33999,34060,34122,34186,34248,34309,34377,34477,34537,34603,34676,34745,34802,34854,34916,34968,35026,35071,35137,35201,35258,35315,35369,35441,35517,35574,35622,35671,35722,35756,35803,35852,35898,35930,35994,36056,36116,36173,36243,36317,36395,36488,36558,36636,36690,36760,36845,36893,36939,37010,37088,37166,37238,37312,37386,37460,37540,37613,37682,37754,37831,37883,37956,38030,38099,38174,38248,38322,38411,38643,38696,38767,38845,38935,39023,39119,39528,40029,40118,40365,40646,40890,41175,41568,42045,42267,42489,42757,42984,43214,43444,43674,43904,44131,44370,44596,44841,45071,45319,45538,45821,46029,46160,46387,46633,46858,47105,47326,47571,47691,47967,48268,48592,48883,49197,49334,49465,49570,49812,49979,50183,50391,50662,50774,50886,50991,51108,51322,51468,51608,51694,52042,52130,52360,52778,53011,53093,53191,53808,53908,54144,54568,54807,54901,54990,55227,57279,57521,57623,57860,60044,70589,71840,82483,83746,85238,85774,86104,87165,88430,88686,88922,89469,89963,90568,90766,91346,91910,92285,92403,92941,93098,93294,93567,93823,93993,94134,94198,94480,94766,95442,95706,96044,96397,96491,96677,96983,97245,97370,97497,97736,97947,98066,98259,98436,98891,99072,99194,99453,99566,99753,99855,100299,100423,100698,101206,101702,102579,102873,103443,103592,104324,104496,104832,104924,105202,108388,111717,111779,112409,113023,113109,113222,113451,113611,113763,113934,114101,114344,114514,114687,114858,115132,115331,115536,115866,115950,116046,116142,116240,116340,116442,116544,116646,116748,116850,116950,117046,117158,117287,117410,117541,117672,117770,117884,117978,118177,118381,118450,118566,118694,118758,118962,119031,119234,119304,119444,119578,119674,119786,119886,120002,120098,120210,120310,120450,120586,120750,120880,121038,121188,121329,121473,121608,121720,121870,121998,122126,122262,122394,122524,122654,122766,122906,122974,123047,123121,123194,123268,123414,123558,123696,123762,123852,123928,124032,124122,124224,124332,124440,124540,124620,124712,124810,124920,124998,125104,125196,125300,125410,125532,125695,125852,125932,126032,126122,126232,126326,126432,126524,126624,126736,126850,126966,127082,127176,127290,127402,127504,127624,127746,127828,127932,128052,128178,128276,128370,128458,128570,128686,128808,128920,129095,129211,129297,129389,129501,129625,129692,129818,129886,130014,130158,130286,130355,130450,130565,130678,130777,130886,130997,131108,131209,131314,131414,131544,131635,131758,131852,131964,132050,132154,132250,132325,132395,132483,132601,132705,132809,132935,133023,133131,133231,133321,133431,133515,133617,133701,133755,133819,133925,134035,134119",
+                        "endLines": "7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,99,100,101,102,103,104,105,117,131,132,138,141,142,143,155,156,167,168,169,170,209,210,211,212,213,214,215,242,243,249,250,262,263,264,265,266,267,268,269,270,271,272,273,274,275,276,277,278,279,280,281,282,283,284,285,286,287,288,289,290,291,292,293,294,295,296,297,298,299,300,301,302,303,304,305,306,307,308,309,310,311,312,313,314,315,316,317,318,319,320,321,322,323,324,325,326,327,328,329,330,331,332,333,334,335,336,337,340,341,342,343,344,345,346,347,348,349,350,351,352,353,354,355,356,357,358,359,360,361,362,363,364,365,366,367,368,369,370,371,372,373,374,375,376,377,378,379,380,381,382,383,384,385,386,387,388,389,390,391,392,393,394,395,396,397,398,399,400,401,402,403,404,405,406,407,408,409,410,411,412,413,414,415,416,417,418,422,423,424,425,426,427,428,441,442,446,450,454,459,465,472,476,480,485,489,493,497,501,505,509,513,517,521,525,529,533,538,542,545,549,553,557,561,565,569,572,576,580,584,588,592,593,594,595,598,601,604,607,611,612,613,614,615,618,620,622,624,629,630,634,640,644,645,647,658,659,663,669,673,674,675,679,706,710,711,715,743,909,931,1097,1119,1146,1153,1158,1172,1194,1199,1204,1214,1223,1232,1236,1243,1251,1258,1259,1268,1271,1274,1278,1282,1286,1289,1290,1294,1298,1308,1313,1320,1326,1327,1330,1334,1339,1341,1343,1346,1349,1351,1355,1358,1365,1368,1371,1375,1377,1381,1383,1389,1391,1395,1403,1411,1423,1429,1438,1441,1452,1455,1460,1461,1466,1508,1551,1552,1562,1571,1572,1574,1578,1581,1584,1587,1590,1594,1597,1600,1603,1607,1610,1614,1618,1619,1620,1621,1622,1623,1624,1625,1626,1627,1628,1629,1630,1631,1632,1633,1634,1635,1636,1637,1638,1642,1646,1647,1648,1649,1650,1654,1655,1659,1660,1662,1664,1665,1666,1667,1668,1669,1670,1671,1673,1674,1676,1677,1679,1681,1682,1684,1685,1686,1687,1688,1689,1691,1692,1693,1694,1695,1696,1697,1698,1699,1700,1701,1703,1705,1707,1708,1709,1710,1711,1712,1713,1714,1715,1716,1717,1718,1719,1721,1722,1723,1724,1725,1726,1728,1732,1736,1737,1738,1739,1740,1741,1742,1743,1745,1747,1749,1751,1753,1754,1755,1756,1758,1760,1762,1763,1764,1765,1766,1767,1768,1769,1770,1771,1772,1773,1776,1777,1778,1779,1781,1783,1784,1786,1787,1789,1791,1793,1794,1795,1796,1797,1798,1799,1800,1801,1802,1803,1804,1806,1807,1808,1809,1811,1812,1813,1814,1815,1816,1817,1819,1821,1823,1825,1826,1827,1828,1829,1830,1831,1832,1833,1834,1835,1836,1837,1838,1839",
+                        "endColumns": "54,44,48,40,54,57,61,67,77,80,60,74,75,76,77,84,81,75,75,76,77,105,105,78,79,56,57,73,74,64,65,75,76,71,72,66,67,58,58,58,58,58,53,53,52,53,53,53,53,51,51,68,62,88,73,78,72,73,70,71,71,72,56,57,72,73,73,74,71,72,69,70,59,60,1290,103,100,46,247,191,390,35,35,319,251,5300,111,160,35,422,83,220,158,258,35,438,187,127,173,780,216,375,453,458,244,35,152,68,68,69,73,75,63,76,75,76,63,64,68,76,74,68,67,76,65,96,64,68,98,70,58,57,56,58,70,71,71,71,71,66,67,67,58,62,63,89,90,59,65,66,65,69,63,52,112,57,62,64,64,74,72,71,48,60,60,60,61,63,63,63,64,62,59,60,65,58,59,61,70,59,67,85,86,89,86,87,81,82,89,90,60,60,61,63,61,60,67,99,59,65,72,68,56,51,61,51,57,44,65,63,56,56,53,71,75,56,47,48,50,33,46,48,45,31,63,61,59,56,69,73,77,92,69,77,53,69,84,47,45,70,77,77,71,73,73,73,79,72,68,71,76,51,72,73,68,74,73,73,88,69,52,70,77,89,87,95,89,12,88,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,136,130,104,12,12,12,12,12,111,111,104,116,12,12,12,12,12,87,12,12,12,81,12,12,99,12,12,12,93,88,12,12,12,101,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,117,12,12,12,12,12,12,12,63,12,12,12,12,12,12,93,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,91,12,12,12,61,12,12,85,12,12,12,12,12,12,12,12,12,12,12,12,12,12,83,95,95,97,99,101,101,101,101,101,99,95,111,128,122,130,130,97,113,93,12,12,68,115,127,63,12,68,12,69,12,12,95,111,99,115,95,111,99,12,135,12,129,12,12,140,12,134,111,149,127,127,12,131,129,129,111,139,67,72,73,72,73,12,12,12,65,89,75,103,89,101,107,107,99,79,91,97,12,77,105,91,103,109,12,12,12,79,99,89,109,93,105,91,12,12,12,12,12,93,113,111,12,12,12,81,103,119,125,97,93,87,111,115,121,111,12,115,85,91,12,12,66,12,67,12,12,12,68,94,114,112,98,108,110,110,100,104,99,12,90,122,93,12,85,103,95,74,69,87,12,12,12,12,87,107,99,89,109,83,101,83,53,63,105,109,83,119",
+                        "endOffsets": "235,280,329,370,425,483,545,613,691,772,833,908,984,1061,1139,1224,1306,1382,1458,1535,1613,1719,1825,1904,1984,2041,2099,2317,2392,2457,2523,2599,2676,2748,2821,2888,2956,3015,3074,3133,3192,3251,3305,3359,3412,3466,3520,3574,3628,3680,3732,3801,3864,3953,4027,4106,4179,4253,4324,4396,4468,4541,4598,4656,4729,4803,4877,4952,5024,5097,5167,5238,5298,5359,7274,7378,7479,7526,7774,7966,8357,8861,9435,9755,10303,16943,17055,17216,17688,18111,19240,19461,19620,19879,22006,22445,22633,22761,22935,23716,23933,25264,25718,27091,27336,27826,27979,28048,28117,28187,28261,28337,28401,28478,28554,28631,28695,28760,28829,28906,28981,29050,29118,29195,29261,29358,29423,29492,29591,29662,29721,29779,29836,29895,29966,30038,30110,30182,30254,30321,30389,30457,30516,30579,30643,30733,30824,30884,30950,31017,31083,31153,31217,31270,31383,31441,31504,31569,31634,31709,31782,31854,31903,31964,32025,32086,32148,32212,32276,32340,32405,32468,32528,32589,32655,32714,32774,32836,32907,32967,33035,33235,33322,33412,33499,33587,33669,33752,33842,33933,33994,34055,34117,34181,34243,34304,34372,34472,34532,34598,34671,34740,34797,34849,34911,34963,35021,35066,35132,35196,35253,35310,35364,35436,35512,35569,35617,35666,35717,35751,35798,35847,35893,35925,35989,36051,36111,36168,36238,36312,36390,36483,36553,36631,36685,36755,36840,36888,36934,37005,37083,37161,37233,37307,37381,37455,37535,37608,37677,37749,37826,37878,37951,38025,38094,38169,38243,38317,38406,38476,38691,38762,38840,38930,39018,39114,39204,40024,40113,40360,40641,40885,41170,41563,42040,42262,42484,42752,42979,43209,43439,43669,43899,44126,44365,44591,44836,45066,45314,45533,45816,46024,46155,46382,46628,46853,47100,47321,47566,47686,47962,48263,48587,48878,49192,49329,49460,49565,49807,49974,50178,50386,50657,50769,50881,50986,51103,51317,51463,51603,51689,52037,52125,52355,52773,53006,53088,53186,53803,53903,54139,54563,54802,54896,54985,55222,57274,57516,57618,57855,60039,70584,71835,82478,83741,85233,85769,86099,87160,88425,88681,88917,89464,89958,90563,90761,91341,91905,92280,92398,92936,93093,93289,93562,93818,93988,94129,94193,94475,94761,95437,95701,96039,96392,96486,96672,96978,97240,97365,97492,97731,97942,98061,98254,98431,98886,99067,99189,99448,99561,99748,99850,100294,100418,100693,101201,101697,102574,102868,103438,103587,104319,104491,104827,104919,105197,108383,111712,111774,112404,113018,113104,113217,113446,113606,113758,113929,114096,114339,114509,114682,114853,115127,115326,115531,115861,115945,116041,116137,116235,116335,116437,116539,116641,116743,116845,116945,117041,117153,117282,117405,117536,117667,117765,117879,117973,118172,118376,118445,118561,118689,118753,118957,119026,119229,119299,119439,119573,119669,119781,119881,119997,120093,120205,120305,120445,120581,120745,120875,121033,121183,121324,121468,121603,121715,121865,121993,122121,122257,122389,122519,122649,122761,122901,122969,123042,123116,123189,123263,123409,123553,123691,123757,123847,123923,124027,124117,124219,124327,124435,124535,124615,124707,124805,124915,124993,125099,125191,125295,125405,125527,125690,125847,125927,126027,126117,126227,126321,126427,126519,126619,126731,126845,126961,127077,127171,127285,127397,127499,127619,127741,127823,127927,128047,128173,128271,128365,128453,128565,128681,128803,128915,129090,129206,129292,129384,129496,129620,129687,129813,129881,130009,130153,130281,130350,130445,130560,130673,130772,130881,130992,131103,131204,131309,131409,131539,131630,131753,131847,131959,132045,132149,132245,132320,132390,132478,132596,132700,132804,132930,133018,133126,133226,133316,133426,133510,133612,133696,133750,133814,133920,134030,134114,134234"
+                    }
                 }
             ]
         },
@@ -1259,7 +1259,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-it_values-it.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-it\\values-it.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-it\\values-it.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -1274,7 +1274,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-cs_values-cs.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-cs\\values-cs.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-cs\\values-cs.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -1289,7 +1289,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-bn_values-bn.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-bn\\values-bn.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-bn\\values-bn.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -1304,7 +1304,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-zh-rCN_values-zh-rCN.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-zh-rCN\\values-zh-rCN.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -1319,7 +1319,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-v25_values-v25.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-v25\\values-v25.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-v25\\values-v25.xml",
                     "from": {
                         "startLines": "2,3,4,6",
                         "startColumns": "4,4,4,4",
@@ -1335,7 +1335,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-v26_values-v26.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-v26\\values-v26.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-v26\\values-v26.xml",
                     "from": {
                         "startLines": "2,6",
                         "startColumns": "4,4",
@@ -1351,7 +1351,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-v22_values-v22.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-v22\\values-v22.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-v22\\values-v22.xml",
                     "from": {
                         "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",
@@ -1367,7 +1367,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-zu_values-zu.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-zu\\values-zu.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-zu\\values-zu.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -1382,7 +1382,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-hy_values-hy.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-hy\\values-hy.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-hy\\values-hy.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -1397,7 +1397,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-en-rAU_values-en-rAU.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-en-rAU\\values-en-rAU.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-en-rAU\\values-en-rAU.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -1412,7 +1412,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-my_values-my.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-my\\values-my.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-my\\values-my.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -1427,7 +1427,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-pt-rPT_values-pt-rPT.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-pt-rPT\\values-pt-rPT.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-pt-rPT\\values-pt-rPT.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -1442,7 +1442,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-large-v4_values-large-v4.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-large-v4\\values-large-v4.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
@@ -1457,7 +1457,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-v21_values-v21.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-v21\\values-v21.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-v21\\values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,21,23,24,25,26,28,30,31,32,33,34,36,38,40,42,44,46,47,52,54,56,57,58,60,62,63,64,65,66,67,111,114,158,161,164,166,168,170,173,175,178,179,180,183,184,185,186,187,188,191,192,194,196,198,200,204,206,207,208,209,211,215,217,219,220,221,222,223,225,226,227,237,238,239,251,263,264,265,268,271,272,275,276,279,282",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -1473,7 +1473,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-sv_values-sv.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-sv\\values-sv.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-sv\\values-sv.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -1488,7 +1488,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-nl_values-nl.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-nl\\values-nl.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-nl\\values-nl.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -1503,7 +1503,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-en-rGB_values-en-rGB.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-en-rGB\\values-en-rGB.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-en-rGB\\values-en-rGB.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -1518,7 +1518,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-sk_values-sk.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-sk\\values-sk.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-sk\\values-sk.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -1533,7 +1533,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-fa_values-fa.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-fa\\values-fa.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-fa\\values-fa.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -1548,7 +1548,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-uk_values-uk.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-uk\\values-uk.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-uk\\values-uk.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -1563,7 +1563,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-vi_values-vi.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-vi\\values-vi.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-vi\\values-vi.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -1578,7 +1578,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-tr_values-tr.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-tr\\values-tr.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-tr\\values-tr.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -1593,7 +1593,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-es_values-es.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-es\\values-es.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-es\\values-es.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -1608,7 +1608,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-da_values-da.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-da\\values-da.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-da\\values-da.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -1623,7 +1623,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-ky_values-ky.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-ky\\values-ky.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-ky\\values-ky.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -1638,7 +1638,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-ldltr-v21_values-ldltr-v21.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -1653,7 +1653,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-lv_values-lv.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-lv\\values-lv.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-lv\\values-lv.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -1668,7 +1668,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-h720dp-v13_values-h720dp-v13.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -1683,7 +1683,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-land_values-land.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -1698,7 +1698,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-hu_values-hu.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-hu\\values-hu.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-hu\\values-hu.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -1713,7 +1713,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-is_values-is.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-is\\values-is.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-is\\values-is.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -1728,7 +1728,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-ko_values-ko.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-ko\\values-ko.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-ko\\values-ko.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -1743,7 +1743,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-am_values-am.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-am\\values-am.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-am\\values-am.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -1758,7 +1758,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-ar_values-ar.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-ar\\values-ar.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-ar\\values-ar.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -1773,7 +1773,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-uz_values-uz.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-uz\\values-uz.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-uz\\values-uz.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -1788,7 +1788,7 @@
             "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\res\\merged\\debug\\values-zh-rTW_values-zh-rTW.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\0e967e36d7fb84256dfc914afa3463fc\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "source": "C:\\Users\\Biodun\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.0-beta1.aar\\26debea36c5fce4c502202686bd974ee\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

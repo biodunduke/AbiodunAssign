@@ -30,13 +30,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".AbiodunActivity2"
+        <activity
+            android:name=".AbiodunActivity2"
             android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".AbiodunActivity1" />
         </activity>
-        <activity android:name=".AbiodunActivity3"
+        <activity
+            android:name=".AbiodunActivity3"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AbiodunActivity1" />
+        </activity>
+        <activity android:name=".AbiodunActivity4"
             android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"

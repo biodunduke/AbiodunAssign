@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 26
-    buildToolsVersion '28.0.2'
+    buildToolsVersion '28.0.3'
 
     defaultConfig {
         applicationId "com.example.screenlayoutdetect"
@@ -18,5 +18,5 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:appcompat-v7:26.0.0-beta1'
+    implementation 'com.android.support:appcompat-v7:26.0.0-beta1'
 }

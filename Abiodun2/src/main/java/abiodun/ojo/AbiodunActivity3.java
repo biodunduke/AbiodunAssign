@@ -26,22 +26,22 @@ public class AbiodunActivity3 extends AppCompatActivity {
         setContentView(R.layout.activity_abiodun3);
         Bundle bundle = getIntent().getExtras();
         final int selectionID=bundle.getInt("selection"); //Retrieve the items passed
-        String size = bundle.getString("size");
-        String type = bundle.getString("type");
-        String toppings = bundle.getString("toppings");
+      final String size = bundle.getString("size");
+       final String type = bundle.getString("type");
+      final   String toppings = bundle.getString("toppings");
 
-        TextView tv = (TextView)findViewById(R.id.abiodun_order_detail);
+        TextView tv = findViewById(R.id.abiodun_order_detail);
         tv.setTextSize(18);
         tv.setText(getString(R.string.text_order_details)+"\n"+getString(R.string.text_size)+": "+ size+"\n"+getString(R.string.text_type)+": "+type+"\n"+getString(R.string.text_toppings)+": "+toppings+".\n");
 
-        ImageView img = (ImageView)findViewById(R.id.abiodun_shop_image);
+        ImageView img = findViewById(R.id.abiodun_shop_image);
         img.setImageResource(selectionID);
-        Button butOrder = (Button)findViewById(R.id.abiodun_but_order);
+        Button butOrder = findViewById(R.id.abiodun_but_order);
 
-        customerName = (EditText)findViewById(R.id.abiodun_edit_text_customer_name);
-        customerAddress = (EditText)findViewById(R.id.abiodun_edit_text_customer_address);
-        creditCardNo = (EditText)findViewById(R.id.abiodun_edit_text_credit_card_no);
-        creditCardExpiry = (EditText)findViewById(R.id.abiodun_edit_text_credit_card_expiry);
+        customerName = findViewById(R.id.abiodun_edit_text_customer_name);
+        customerAddress = findViewById(R.id.abiodun_edit_text_customer_address);
+        creditCardNo = findViewById(R.id.abiodun_edit_text_credit_card_no);
+        creditCardExpiry = findViewById(R.id.abiodun_edit_text_credit_card_expiry);
 
 
         // Validations
@@ -53,7 +53,7 @@ public class AbiodunActivity3 extends AppCompatActivity {
                     customerName.setError(getString(R.string.error_empty_edittext));
                 else if(name.length()<3)
                     customerName.setError(getString(R.string.error_name_length));
-                    if (isAlpha(name)==false) //Call the function to check if a number is present
+                    if (!isAlpha(name)) //Call the function to check if a number is present
                         customerName.setError(getString(R.string.error_name_char));
             }
         });
@@ -68,10 +68,10 @@ public class AbiodunActivity3 extends AppCompatActivity {
         creditCardNo.setOnFocusChangeListener(new View.OnFocusChangeListener() {
             @Override
             public void onFocusChange(View v, boolean hasFocus) {
-                String string = creditCardNo.getText().toString().trim();
-                if(string.isEmpty())
+                String cardNo = creditCardNo.getText().toString().trim();
+                if(cardNo.isEmpty())
                     creditCardNo.setError(getString(R.string.error_empty_edittext));
-                else if (string.length()!=16)
+                else if (cardNo.length()!=16)
                     creditCardNo.setError(getString(R.string.error_creditcard_length));
             }
         });
@@ -79,10 +79,10 @@ public class AbiodunActivity3 extends AppCompatActivity {
         creditCardExpiry.setOnFocusChangeListener(new View.OnFocusChangeListener() {
             @Override
             public void onFocusChange(View v, boolean hasFocus) {
-                String string = creditCardExpiry.getText().toString().trim();
-                if(string.isEmpty())
+                String cardExpiry = creditCardExpiry.getText().toString().trim();
+                if(cardExpiry.isEmpty())
                     creditCardExpiry.setError(getString(R.string.error_empty_edittext));
-             else if(string.length()!=4)
+             else if(cardExpiry.length()!=4)
                 creditCardExpiry.setError(getString(R.string.error_creditcard_expiry));
             }
         });
@@ -92,19 +92,19 @@ public class AbiodunActivity3 extends AppCompatActivity {
             public void onClick(View v) {
                 //Submit Validations
                 //Empty
-                if (customerName.getText().toString().trim().isEmpty() == true){
+                if (customerName.getText().toString().trim().isEmpty()){
                     Toast.makeText(AbiodunActivity3.this, getString(R.string.error_empty_edittext), Toast.LENGTH_SHORT).show();
                     customerName.requestFocus();
                     }
-                else if (customerAddress.getText().toString().trim().isEmpty()==true) {
+                else if (customerAddress.getText().toString().trim().isEmpty()) {
                     Toast.makeText(AbiodunActivity3.this, getString(R.string.error_empty_edittext), Toast.LENGTH_SHORT).show();
                     customerAddress.requestFocus();
                 }
-                else if (creditCardNo.getText().toString().trim().isEmpty()==true){
+                else if (creditCardNo.getText().toString().trim().isEmpty()){
                     Toast.makeText(AbiodunActivity3.this, getString(R.string.error_empty_edittext), Toast.LENGTH_SHORT).show();
                     creditCardNo.requestFocus();
                 }
-                else if (creditCardExpiry.getText().toString().trim().isEmpty()==true){
+                else if (creditCardExpiry.getText().toString().trim().isEmpty()){
                     Toast.makeText(AbiodunActivity3.this, getString(R.string.error_empty_edittext), Toast.LENGTH_SHORT).show();
                     creditCardExpiry.requestFocus();
                 }
@@ -127,7 +127,13 @@ public class AbiodunActivity3 extends AppCompatActivity {
                     creditCardExpiry.requestFocus();
                 }
                 else {
-                    Intent intent = new Intent(AbiodunActivity3.this,AbiodunActivity2.class); //This is to be modified
+                    Intent intent = new Intent(AbiodunActivity3.this,AbiodunActivity4.class); //This is to be modified
+                    intent.putExtra("size",size);//Pizza Size,
+                    intent.putExtra("type",type);//Pizza Type,
+                    intent.putExtra("toppings",toppings);//Pizza Toppings
+                    intent.putExtra("name",customerName.getText().toString().trim());//Customer name
+                    intent.putExtra("address",customerAddress.getText().toString().trim());//Customer address
+                    startActivity(intent);
                 }
             }
         });

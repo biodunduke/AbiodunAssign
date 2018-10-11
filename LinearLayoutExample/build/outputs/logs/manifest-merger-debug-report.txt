@@ -4,9 +4,9 @@ ADDED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LinearLayoutExam
 INJECTED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LinearLayoutExample\src\main\AndroidManifest.xml:2:1-26:12
 INJECTED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LinearLayoutExample\src\main\AndroidManifest.xml:2:1-26:12
 INJECTED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LinearLayoutExample\src\main\AndroidManifest.xml:2:1-26:12
-MERGED from [com.android.support:gridlayout-v7:26.0.0-alpha1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\gridlayout-v7-26.0.0-alpha1.aar\4e976915b247a53e6f2df329d5943c8e\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-alpha1.aar\2452b81e84740857fa37d0b770f56325\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-alpha1.aar\7fd8668145b1a6043155489b9a199e4f\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:gridlayout-v7:26.0.0-alpha1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\gridlayout-v7-26.0.0-alpha1.aar\58df43aa7c37430e89a3884c62665e7f\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-alpha1.aar\4235887f4abb6a7199ab75bc44d086ba\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-alpha1.aar\7d82a11a40f5ba01a999ffee7d4498c3\AndroidManifest.xml:17:1-31:12
 INJECTED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LinearLayoutExample\src\main\AndroidManifest.xml:2:1-26:12
 INJECTED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LinearLayoutExample\src\main\AndroidManifest.xml:2:1-26:12
 INJECTED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LinearLayoutExample\src\main\AndroidManifest.xml:2:1-26:12
@@ -28,16 +28,16 @@ uses-sdk
 ADDED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LinearLayoutExample\src\main\AndroidManifest.xml:7:5-8:41
 INJECTED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LinearLayoutExample\src\main\AndroidManifest.xml:7:5-8:41
 INJECTED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LinearLayoutExample\src\main\AndroidManifest.xml:7:5-8:41
-MERGED from [com.android.support:gridlayout-v7:26.0.0-alpha1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\gridlayout-v7-26.0.0-alpha1.aar\4e976915b247a53e6f2df329d5943c8e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:gridlayout-v7:26.0.0-alpha1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\gridlayout-v7-26.0.0-alpha1.aar\4e976915b247a53e6f2df329d5943c8e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-alpha1.aar\2452b81e84740857fa37d0b770f56325\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-alpha1.aar\2452b81e84740857fa37d0b770f56325\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-alpha1.aar\7fd8668145b1a6043155489b9a199e4f\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-alpha1.aar\7fd8668145b1a6043155489b9a199e4f\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:gridlayout-v7:26.0.0-alpha1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\gridlayout-v7-26.0.0-alpha1.aar\58df43aa7c37430e89a3884c62665e7f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:gridlayout-v7:26.0.0-alpha1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\gridlayout-v7-26.0.0-alpha1.aar\58df43aa7c37430e89a3884c62665e7f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-alpha1.aar\4235887f4abb6a7199ab75bc44d086ba\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-alpha1.aar\4235887f4abb6a7199ab75bc44d086ba\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-alpha1.aar\7d82a11a40f5ba01a999ffee7d4498c3\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-alpha1.aar\7d82a11a40f5ba01a999ffee7d4498c3\AndroidManifest.xml:21:5-23:58
 INJECTED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LinearLayoutExample\src\main\AndroidManifest.xml:7:5-8:41
 INJECTED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LinearLayoutExample\src\main\AndroidManifest.xml:7:5-8:41
 	tools:overrideLibrary
-		ADDED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-alpha1.aar\2452b81e84740857fa37d0b770f56325\AndroidManifest.xml:23:9-55
+		ADDED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-alpha1.aar\4235887f4abb6a7199ab75bc44d086ba\AndroidManifest.xml:23:9-55
 	android:targetSdkVersion
 		ADDED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LinearLayoutExample\src\main\AndroidManifest.xml:8:9-38
 		INJECTED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LinearLayoutExample\src\main\AndroidManifest.xml
@@ -48,12 +48,12 @@ INJECTED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LinearLayoutE
 		INJECTED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LinearLayoutExample\src\main\AndroidManifest.xml
 application
 ADDED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LinearLayoutExample\src\main\AndroidManifest.xml:10:5-24:19
-MERGED from [com.android.support:gridlayout-v7:26.0.0-alpha1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\gridlayout-v7-26.0.0-alpha1.aar\4e976915b247a53e6f2df329d5943c8e\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:gridlayout-v7:26.0.0-alpha1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\gridlayout-v7-26.0.0-alpha1.aar\4e976915b247a53e6f2df329d5943c8e\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-alpha1.aar\2452b81e84740857fa37d0b770f56325\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-alpha1.aar\2452b81e84740857fa37d0b770f56325\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-alpha1.aar\7fd8668145b1a6043155489b9a199e4f\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-alpha1.aar\7fd8668145b1a6043155489b9a199e4f\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:gridlayout-v7:26.0.0-alpha1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\gridlayout-v7-26.0.0-alpha1.aar\58df43aa7c37430e89a3884c62665e7f\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:gridlayout-v7:26.0.0-alpha1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\gridlayout-v7-26.0.0-alpha1.aar\58df43aa7c37430e89a3884c62665e7f\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-alpha1.aar\4235887f4abb6a7199ab75bc44d086ba\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-alpha1.aar\4235887f4abb6a7199ab75bc44d086ba\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-alpha1.aar\7d82a11a40f5ba01a999ffee7d4498c3\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-alpha1.aar\7d82a11a40f5ba01a999ffee7d4498c3\AndroidManifest.xml:29:5-20
 	android:label
 		ADDED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LinearLayoutExample\src\main\AndroidManifest.xml:13:9-41
 	android:icon
@@ -79,12 +79,12 @@ ADDED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LinearLayoutExam
 	android:name
 		ADDED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LinearLayoutExample\src\main\AndroidManifest.xml:21:27-74
 meta-data#android.support.VERSION
-ADDED from [com.android.support:gridlayout-v7:26.0.0-alpha1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\gridlayout-v7-26.0.0-alpha1.aar\4e976915b247a53e6f2df329d5943c8e\AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-alpha1.aar\2452b81e84740857fa37d0b770f56325\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-alpha1.aar\2452b81e84740857fa37d0b770f56325\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-alpha1.aar\7fd8668145b1a6043155489b9a199e4f\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-alpha1.aar\7fd8668145b1a6043155489b9a199e4f\AndroidManifest.xml:25:5-27:41
+ADDED from [com.android.support:gridlayout-v7:26.0.0-alpha1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\gridlayout-v7-26.0.0-alpha1.aar\58df43aa7c37430e89a3884c62665e7f\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-alpha1.aar\4235887f4abb6a7199ab75bc44d086ba\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-alpha1.aar\4235887f4abb6a7199ab75bc44d086ba\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-alpha1.aar\7d82a11a40f5ba01a999ffee7d4498c3\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-alpha1.aar\7d82a11a40f5ba01a999ffee7d4498c3\AndroidManifest.xml:25:5-27:41
 	android:value
-		ADDED from [com.android.support:gridlayout-v7:26.0.0-alpha1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\gridlayout-v7-26.0.0-alpha1.aar\4e976915b247a53e6f2df329d5943c8e\AndroidManifest.xml:24:9-38
+		ADDED from [com.android.support:gridlayout-v7:26.0.0-alpha1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\gridlayout-v7-26.0.0-alpha1.aar\58df43aa7c37430e89a3884c62665e7f\AndroidManifest.xml:24:9-38
 	android:name
-		ADDED from [com.android.support:gridlayout-v7:26.0.0-alpha1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\gridlayout-v7-26.0.0-alpha1.aar\4e976915b247a53e6f2df329d5943c8e\AndroidManifest.xml:23:9-47
+		ADDED from [com.android.support:gridlayout-v7:26.0.0-alpha1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\gridlayout-v7-26.0.0-alpha1.aar\58df43aa7c37430e89a3884c62665e7f\AndroidManifest.xml:23:9-47
