@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/abiodun_dialog_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/abiodun_dialogTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:text="@string/order_confirmation"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/abiodun_confirmationView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/text_confirmation"
+        app:layout_constraintEnd_toEndOf="@+id/abiodun_dialogTitle"
+        app:layout_constraintStart_toStartOf="@+id/abiodun_dialogTitle"
+        app:layout_constraintTop_toBottomOf="@+id/abiodun_dialogTitle" />
+
+    <Button
+        android:id="@+id/abiodun_butDialogCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/but_dialog_cancel"
+        app:layout_constraintEnd_toEndOf="@+id/abiodun_confirmationView"
+        app:layout_constraintStart_toStartOf="@+id/abiodun_confirmationView"
+        app:layout_constraintTop_toBottomOf="@+id/abiodun_confirmationView" />
+</android.support.constraint.ConstraintLayout>

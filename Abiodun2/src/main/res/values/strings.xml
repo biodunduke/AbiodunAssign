@@ -52,4 +52,13 @@
     <string name="hint_credit_card_ccv2">3 digit CCV2</string>
     <string name="text_order_details">Order details: </string>
     <string name="text_customer_details">Customer Details</string>
+    <string name="but_checkout">Check Out</string>
+    <string name="topping_details"> with the following toppings: </string>
+    <string name="pizza"> Pizza </string>
+    <string name="order_confirmation">Order Confirmed</string>
+    <string name="text_confirmation">Checkout</string>
+    <string name="but_dialog_ok">OK</string>
+    <string name="but_dialog_cancel">Cancel</string>
+    <string name="orderNo">Order Number:</string>
+    <string name="orderReadyTime">Order will be ready for pickup at</string>
 </resources>
