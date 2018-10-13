@@ -36,7 +36,7 @@
         app:layout_constraintGuide_percent="0.04" />
 
     <TextView
-        android:id="@+id/abiodun_order_orderdetails"
+        android:id="@+id/abiodun_order_orderDetails"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
@@ -53,7 +53,7 @@
         android:layout_marginTop="4dp"
         app:layout_constraintEnd_toStartOf="@+id/abiodun_guideline_right"
         app:layout_constraintStart_toStartOf="@+id/abiodun_guideline_left"
-        app:layout_constraintTop_toBottomOf="@+id/abiodun_order_orderdetails" />
+        app:layout_constraintTop_toBottomOf="@+id/abiodun_order_orderDetails" />
 
     <TextView
         android:id="@+id/abiodun_order_customer_details"

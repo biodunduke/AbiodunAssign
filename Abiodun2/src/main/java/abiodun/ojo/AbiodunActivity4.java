@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.provider.MediaStore;
+import android.support.annotation.NonNull;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.NavUtils;
@@ -70,14 +71,14 @@ public class AbiodunActivity4 extends AppCompatActivity {
                 now.add(Calendar.HOUR,1); //One hour for Pizza to be ready for pickup
                 int pickupHour = now.get(Calendar.HOUR);
                 int pickupMinute = now.get(Calendar.MINUTE);
-                String ampm= "";
+                String AMPM;
                 if(now.get(Calendar.AM_PM)==0) //Find the time of the day in AM or PM
-                    ampm = "AM";
+                    AMPM = "AM";
                 else
-                    ampm = "PM";
+                    AMPM = "PM";
 
                 //Make the pickup time in string
-                String pickupTime = pickupHour+":"+pickupMinute+" "+ampm;
+                String pickupTime = pickupHour+":"+pickupMinute+" "+AMPM;
 
                 //Make AlertDialog
                 AlertDialog.Builder mBuilder = new AlertDialog.Builder(AbiodunActivity4.this);
@@ -101,8 +102,6 @@ public class AbiodunActivity4 extends AppCompatActivity {
                 dialog.show(); //Show the Alert Dialog
             }
         });
-
-
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -164,7 +163,7 @@ public class AbiodunActivity4 extends AppCompatActivity {
     }
 
     @Override
-    public void onRequestPermissionsResult(int requestCode, String permissions[], int[] grantResults) {
+    public void onRequestPermissionsResult(int requestCode, @NonNull String permissions[], @NonNull int[] grantResults) {
         switch (requestCode) {
             case PERMISSION_REQUEST_CODE:
                 if (grantResults.length > 0) {

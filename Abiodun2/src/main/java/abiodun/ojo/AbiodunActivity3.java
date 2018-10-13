@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.provider.MediaStore;
+import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.NavUtils;
 import android.support.v4.content.ContextCompat;
@@ -106,6 +107,9 @@ public class AbiodunActivity3 extends AppCompatActivity {
         butOrder.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                if (imgID == 1) menu.findItem(R.id.abiodun_pizza).setIcon(R.drawable.logo_pizzahut);
+                if (imgID == 2) menu.findItem(R.id.abiodun_pizza).setIcon(R.drawable.logo_pizzanova);
+                if (imgID == 3) menu.findItem(R.id.abiodun_pizza).setIcon(R.drawable.logo_pizzapizza);
                 //Submit Validations  //Empty
                 if (customerName.getText().toString().trim().isEmpty()){
                     Toast.makeText(AbiodunActivity3.this, getString(R.string.error_empty_edittext), Toast.LENGTH_SHORT).show();
@@ -149,6 +153,7 @@ public class AbiodunActivity3 extends AppCompatActivity {
                     intent.putExtra("name",customerName.getText().toString().trim());//Customer name
                     intent.putExtra("address",customerAddress.getText().toString().trim());//Customer address
                     intent.putExtra("url",url);
+                    intent.putExtra("id",imgID);
                     startActivity(intent);
                 }
             }
@@ -226,7 +231,7 @@ public class AbiodunActivity3 extends AppCompatActivity {
     }
 
     @Override
-    public void onRequestPermissionsResult(int requestCode, String permissions[], int[] grantResults) {
+    public void onRequestPermissionsResult(int requestCode, @NonNull String permissions[], @NonNull int[] grantResults) {
         switch (requestCode) {
             case PERMISSION_REQUEST_CODE:
                 if (grantResults.length > 0) {

@@ -106,37 +106,34 @@ public class AbiodunActivity2 extends AppCompatActivity {
             }
         });
         //Checkboxes
-        mushroom = findViewById(R.id.abiodun_chkbx_mushroom);
-        beef = findViewById(R.id.abiodun_chkbx_beef);
-        bacon = findViewById(R.id.abiodun_chkbx_bacon);
-        pepperoni = findViewById(R.id.abiodun_chkbx_pepperoni);
-        lettuce= findViewById(R.id.abiodun_chkbx_lettuce);
-        ham = findViewById(R.id.abiodun_chkbx_ham);
-        chicken = findViewById(R.id.abiodun_chkbx_chicken);
+        mushroom = findViewById(R.id.abiodun_chkBox_mushroom);
+        beef = findViewById(R.id.abiodun_chkBox_beef);
+        bacon = findViewById(R.id.abiodun_chkBox_bacon);
+        pepperoni = findViewById(R.id.abiodun_chkBox_pepperoni);
+        lettuce= findViewById(R.id.abiodun_chkBox_lettuce);
+        ham = findViewById(R.id.abiodun_chkBox_ham);
+        chicken = findViewById(R.id.abiodun_chkBox_chicken);
 
             but_shop_next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
                 if (imgID == 1) {
-                    //intent.putExtra("selection", R.drawable.logo_pizzahut);
                     selection = R.drawable.logo_pizzahut;
                     menu.findItem(R.id.abiodun_pizza).setIcon(R.drawable.logo_pizzahut);
                 }
                 if (imgID == 2) {
-                 //   intent.putExtra("selection", R.drawable.logo_pizzanova);
                     selection = R.drawable.logo_pizzanova;
                     menu.findItem(R.id.abiodun_pizza).setIcon(R.drawable.logo_pizzanova);
                 }
                 if (imgID == 3) {
-                  //  intent.putExtra("selection", R.drawable.logo_pizzapizza);
                     selection = R.drawable.logo_pizzapizza;
                     menu.findItem(R.id.abiodun_pizza).setIcon(R.drawable.logo_pizzapizza);
                 }
                 Intent intent = new Intent(AbiodunActivity2.this, AbiodunActivity3.class);
-                if (selectedSize =="")
+                if (selectedSize.isEmpty())
                     Toast.makeText(AbiodunActivity2.this,R.string.error_select_size,Toast.LENGTH_LONG).show();
-                else if (selectedType=="")
+                else if (selectedType.isEmpty())
                     Toast.makeText(AbiodunActivity2.this,R.string.error_select_type,Toast.LENGTH_LONG).show();
                 else if(numChecked()<5)
                     Toast.makeText(AbiodunActivity2.this,getString(R.string.select_toppings),Toast.LENGTH_LONG).show();
@@ -144,6 +141,7 @@ public class AbiodunActivity2 extends AppCompatActivity {
                     intent.putExtra("size", selectedSize);
                     intent.putExtra("type", selectedType);
                     intent.putExtra("selection",selection);
+                    intent.putExtra("id",imgID);
 
                     if(bacon.isChecked()) selectedTopping=selectedTopping +" "+bacon.getText().toString();
                     if(mushroom.isChecked()) selectedTopping=selectedTopping +" "+mushroom.getText().toString();
@@ -243,7 +241,7 @@ public class AbiodunActivity2 extends AppCompatActivity {
         finish();
         return true;
     }
-    public int numChecked(){
+    public int numChecked(){ //To count the number of checked items
         int num =0;
         if(bacon.isChecked())
             num++;
@@ -260,28 +258,5 @@ public class AbiodunActivity2 extends AppCompatActivity {
         if(ham.isChecked())
             num++;
         return num;
-    }
-
-    public String toppingSelected(){
-        String array[]=new String[numOfToppings];
-        int i=0;
-        if(bacon.isChecked())
-        {array[i]=bacon.getText().toString();i++;}
-        if(mushroom.isChecked())
-        {array[i]=mushroom.getText().toString();i++;}
-        if(pepperoni.isChecked())
-        {array[i]=pepperoni.getText().toString();i++;}
-        if(beef.isChecked())
-        {array[i]=beef.getText().toString();i++;}
-        if(chicken.isChecked())
-        {array[i]=chicken.getText().toString();i++;}
-        if(lettuce.isChecked())
-        {array[i]=lettuce.getText().toString();i++;}
-        if(ham.isChecked())
-        {array[i]=ham.getText().toString();}
-        String string="";
-        for(i=0; i<array.length;i++)
-            string = string + ", " + array[i];
-        return string;
     }
 }

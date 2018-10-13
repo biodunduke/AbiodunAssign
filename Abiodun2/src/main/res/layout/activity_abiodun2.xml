@@ -179,7 +179,7 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <CheckBox
-                android:id="@+id/abiodun_chkbx_mushroom"
+                android:id="@+id/abiodun_chkBox_mushroom"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
@@ -189,52 +189,52 @@
                 app:layout_constraintTop_toBottomOf="@+id/abiodun_text_topping" />
 
             <CheckBox
-                android:id="@+id/abiodun_chkbx_bacon"
+                android:id="@+id/abiodun_chkBox_bacon"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/topping_bacon"
-                app:layout_constraintStart_toStartOf="@+id/abiodun_chkbx_mushroom"
-                app:layout_constraintTop_toBottomOf="@+id/abiodun_chkbx_mushroom" />
+                app:layout_constraintStart_toStartOf="@+id/abiodun_chkBox_mushroom"
+                app:layout_constraintTop_toBottomOf="@+id/abiodun_chkBox_mushroom" />
 
             <CheckBox
-                android:id="@+id/abiodun_chkbx_beef"
+                android:id="@+id/abiodun_chkBox_beef"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:text="@string/topping_beef"
-                app:layout_constraintStart_toStartOf="@+id/abiodun_chkbx_mushroom"
-                app:layout_constraintTop_toBottomOf="@+id/abiodun_chkbx_bacon" />
+                app:layout_constraintStart_toStartOf="@+id/abiodun_chkBox_mushroom"
+                app:layout_constraintTop_toBottomOf="@+id/abiodun_chkBox_bacon" />
 
             <CheckBox
-                android:id="@+id/abiodun_chkbx_lettuce"
+                android:id="@+id/abiodun_chkBox_lettuce"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/topping_lettuce"
-                app:layout_constraintStart_toStartOf="@+id/abiodun_chkbx_mushroom"
-                app:layout_constraintTop_toBottomOf="@+id/abiodun_chkbx_beef" />
+                app:layout_constraintStart_toStartOf="@+id/abiodun_chkBox_mushroom"
+                app:layout_constraintTop_toBottomOf="@+id/abiodun_chkBox_beef" />
 
             <CheckBox
-                android:id="@+id/abiodun_chkbx_ham"
+                android:id="@+id/abiodun_chkBox_ham"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/topping_ham"
-                app:layout_constraintStart_toStartOf="@+id/abiodun_chkbx_mushroom"
-                app:layout_constraintTop_toBottomOf="@+id/abiodun_chkbx_lettuce" />
+                app:layout_constraintStart_toStartOf="@+id/abiodun_chkBox_mushroom"
+                app:layout_constraintTop_toBottomOf="@+id/abiodun_chkBox_lettuce" />
 
             <CheckBox
-                android:id="@+id/abiodun_chkbx_chicken"
+                android:id="@+id/abiodun_chkBox_chicken"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/topping_chicken"
-                app:layout_constraintStart_toStartOf="@+id/abiodun_chkbx_mushroom"
-                app:layout_constraintTop_toBottomOf="@+id/abiodun_chkbx_ham" />
+                app:layout_constraintStart_toStartOf="@+id/abiodun_chkBox_mushroom"
+                app:layout_constraintTop_toBottomOf="@+id/abiodun_chkBox_ham" />
 
             <CheckBox
-                android:id="@+id/abiodun_chkbx_pepperoni"
+                android:id="@+id/abiodun_chkBox_pepperoni"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/topping_pepperoni"
-                app:layout_constraintStart_toStartOf="@+id/abiodun_chkbx_mushroom"
-                app:layout_constraintTop_toBottomOf="@+id/abiodun_chkbx_chicken" />
+                app:layout_constraintStart_toStartOf="@+id/abiodun_chkBox_mushroom"
+                app:layout_constraintTop_toBottomOf="@+id/abiodun_chkBox_chicken" />
 
         </android.support.constraint.ConstraintLayout>
     </LinearLayout>
