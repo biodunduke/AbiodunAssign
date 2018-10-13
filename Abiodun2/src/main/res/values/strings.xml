@@ -61,4 +61,13 @@
     <string name="but_dialog_cancel">Cancel</string>
     <string name="orderNo">Order Number:</string>
     <string name="orderReadyTime">Order will be ready for pickup at</string>
+    <string name="invalid_url">Invalid URL</string>
+    <string name="github_url">http://github.com/biodunduke/</string>
+    <string name="pizza_hut_url">https://www.pizzahut.ca/home</string>
+    <string name="pizzanova_url">https://pizzanova.com/</string>
+    <string name="pizzapizza_url">https://www.pizzapizza.ca/</string>
+    <string name="access_granted">Access already granted</string>
+    <string name="access_notGranted">Requesting Camera Access</string>
+    <string name="request_granted">You granted Camera Access</string>
+    <string name="request_declined">You declined Camera Access</string>
 </resources>

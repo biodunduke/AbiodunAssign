@@ -41,7 +41,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:text="@string/text_order_details"
-        android:textSize="20sp"
+        android:textSize="30sp"
         app:layout_constraintEnd_toStartOf="@+id/abiodun_guideline_right"
         app:layout_constraintStart_toStartOf="@+id/abiodun_guideline_left"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
@@ -61,7 +61,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="@string/text_customer_details"
-        android:textSize="20sp"
+        android:textSize="30sp"
         app:layout_constraintEnd_toStartOf="@+id/abiodun_guideline_right"
         app:layout_constraintStart_toStartOf="@+id/abiodun_guideline_left"
         app:layout_constraintTop_toBottomOf="@+id/abiodun_order_details" />
