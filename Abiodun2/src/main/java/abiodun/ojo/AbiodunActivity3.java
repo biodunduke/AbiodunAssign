@@ -89,7 +89,7 @@ public class AbiodunActivity3 extends AppCompatActivity {
                 if(cardNo.isEmpty())
                     creditCardNo.setError(getString(R.string.error_empty_edittext));
                 else if (cardNo.length()!=16)
-                    creditCardNo.setError(getString(R.string.error_creditcard_length));
+                    creditCardNo.setError(getString(R.string.error_creditCard_length));
             }
         });
 
@@ -100,7 +100,7 @@ public class AbiodunActivity3 extends AppCompatActivity {
                 if(cardExpiry.isEmpty())
                     creditCardExpiry.setError(getString(R.string.error_empty_edittext));
              else if(cardExpiry.length()!=4)
-                creditCardExpiry.setError(getString(R.string.error_creditcard_expiry));
+                creditCardExpiry.setError(getString(R.string.error_creditCard_expiry));
             }
         });
 
@@ -138,11 +138,11 @@ public class AbiodunActivity3 extends AppCompatActivity {
                     customerName.requestFocus();
                 }
                 else if(creditCardNo.getText().toString().trim().length()!=16){
-                    Toast.makeText(AbiodunActivity3.this, getString(R.string.error_creditcard_length), Toast.LENGTH_SHORT).show();
+                    Toast.makeText(AbiodunActivity3.this, getString(R.string.error_creditCard_length), Toast.LENGTH_SHORT).show();
                     creditCardNo.requestFocus();
                 }
                 else if(creditCardExpiry.getText().toString().trim().length()!=4){
-                    Toast.makeText(AbiodunActivity3.this,getString(R.string.error_creditcard_expiry),Toast.LENGTH_SHORT).show();
+                    Toast.makeText(AbiodunActivity3.this,getString(R.string.error_creditCard_expiry),Toast.LENGTH_SHORT).show();
                     creditCardExpiry.requestFocus();
                 }
                 else {

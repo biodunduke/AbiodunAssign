@@ -39,10 +39,10 @@
     <string name="error_empty_edittext">Ce champ est requis</string>
     <string name="error_name_length">Le nom est trop court</string>
     <string name="error_name_char">Le nom doit être en lettres seulement</string>
-    <string name="error_creditcard_length">Longueur de carte de crédit invalide</string>
-    <string name="error_creditcard_expiry">Date d\'expiration invalide</string>
-    <string name="error_creditcard_expiry_month">Mois d\'expiration invalide</string>
-    <string name="error_creditcard_expiry_year">Année d\'expiration invalide</string>
+    <string name="error_creditCard_length">Longueur de carte de crédit invalide</string>
+    <string name="error_creditCard_expiry">Date d\'expiration invalide</string>
+    <string name="error_creditCard_expiry_month">Mois d\'expiration invalide</string>
+    <string name="error_creditCard_expiry_year">Année d\'expiration invalide</string>
     <string name="desc_pizza_shop">Image de Pizza Shop</string>
     <string name="select_toppings">Sélectionnez au moins 5 garnitures</string>
     <string name="hint_name">Nom complet</string>

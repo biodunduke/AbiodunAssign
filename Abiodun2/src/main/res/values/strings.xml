@@ -39,10 +39,10 @@
     <string name="error_empty_edittext">This field is required</string>
     <string name="error_name_length">Name is too short</string>
     <string name="error_name_char">Name must be letters only</string>
-    <string name="error_creditcard_length">Invalid credit card length</string>
-    <string name="error_creditcard_expiry">Invalid expiry date</string>
-    <string name="error_creditcard_expiry_month">Invalid expiry month</string>
-    <string name="error_creditcard_expiry_year">Invalid expiry year</string>
+    <string name="error_creditCard_length">Invalid credit card length</string>
+    <string name="error_creditCard_expiry">Invalid expiry date</string>
+    <string name="error_creditCard_expiry_month">Invalid expiry month</string>
+    <string name="error_creditCard_expiry_year">Invalid expiry year</string>
     <string name="desc_pizza_shop">Image of Pizza Shop</string>
     <string name="select_toppings">Select at least 5 toppings</string>
     <string name="hint_name">Full Name</string>
