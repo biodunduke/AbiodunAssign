@@ -134,7 +134,7 @@ public class AbiodunActivity3 extends AppCompatActivity {
                     customerName.requestFocus();
                 }
                 //Customer name must not contain letter
-                else if(!isAlpha(customerName.getText().toString().trim())){
+                else if(!isAlpha(customerName.getText().toString())){
                     Toast.makeText(AbiodunActivity3.this, getString(R.string.error_name_char), Toast.LENGTH_SHORT).show();
                     customerName.requestFocus();
                 }
@@ -165,6 +165,7 @@ public class AbiodunActivity3 extends AppCompatActivity {
     public boolean isAlpha(String name){
         char[] chars = name.toCharArray();
         for(char c : chars){
+            if(Character.isSpaceChar(c)) continue;//Skip the white spaces
             if(!Character.isLetter(c))
                 return false;
         }
