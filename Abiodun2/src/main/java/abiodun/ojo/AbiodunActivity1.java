@@ -1,13 +1,10 @@
 package abiodun.ojo;
 
 import android.content.ActivityNotFoundException;
-import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
-import android.media.Image;
 import android.net.Uri;
 import android.provider.MediaStore;
-import android.support.design.widget.Snackbar;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
@@ -39,10 +36,10 @@ public class AbiodunActivity1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_abiodun1);
         imgView  = findViewById(R.id.abiodun_pizza);
-        Button but_next = (Button)findViewById(R.id.abiodun_but_next);
-        imgPizzaHut = (ImageButton)findViewById(R.id.abiodun_pizzahut);
-        imgPizzaNova = (ImageButton)findViewById(R.id.abiodun_pizzanova);
-        imgPizzaPizza = (ImageButton)findViewById(R.id.abiodun_pizzapizza);
+        Button but_next = findViewById(R.id.abiodun_but_next);
+        imgPizzaHut = findViewById(R.id.abiodun_pizzahut);
+        imgPizzaNova = findViewById(R.id.abiodun_pizzanova);
+        imgPizzaPizza = findViewById(R.id.abiodun_pizzapizza);
 
         imgPizzaHut.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -1,8 +1,4 @@
-/**
- * Abiodun Ojo
- * N01178447
- * Assignment 2
- */
+
 package abiodun.ojo;
 
 import android.content.ActivityNotFoundException;
@@ -110,8 +106,7 @@ public class AbiodunActivity3 extends AppCompatActivity {
         butOrder.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //Submit Validations
-                //Empty
+                //Submit Validations  //Empty
                 if (customerName.getText().toString().trim().isEmpty()){
                     Toast.makeText(AbiodunActivity3.this, getString(R.string.error_empty_edittext), Toast.LENGTH_SHORT).show();
                     customerName.requestFocus();

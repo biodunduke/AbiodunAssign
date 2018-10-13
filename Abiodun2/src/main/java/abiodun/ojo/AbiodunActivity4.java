@@ -67,7 +67,7 @@ public class AbiodunActivity4 extends AppCompatActivity {
                 int confirmationNumber = random.nextInt((MAX-MIN)+1)+MIN;
                 //Get the time of the day
                 Calendar now = Calendar.getInstance();
-                now.add(Calendar.HOUR,1);
+                now.add(Calendar.HOUR,1); //One hour for Pizza to be ready for pickup
                 int pickupHour = now.get(Calendar.HOUR);
                 int pickupMinute = now.get(Calendar.MINUTE);
                 String ampm= "";

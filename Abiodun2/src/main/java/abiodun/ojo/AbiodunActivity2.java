@@ -1,8 +1,4 @@
-/**
- * Abiodun Ojo
- * N01178447
- * Assignment 2
- */
+
 package abiodun.ojo;
 
 import android.content.ActivityNotFoundException;
@@ -41,6 +37,7 @@ public class AbiodunActivity2 extends AppCompatActivity {
     String selectedType="";
     String selectedTopping="";
     int i,numOfToppings =0;
+    int selection=0;
     String []topping = new String[numOfToppings];
     List<String> list = new ArrayList<>();
     RadioGroup rdgSize, rdgType;
@@ -59,20 +56,11 @@ public class AbiodunActivity2 extends AppCompatActivity {
         url = bundle.getString("url");
 
         Button but_shop_next = findViewById(R.id.abiodun_shop_but_next); //Next button
-        ImageView img = (ImageView)findViewById(R.id.abiodun_shop_image); //To show the store image
+        ImageView img = findViewById(R.id.abiodun_shop_image); //To show the store image
         //Setting the right image according to user's selection
-        if(imgID==1) {
-            img.setImageResource(R.drawable.pizzahut);
-           // menu.findItem(R.id.abiodun_pizza).setIcon(R.drawable.logo_pizzahut);
-        }
-        if(imgID==2) {
-            img.setImageResource(R.drawable.pizzanova);
-           // menu.findItem(R.id.abiodun_pizza).setIcon(R.drawable.logo_pizzanova);
-        }
-        if(imgID==3) {
-            img.setImageResource(R.drawable.pizzapizza);
-         //   menu.findItem(R.id.abiodun_pizza).setIcon(R.drawable.logo_pizzapizza);
-        }
+        if(imgID==1) img.setImageResource(R.drawable.pizzahut);
+        if(imgID==2)img.setImageResource(R.drawable.pizzanova);
+        if(imgID==3)img.setImageResource(R.drawable.pizzapizza);
         //Radio Selection
         rdgSize = findViewById(R.id.abiodun_rg_size);
         rdgType = findViewById(R.id.abiodun_rg_type);
@@ -129,6 +117,22 @@ public class AbiodunActivity2 extends AppCompatActivity {
             but_shop_next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+                if (imgID == 1) {
+                    //intent.putExtra("selection", R.drawable.logo_pizzahut);
+                    selection = R.drawable.logo_pizzahut;
+                    menu.findItem(R.id.abiodun_pizza).setIcon(R.drawable.logo_pizzahut);
+                }
+                if (imgID == 2) {
+                 //   intent.putExtra("selection", R.drawable.logo_pizzanova);
+                    selection = R.drawable.logo_pizzanova;
+                    menu.findItem(R.id.abiodun_pizza).setIcon(R.drawable.logo_pizzanova);
+                }
+                if (imgID == 3) {
+                  //  intent.putExtra("selection", R.drawable.logo_pizzapizza);
+                    selection = R.drawable.logo_pizzapizza;
+                    menu.findItem(R.id.abiodun_pizza).setIcon(R.drawable.logo_pizzapizza);
+                }
                 Intent intent = new Intent(AbiodunActivity2.this, AbiodunActivity3.class);
                 if (selectedSize =="")
                     Toast.makeText(AbiodunActivity2.this,R.string.error_select_size,Toast.LENGTH_LONG).show();
@@ -137,40 +141,27 @@ public class AbiodunActivity2 extends AppCompatActivity {
                 else if(numChecked()<5)
                     Toast.makeText(AbiodunActivity2.this,getString(R.string.select_toppings),Toast.LENGTH_LONG).show();
                 else{
-                if (imgID == 1) {
-                    intent.putExtra("selection", R.drawable.logo_pizzahut);
-                    menu.findItem(R.id.abiodun_pizza).setIcon(R.drawable.logo_pizzahut);
-                }
-                if (imgID == 2)
-                    intent.putExtra("selection", R.drawable.logo_pizzanova);
-                if (imgID == 3)
-                    intent.putExtra("selection", R.drawable.logo_pizzapizza);
-                intent.putExtra("size", selectedSize);
-                intent.putExtra("type", selectedType);
-                    int i=0;
-                    if(bacon.isChecked())
-                    {selectedTopping=selectedTopping +" "+bacon.getText().toString();i++;}
-                    if(mushroom.isChecked())
-                    {selectedTopping=selectedTopping +" "+mushroom.getText().toString();i++;}
-                    if(pepperoni.isChecked())
-                    {selectedTopping=selectedTopping +" "+pepperoni.getText().toString();i++;}
-                    if(beef.isChecked())
-                    {selectedTopping=selectedTopping +" "+beef.getText().toString();i++;}
-                    if(chicken.isChecked())
-                    {selectedTopping=selectedTopping +" "+chicken.getText().toString();i++;}
-                    if(lettuce.isChecked())
-                    {selectedTopping=selectedTopping +" "+lettuce.getText().toString();i++;}
-                    if(ham.isChecked())
-                    {selectedTopping=selectedTopping +" "+ham.getText().toString();}
-                   intent.putExtra("toppings", selectedTopping);
+                    intent.putExtra("size", selectedSize);
+                    intent.putExtra("type", selectedType);
+                    intent.putExtra("selection",selection);
+
+                    if(bacon.isChecked()) selectedTopping=selectedTopping +" "+bacon.getText().toString();
+                    if(mushroom.isChecked()) selectedTopping=selectedTopping +" "+mushroom.getText().toString();
+                    if(pepperoni.isChecked()) selectedTopping=selectedTopping +" "+pepperoni.getText().toString();
+                    if(beef.isChecked()) selectedTopping=selectedTopping +" "+beef.getText().toString();
+                    if(chicken.isChecked()) selectedTopping=selectedTopping +" "+chicken.getText().toString();
+                    if(lettuce.isChecked()) selectedTopping=selectedTopping +" "+lettuce.getText().toString();
+                    if(ham.isChecked()) selectedTopping=selectedTopping +" "+ham.getText().toString();
+
+                    intent.putExtra("toppings", selectedTopping);
                     intent.putExtra("url",url);
-              startActivity(intent);
+                    startActivity(intent);
             }
             }
         });
     }
     @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
+    public boolean onCreateOptionsMenu(Menu menu) {  //Create Menu and Inflate it
         getMenuInflater().inflate(R.menu.menu, menu);
         this.menu = menu;
         return true;
@@ -294,8 +285,3 @@ public class AbiodunActivity2 extends AppCompatActivity {
         return string;
     }
 }
-
-/*
-case R.id.homeAsUp: //Takes you to previous parent activity
-        NavUtils.navigateUpFromSameTask(AbiodunActivity2.this);
-        return true;*/
