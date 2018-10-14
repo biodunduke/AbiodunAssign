@@ -49,10 +49,16 @@ public class AbiodunActivity2 extends AppCompatActivity {
     int imgID;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_abiodun2);
         Bundle bundle = getIntent().getExtras();
         imgID=bundle.getInt("id");
+        if(imgID==1) setTheme(R.style.PizzaHut);
+        if(imgID==2) setTheme(R.style.PizzaNova);
+        if(imgID==3) setTheme(R.style.PizzaPizza);
+
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_abiodun2);
+
+
         url = bundle.getString("url");
 
         Button but_shop_next = findViewById(R.id.abiodun_shop_but_next); //Next button

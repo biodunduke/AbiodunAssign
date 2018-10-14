@@ -31,6 +31,7 @@ public class AbiodunActivity1 extends AppCompatActivity {
     String url="";
     private static final int PERMISSION_REQUEST_CODE = 100;
     private View view;
+    int theme = R.style.AppTheme;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -49,7 +50,9 @@ public class AbiodunActivity1 extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(),getResources().getString(R.string.text_pizzahut),Toast.LENGTH_SHORT).show();
                 url = getResources().getString(R.string.pizza_hut_url);
                 menu.findItem(R.id.abiodun_pizza).setIcon(R.drawable.logo_pizzahut);
-        }
+                v=findViewById(R.id.biodun_constraint_layout);
+                v.setBackgroundResource(R.drawable.bg_pizzahut);
+            }
         });
         imgPizzaNova.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -59,6 +62,8 @@ public class AbiodunActivity1 extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(),getResources().getString(R.string.text_pizzanova),Toast.LENGTH_SHORT).show();
                 url = getResources().getString(R.string.pizzanova_url);
                 menu.findItem(R.id.abiodun_pizza).setIcon(R.drawable.logo_pizzanova);
+                v=findViewById(R.id.biodun_constraint_layout);
+                v.setBackgroundResource(R.drawable.bg_pizzanova);
             }
         });
         imgPizzaPizza.setOnClickListener(new View.OnClickListener() {
@@ -69,6 +74,8 @@ public class AbiodunActivity1 extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(),getResources().getString(R.string.text_pizzapizza),Toast.LENGTH_SHORT).show();
                 url = getResources().getString(R.string.pizzapizza_url);
                 menu.findItem(R.id.abiodun_pizza).setIcon(R.drawable.logo_pizzapizza);
+                v=findViewById(R.id.biodun_constraint_layout);
+                v.setBackgroundResource(R.drawable.bg_pizzapizza);
             }
         });
         but_next.setOnClickListener(new View.OnClickListener() {

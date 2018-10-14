@@ -39,11 +39,16 @@ public class AbiodunActivity4 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        Bundle bundle = getIntent().getExtras();
+        imgID=bundle.getInt("id");
+        if(imgID==1) setTheme(R.style.PizzaHut);
+        if(imgID==2) setTheme(R.style.PizzaNova);
+        if(imgID==3) setTheme(R.style.PizzaPizza);
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_abiodun4);
 
         //Get values passed from the previous screen
-        Bundle bundle = getIntent().getExtras();
         final String name = bundle.getString("name");
         final String type = bundle.getString("type");
         final String size = bundle.getString("size");

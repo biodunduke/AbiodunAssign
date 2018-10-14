@@ -27,7 +27,6 @@
         <item name="android:layout_marginTop" >10dp</item>
         <item name="android:textSize" >10pt</item>
         <item name="android:background" >#FF0000</item>
-        <!--<item name="android:background">#87CEEB</item> -->
 
     </style>
 
