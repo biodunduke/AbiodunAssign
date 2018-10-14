@@ -33,25 +33,22 @@ public class AbiodunActivity2 extends AppCompatActivity {
      * N01178447
      * Assignment 2
      */
-    String selectedSize="";
-    String selectedType="";
-    String selectedTopping="";
-    int i,numOfToppings =0;
-    int selection=0;
-    String []topping = new String[numOfToppings];
-    List<String> list = new ArrayList<>();
+    String selectedSize="", selectedType="",selectedTopping="",url=""; //Strings to retrieve values from the previous activity
+    int i,selection=0;
     RadioGroup rdgSize, rdgType;
     RadioButton thick,thin, regular,large,medium,small;
     CheckBox mushroom,bacon,lettuce,pepperoni,ham,beef,chicken;
     Menu menu;  //Global menu declaration to access menu item
-    String url="";
 
     private static final int PERMISSION_REQUEST_CODE = 100;
     int imgID;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        //Retrieve contents from the previuos activity
         Bundle bundle = getIntent().getExtras();
         imgID=bundle.getInt("id");
+        url = bundle.getString("url");
+        //Set the right theme according to previous user selection
         if(imgID==1) {
             setTheme(R.style.PizzaHut);
         }
@@ -64,8 +61,6 @@ public class AbiodunActivity2 extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_abiodun2);
-
-        url = bundle.getString("url");
 
         Button but_shop_next = findViewById(R.id.abiodun_shop_but_next); //Next button
         ImageView img = findViewById(R.id.abiodun_shop_image); //To show the store image
@@ -84,6 +79,7 @@ public class AbiodunActivity2 extends AppCompatActivity {
         thin = findViewById(R.id.abiodun_rad_type_thin);
         regular = findViewById(R.id.abiodun_rad_type_regular);
 
+        //Getting the size from the radio button click
         rdgSize.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup group, int checkedId) {
@@ -101,6 +97,7 @@ public class AbiodunActivity2 extends AppCompatActivity {
             }
         });
 
+        //Getting the type from the radio button click
         rdgType.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup group, int checkedId) {
@@ -117,7 +114,7 @@ public class AbiodunActivity2 extends AppCompatActivity {
                 }
             }
         });
-        //Checkboxes
+        //Checkboxes for toppings
         mushroom = findViewById(R.id.abiodun_chkBox_mushroom);
         beef = findViewById(R.id.abiodun_chkBox_beef);
         bacon = findViewById(R.id.abiodun_chkBox_bacon);
@@ -126,15 +123,16 @@ public class AbiodunActivity2 extends AppCompatActivity {
         ham = findViewById(R.id.abiodun_chkBox_ham);
         chicken = findViewById(R.id.abiodun_chkBox_chicken);
 
+        //When the next button is clicked
             but_shop_next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
                 if (imgID == 1) {
-                    selection = R.drawable.logo_pizzahut;
-                    menu.findItem(R.id.abiodun_pizza).setIcon(R.drawable.logo_pizzahut);
+                    selection = R.drawable.logo_pizzahut; //Save the selected image's id
+                    menu.findItem(R.id.abiodun_pizza).setIcon(R.drawable.logo_pizzahut); //Change the menu item "Pizza"'s backgroud. This is not proper
                     v=findViewById(R.id.abiodun_constraint_2_0);
-                    v.setBackgroundResource(R.drawable.bg_pizzahut);
+                    v.setBackgroundResource(R.drawable.bg_pizzahut); //Change the background
                 }
                 if (imgID == 2) {
                     selection = R.drawable.logo_pizzanova;
@@ -148,7 +146,7 @@ public class AbiodunActivity2 extends AppCompatActivity {
                     v=findViewById(R.id.abiodun_constraint_2_0);
                     v.setBackgroundResource(R.drawable.bg_pizzapizza);
                 }
-                Intent intent = new Intent(AbiodunActivity2.this, AbiodunActivity3.class);
+                //Validations for size, type, and toppings of 5 at minimum
                 if (selectedSize.isEmpty())
                     Toast.makeText(AbiodunActivity2.this,R.string.error_select_size,Toast.LENGTH_LONG).show();
                 else if (selectedType.isEmpty())
@@ -156,11 +154,13 @@ public class AbiodunActivity2 extends AppCompatActivity {
                 else if(numChecked()<5)
                     Toast.makeText(AbiodunActivity2.this,getString(R.string.select_toppings),Toast.LENGTH_LONG).show();
                 else{
+                    Intent intent = new Intent(AbiodunActivity2.this, AbiodunActivity3.class);
                     intent.putExtra("size", selectedSize);
                     intent.putExtra("type", selectedType);
                     intent.putExtra("selection",selection);
                     intent.putExtra("id",imgID);
 
+                    //Find the actual checked toppings and make a string "selectedTopping"
                     if(bacon.isChecked()) selectedTopping=selectedTopping +" "+bacon.getText().toString();
                     if(mushroom.isChecked()) selectedTopping=selectedTopping +" "+mushroom.getText().toString();
                     if(pepperoni.isChecked()) selectedTopping=selectedTopping +" "+pepperoni.getText().toString();
@@ -253,6 +253,8 @@ public class AbiodunActivity2 extends AppCompatActivity {
                 }
         }
     }
+
+    //To navigate to the home screen
     @Override
     public boolean onSupportNavigateUp() {
         super.onSupportNavigateUp();

@@ -39,19 +39,16 @@ public class AbiodunActivity3 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         Bundle bundle = getIntent().getExtras();
         imgID=bundle.getInt("id");
-        if(imgID==1) {
-            setTheme(R.style.PizzaHut);
-        }
+        if(imgID==1)setTheme(R.style.PizzaHut);
         if(imgID==2) setTheme(R.style.PizzaNova);
         if(imgID==3) setTheme(R.style.PizzaPizza);
-
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_abiodun3);
         final int selectionID=bundle.getInt("selection"); //Retrieve the items passed
-      final String size = bundle.getString("size");
-       final String type = bundle.getString("type");
-      final   String toppings = bundle.getString("toppings");
+        final String size = bundle.getString("size");
+        final String type = bundle.getString("type");
+        final   String toppings = bundle.getString("toppings");
         imgID=bundle.getInt("id");
         url = bundle.getString("url");
 
@@ -69,7 +66,7 @@ public class AbiodunActivity3 extends AppCompatActivity {
         creditCardExpiry = findViewById(R.id.abiodun_edit_text_credit_card_expiry);
 
 
-        // Validations
+        // Validations when the user goes to another item
         customerName.setOnFocusChangeListener(new View.OnFocusChangeListener() {
             @Override
             public void onFocusChange(View v, boolean hasFocus) {
@@ -111,7 +108,7 @@ public class AbiodunActivity3 extends AppCompatActivity {
                 creditCardExpiry.setError(getString(R.string.error_creditCard_expiry));
             }
         });
-
+        //When the order button is clicke, do some validations again
         butOrder.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -121,7 +118,7 @@ public class AbiodunActivity3 extends AppCompatActivity {
                 //Submit Validations  //Empty
                 if (customerName.getText().toString().trim().isEmpty()){
                     Toast.makeText(AbiodunActivity3.this, getString(R.string.error_empty_edittext), Toast.LENGTH_SHORT).show();
-                    customerName.requestFocus();
+                    customerName.requestFocus(); //Set the focus back so user can correct the error
                     }
                 else if (customerAddress.getText().toString().trim().isEmpty()) {
                     Toast.makeText(AbiodunActivity3.this, getString(R.string.error_empty_edittext), Toast.LENGTH_SHORT).show();

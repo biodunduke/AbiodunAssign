@@ -25,33 +25,31 @@ public class AbiodunActivity1 extends AppCompatActivity {
      * Assignment 2
      */
     ImageButton imgPizzaHut,imgPizzaNova,imgPizzaPizza,selection;
-    ImageView imgView;
     Integer imgID=-1;
     Menu menu;  //Global menu declaration to access menu item
     String url="";
     private static final int PERMISSION_REQUEST_CODE = 100;
-    private View view;
-    int theme = R.style.AppTheme;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_abiodun1);
-        imgView  = findViewById(R.id.abiodun_pizza);
         Button but_next = findViewById(R.id.abiodun_but_next);
+        //Getting variables for the clickable images
         imgPizzaHut = findViewById(R.id.abiodun_pizzahut);
         imgPizzaNova = findViewById(R.id.abiodun_pizzanova);
         imgPizzaPizza = findViewById(R.id.abiodun_pizzapizza);
 
+        //Setting the  clock listener
         imgPizzaHut.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                imgID=1;
-                selection=imgPizzaHut;
-                Toast.makeText(getApplicationContext(),getResources().getString(R.string.text_pizzahut),Toast.LENGTH_SHORT).show();
-                url = getResources().getString(R.string.pizza_hut_url);
-                menu.findItem(R.id.abiodun_pizza).setIcon(R.drawable.logo_pizzahut);
-                v=findViewById(R.id.biodun_constraint_layout);
-                v.setBackgroundResource(R.drawable.bg_pizzahut);
+                imgID=1; //Assign a value so I can pass it to next activity
+                selection=imgPizzaHut; //Save the selected image
+                Toast.makeText(getApplicationContext(),getResources().getString(R.string.text_pizzahut),Toast.LENGTH_SHORT).show(); //Show the name of the pizza store selected
+                url = getResources().getString(R.string.pizza_hut_url);  //Save the url of the pizza store selected
+                menu.findItem(R.id.abiodun_pizza).setIcon(R.drawable.logo_pizzahut); //Assign the saved url to the menu item "Pizza"
+                v=findViewById(R.id.biodun_constraint_layout); //
+                v.setBackgroundResource(R.drawable.bg_pizzahut); //Change the view background to respective bg of the selected pizza store
             }
         });
         imgPizzaNova.setOnClickListener(new View.OnClickListener() {
@@ -62,7 +60,6 @@ public class AbiodunActivity1 extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(),getResources().getString(R.string.text_pizzanova),Toast.LENGTH_SHORT).show();
                 url = getResources().getString(R.string.pizzanova_url);
                 menu.findItem(R.id.abiodun_pizza).setIcon(R.drawable.logo_pizzanova);
-
                 v=findViewById(R.id.biodun_constraint_layout);
                 v.setBackgroundResource(R.drawable.bg_pizzanova);
             }
@@ -82,25 +79,28 @@ public class AbiodunActivity1 extends AppCompatActivity {
         but_next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-               if(imgID<0) {
-                   Toast.makeText(AbiodunActivity1.this, R.string.error_select_store, Toast.LENGTH_LONG).show();
+               if(imgID<0) { //Nothing is selected yet
+                   Toast.makeText(AbiodunActivity1.this, R.string.error_select_store, Toast.LENGTH_LONG).show(); //Show the error message
                }
-                else{
-                    Intent intent = new Intent(AbiodunActivity1.this, AbiodunActivity2.class);
-                    intent.putExtra("id", imgID);
-                    intent.putExtra("url",url);
-                    startActivity(intent);
+                else{ //A store has been selected
+                    Intent intent = new Intent(AbiodunActivity1.this, AbiodunActivity2.class); //To go to the next activity
+                    intent.putExtra("id", imgID); //Pass the number assigned to the image
+                    intent.putExtra("url",url); //Pass the url of the selected image
+                    startActivity(intent); //Go to Activity2
                 }
             }
         });
 
     }
 
+    //Creating Menu
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu, menu);
         this.menu = menu;
         return true;
     }
+
+    //When a menu item is selected
     @Override
     public boolean onOptionsItemSelected(MenuItem menu){
         super.onOptionsItemSelected(menu);
@@ -111,7 +111,7 @@ public class AbiodunActivity1 extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(),getResources().getString(R.string.error_select_store),Toast.LENGTH_SHORT).show();
                 else {
                     try{
-                        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(getResources().getString(R.string.github_url)));
+                        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(getResources().getString(R.string.github_url))); //Go to my Github page
                         startActivity(intent);
                     }catch (ActivityNotFoundException e){
                         Toast.makeText(getApplicationContext(),R.string.invalid_url,Toast.LENGTH_SHORT).show();
@@ -123,23 +123,23 @@ public class AbiodunActivity1 extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(),getResources().getString(R.string.error_select_store),Toast.LENGTH_SHORT).show();
                 else {
                     try{
-                        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+                        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url)); //Go to the pizza store website
                         startActivity(intent);
                     }catch (ActivityNotFoundException e){
                         Toast.makeText(getApplicationContext(),R.string.invalid_url,Toast.LENGTH_SHORT).show();
                     }
                 }
                 break;
-            case R.id.abiodun_abiodun:
-                if(checkPermission())
-                {
+            case R.id.abiodun_abiodun:  //Starts the camera
+                if(checkPermission()) //If the permission is already granted
+                {   //Start the camera after showing a toast that the permission had earlier been granted
                     Toast.makeText(getApplicationContext(),R.string.access_granted,Toast.LENGTH_SHORT).show();
                     Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
                     startActivityForResult(intent, PERMISSION_REQUEST_CODE);
                 }
                 else {
                     Toast.makeText(getApplicationContext(),R.string.access_notGranted,Toast.LENGTH_SHORT).show();
-                    requestPermission();
+                    requestPermission(); //If no permission yet, request permission
                 }
                 break;
         }
@@ -151,7 +151,7 @@ public class AbiodunActivity1 extends AppCompatActivity {
         return result == PackageManager.PERMISSION_GRANTED;
     }
     private void requestPermission(){
-        ActivityCompat.requestPermissions(this, new String[]{CAMERA}, PERMISSION_REQUEST_CODE);
+        ActivityCompat.requestPermissions(this, new String[]{CAMERA}, PERMISSION_REQUEST_CODE); //The permission for Camera is requested
     }
 
     @Override
@@ -160,11 +160,11 @@ public class AbiodunActivity1 extends AppCompatActivity {
             case PERMISSION_REQUEST_CODE:
                 if (grantResults.length > 0) {
                     boolean cameraAccepted = grantResults[0] == PackageManager.PERMISSION_GRANTED;
-                    if (cameraAccepted) {
+                    if (cameraAccepted) { //if user grants permission, show a toast then start the camera
                         Toast.makeText(getApplicationContext(),R.string.request_granted,Toast.LENGTH_SHORT).show();
                         Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
                         startActivityForResult(intent, PERMISSION_REQUEST_CODE);
-                    } else {
+                    } else { //If user declines, show a toast saying so
                         Toast.makeText(getApplicationContext(),R.string.request_declined,Toast.LENGTH_SHORT).show();
                     }
                     break;
