@@ -62,6 +62,7 @@ public class AbiodunActivity1 extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(),getResources().getString(R.string.text_pizzanova),Toast.LENGTH_SHORT).show();
                 url = getResources().getString(R.string.pizzanova_url);
                 menu.findItem(R.id.abiodun_pizza).setIcon(R.drawable.logo_pizzanova);
+
                 v=findViewById(R.id.biodun_constraint_layout);
                 v.setBackgroundResource(R.drawable.bg_pizzanova);
             }

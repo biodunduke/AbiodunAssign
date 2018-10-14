@@ -45,19 +45,25 @@ public class AbiodunActivity2 extends AppCompatActivity {
     CheckBox mushroom,bacon,lettuce,pepperoni,ham,beef,chicken;
     Menu menu;  //Global menu declaration to access menu item
     String url="";
+
     private static final int PERMISSION_REQUEST_CODE = 100;
     int imgID;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         Bundle bundle = getIntent().getExtras();
         imgID=bundle.getInt("id");
-        if(imgID==1) setTheme(R.style.PizzaHut);
-        if(imgID==2) setTheme(R.style.PizzaNova);
-        if(imgID==3) setTheme(R.style.PizzaPizza);
+        if(imgID==1) {
+            setTheme(R.style.PizzaHut);
+        }
+        if(imgID==2) {
+            setTheme(R.style.PizzaNova);
+        }
+        if(imgID==3) {
+            setTheme(R.style.PizzaPizza);
+        }
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_abiodun2);
-
 
         url = bundle.getString("url");
 
@@ -127,14 +133,20 @@ public class AbiodunActivity2 extends AppCompatActivity {
                 if (imgID == 1) {
                     selection = R.drawable.logo_pizzahut;
                     menu.findItem(R.id.abiodun_pizza).setIcon(R.drawable.logo_pizzahut);
+                    v=findViewById(R.id.abiodun_constraint_2_0);
+                    v.setBackgroundResource(R.drawable.bg_pizzahut);
                 }
                 if (imgID == 2) {
                     selection = R.drawable.logo_pizzanova;
                     menu.findItem(R.id.abiodun_pizza).setIcon(R.drawable.logo_pizzanova);
+                    v=findViewById(R.id.abiodun_constraint_2_0);
+                    v.setBackgroundResource(R.drawable.bg_pizzanova);
                 }
                 if (imgID == 3) {
                     selection = R.drawable.logo_pizzapizza;
                     menu.findItem(R.id.abiodun_pizza).setIcon(R.drawable.logo_pizzapizza);
+                    v=findViewById(R.id.abiodun_constraint_2_0);
+                    v.setBackgroundResource(R.drawable.bg_pizzapizza);
                 }
                 Intent intent = new Intent(AbiodunActivity2.this, AbiodunActivity3.class);
                 if (selectedSize.isEmpty())

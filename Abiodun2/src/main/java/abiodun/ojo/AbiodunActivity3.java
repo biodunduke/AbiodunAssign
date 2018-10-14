@@ -39,9 +39,12 @@ public class AbiodunActivity3 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         Bundle bundle = getIntent().getExtras();
         imgID=bundle.getInt("id");
-        if(imgID==1) setTheme(R.style.PizzaHut);
+        if(imgID==1) {
+            setTheme(R.style.PizzaHut);
+        }
         if(imgID==2) setTheme(R.style.PizzaNova);
         if(imgID==3) setTheme(R.style.PizzaPizza);
+
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_abiodun3);
