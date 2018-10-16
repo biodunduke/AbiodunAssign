@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\BasicViews\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\BasicViews\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "4,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "128,59",
+                        "endColumns": "48,67",
+                        "endOffsets": "172,122"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,104",
+                        "endColumns": "48,67",
+                        "endOffsets": "99,167"
+                    }
+                }
+            ]
+        }
+    ]
+}

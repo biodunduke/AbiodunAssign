@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+     android:orientation="vertical" 
+     android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <TextView 
+        android:id="@+id/tv1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:text="@string/hello_world"
+        android:paddingBottom="20dp" 
+        android:textSize="25sp" />
+    
+    <Button 
+        android:text="@string/Dialog1"
+        android:id="@+id/alert1"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" />
+    
+    <Button 
+        android:text="@string/Dialog2" 
+        android:id="@+id/alert2"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
