@@ -13,12 +13,14 @@
             <option value="$PROJECT_DIR$/AbiodunLab" />
             <option value="$PROJECT_DIR$/AccelerometerExample" />
             <option value="$PROJECT_DIR$/AlertDialog" />
-            <option value="$PROJECT_DIR$/AlertDialog2" />
             <option value="$PROJECT_DIR$/BasicViews" />
             <option value="$PROJECT_DIR$/BookMeUp" />
             <option value="$PROJECT_DIR$/CanvasExample" />
             <option value="$PROJECT_DIR$/ClockModule" />
+            <option value="$PROJECT_DIR$/DrawerExample" />
             <option value="$PROJECT_DIR$/DynamicView" />
+            <option value="$PROJECT_DIR$/FragmentCommunication" />
+            <option value="$PROJECT_DIR$/Fragments" />
             <option value="$PROJECT_DIR$/FrameLayout" />
             <option value="$PROJECT_DIR$/LinearGradient" />
             <option value="$PROJECT_DIR$/LinearLayoutExample" />
@@ -28,6 +30,9 @@
             <option value="$PROJECT_DIR$/RuntimePermissions" />
             <option value="$PROJECT_DIR$/ScreenLayoutDetect" />
             <option value="$PROJECT_DIR$/StyleExample" />
+            <option value="$PROJECT_DIR$/StyleTesting" />
+            <option value="$PROJECT_DIR$/TableLayout" />
+            <option value="$PROJECT_DIR$/TabsLayoutExample" />
             <option value="$PROJECT_DIR$/app" />
           </set>
         </option>

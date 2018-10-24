@@ -32,7 +32,15 @@ public final class R {
     public static final int Dialog2=0x7f060001;
     public static final int action_settings=0x7f060002;
     public static final int app_name=0x7f060003;
-    public static final int hello_world=0x7f060004;
+    public static final int click=0x7f060004;
+    public static final int dialog1=0x7f060005;
+    public static final int dialog2=0x7f060006;
+    public static final int hello_world=0x7f060007;
+    public static final int no=0x7f060008;
+    public static final int noClicked=0x7f060009;
+    public static final int noText=0x7f06000a;
+    public static final int yes=0x7f06000b;
+    public static final int yesClicked=0x7f06000c;
   }
   public static final class style {
     public static final int AppBaseTheme=0x7f070000;

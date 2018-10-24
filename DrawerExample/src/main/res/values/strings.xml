@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Drawer Example</string>
+    <string name="gallery">Gallery</string>
+    <string name="slideshow">Slideshow</string>
+    <string name="tools">Tools</string>
+    <string name="nav_import">Import</string>
+    <string name="my_header_title">Nav Title</string>
+</resources>

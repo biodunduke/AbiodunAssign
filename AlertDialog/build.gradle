@@ -6,6 +6,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.androidalertdialog"
+        minSdkVersion 17
     }
 
     buildTypes {

@@ -1,4 +1,4 @@
-#Mon Oct 15 20:54:10 EDT 2018
+#Tue Oct 23 19:59:47 EDT 2018
 base.0=C\:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\ScreenLayoutDetect\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 path.1=classes.dex
 renamed.1=classes2.dex

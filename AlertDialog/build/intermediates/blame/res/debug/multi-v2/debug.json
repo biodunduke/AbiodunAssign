@@ -14,12 +14,12 @@
                         "endOffsets": "481,679"
                     },
                     "to": {
-                        "startLines": "9,16",
+                        "startLines": "17,24",
                         "startColumns": "4,4",
-                        "startOffsets": "421,712",
-                        "endLines": "15,18",
+                        "startOffsets": "765,1056",
+                        "endLines": "23,26",
                         "endColumns": "12,12",
-                        "endOffsets": "707,867"
+                        "endOffsets": "1051,1211"
                     }
                 },
                 {
@@ -42,18 +42,18 @@
                 {
                     "source": "C:\\Users\\Biodun\\AndroidStudioProjects\\AbiodunAssign1\\AlertDialog\\src\\main\\res\\values\\strings.xml",
                     "from": {
-                        "startLines": "6,7,4,3,5",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "222,267,115,58,169",
-                        "endColumns": "44,44,52,55,52",
-                        "endOffsets": "262,307,163,109,217"
+                        "startLines": "6,7,4,3,15,9,8,5,13,11,14,12,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "224,270,116,59,627,362,316,170,553,463,588,516,408",
+                        "endColumns": "44,44,52,55,39,44,44,52,33,51,37,35,53",
+                        "endOffsets": "264,310,164,110,662,402,356,218,582,510,621,547,457"
                     },
                     "to": {
-                        "startLines": "4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "169,214,259,312,368",
-                        "endColumns": "44,44,52,55,52",
-                        "endOffsets": "209,254,307,363,416"
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "169,214,259,312,368,408,453,498,551,585,637,675,711",
+                        "endColumns": "44,44,52,55,39,44,44,52,33,51,37,35,53",
+                        "endOffsets": "209,254,307,363,403,448,493,546,580,632,670,706,760"
                     }
                 }
             ]
