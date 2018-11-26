@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Class Test</string>
+    <string name="tv_message">message</string>
+    <string name="button_send">Send</string>
+    <string name="tv_read">Read</string>
+    <string name="action_settings">Settings</string>
+</resources>

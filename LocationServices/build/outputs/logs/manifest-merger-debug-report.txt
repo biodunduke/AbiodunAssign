@@ -1,0 +1,86 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LocationServices\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LocationServices\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LocationServices\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LocationServices\src\main\AndroidManifest.xml:2:1-35:12
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-v4-23.1.1.aar\e93f1a7192ed2aab7d26715bb97da3d8\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LocationServices\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LocationServices\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LocationServices\src\main\AndroidManifest.xml:2:1-35:12
+	package
+		ADDED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LocationServices\src\main\AndroidManifest.xml:3:5-35
+		INJECTED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LocationServices\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LocationServices\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LocationServices\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LocationServices\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LocationServices\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LocationServices\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LocationServices\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LocationServices\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LocationServices\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LocationServices\src\main\AndroidManifest.xml:7:5-47
+INJECTED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LocationServices\src\main\AndroidManifest.xml:7:5-47
+INJECTED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LocationServices\src\main\AndroidManifest.xml:7:5-47
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-v4-23.1.1.aar\e93f1a7192ed2aab7d26715bb97da3d8\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-v4-23.1.1.aar\e93f1a7192ed2aab7d26715bb97da3d8\AndroidManifest.xml:20:5-43
+INJECTED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LocationServices\src\main\AndroidManifest.xml:7:5-47
+INJECTED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LocationServices\src\main\AndroidManifest.xml:7:5-47
+	android:targetSdkVersion
+		ADDED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LocationServices\src\main\AndroidManifest.xml:7:15-44
+		INJECTED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LocationServices\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LocationServices\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LocationServices\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LocationServices\src\main\AndroidManifest.xml:7:5-47
+		INJECTED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LocationServices\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LocationServices\src\main\AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LocationServices\src\main\AndroidManifest.xml:9:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LocationServices\src\main\AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LocationServices\src\main\AndroidManifest.xml:10:22-76
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LocationServices\src\main\AndroidManifest.xml:11:5-66
+	android:name
+		ADDED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LocationServices\src\main\AndroidManifest.xml:11:22-64
+uses-feature#0x00020000
+ADDED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LocationServices\src\main\AndroidManifest.xml:15:2-17:34
+	android:glEsVersion
+		ADDED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LocationServices\src\main\AndroidManifest.xml:16:9-41
+	android:required
+		ADDED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LocationServices\src\main\AndroidManifest.xml:17:9-32
+application
+ADDED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LocationServices\src\main\AndroidManifest.xml:19:5-33:19
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-v4-23.1.1.aar\e93f1a7192ed2aab7d26715bb97da3d8\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Biodun\.gradle\caches\transforms-1\files-1.1\support-v4-23.1.1.aar\e93f1a7192ed2aab7d26715bb97da3d8\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LocationServices\src\main\AndroidManifest.xml:22:9-41
+	android:icon
+		ADDED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LocationServices\src\main\AndroidManifest.xml:21:9-45
+	android:allowBackup
+		ADDED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LocationServices\src\main\AndroidManifest.xml:20:9-35
+	android:theme
+		ADDED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LocationServices\src\main\AndroidManifest.xml:23:9-40
+activity#com.example.mapsdemo.ShowLocationActivity
+ADDED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LocationServices\src\main\AndroidManifest.xml:24:9-32:20
+	android:label
+		ADDED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LocationServices\src\main\AndroidManifest.xml:26:13-45
+	android:name
+		ADDED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LocationServices\src\main\AndroidManifest.xml:25:13-49
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LocationServices\src\main\AndroidManifest.xml:27:13-31:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LocationServices\src\main\AndroidManifest.xml:28:17-69
+	android:name
+		ADDED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LocationServices\src\main\AndroidManifest.xml:28:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LocationServices\src\main\AndroidManifest.xml:30:17-77
+	android:name
+		ADDED from C:\Users\Biodun\AndroidStudioProjects\AbiodunAssign1\LocationServices\src\main\AndroidManifest.xml:30:27-74

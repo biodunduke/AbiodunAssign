@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AbiodunTest1</string>
+    <string name="myName">Abiodun Ojo</string>
+    <string name="myStudentNo">N01178447</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

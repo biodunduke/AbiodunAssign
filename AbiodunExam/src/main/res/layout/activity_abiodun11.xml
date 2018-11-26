@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/abiFragView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AbiodunActivity11"
+    android:baselineAligned="false">
+
+    <fragment
+        android:id="@+id/abiFrag1"
+        android:name="abiodun.ojo.AbiodunFrag1"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <fragment
+        android:id="@+id/abiFrag2"
+        android:name="abiodun.ojo.OjoFrag2"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+</LinearLayout>

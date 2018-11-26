@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/abiFrg1Layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF200"
+    android:orientation="vertical"
+    tools:context=".AbiodunFrag1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/abiFrag1LayoutTV"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="bottom|center_horizontal"
+            android:text="Abiodun Ojo"
+            android:textSize="22dp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#000000"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ProgressBar
+            android:id="@+id/pbOjo"
+            style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="233dp"
+            android:progress="30"
+            android:text="@string/myName" />
+
+        <EditText
+            android:id="@+id/abiEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter 3 digits"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#000000" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="125dp" />
+
+        <Button
+            android:id="@+id/abiButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom|center"
+            android:text="Validate Number Abiodun" />
+    </LinearLayout>
+
+</LinearLayout>

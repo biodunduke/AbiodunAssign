@@ -9,8 +9,14 @@
     tools:context="com.example.lineargradient.MainActivity" >
 
     <TextView
+        android:id="@+id/tv1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/hello_world" />
+    <com.example.lineargradient.MyView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@id/tv1"/>
 
 </RelativeLayout>

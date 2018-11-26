@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RetrieveDataWeb2</string>
+    <string name="action_settings">Settings</string>
+    <string name="textView1">Click on button to retrieve data from Web 2!</string>
+    <string name="textView2">Content will appear here 2!</string>
+    <string name="btn_retrieve">Content will appear here 2!</string>
+
+</resources>
