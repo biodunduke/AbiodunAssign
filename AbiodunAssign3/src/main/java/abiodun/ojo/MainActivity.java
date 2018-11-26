@@ -28,11 +28,14 @@ public class MainActivity extends AppCompatActivity implements AbHome.OnFragment
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-       /* Toolbar toolbar = findViewById(R.id.abiodun_toolbar);
+
+        //TODO Handle Permission
+        //Todo Design all fragments
+        Toolbar toolbar = findViewById(R.id.abiodun_toolbar);
         setSupportActionBar(toolbar);
         ActionBar actionbar = getSupportActionBar();
         actionbar.setDisplayHomeAsUpEnabled(true);
-        actionbar.setHomeAsUpIndicator(R.drawable.ic_menu);*/
+        actionbar.setHomeAsUpIndicator(R.drawable.ic_menu);
 //Showing the Fragments
         abHome = new AbHome();
         abDown = new AbiDown();

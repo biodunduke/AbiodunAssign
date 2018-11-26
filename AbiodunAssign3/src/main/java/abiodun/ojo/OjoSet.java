@@ -31,11 +31,13 @@ public class OjoSet extends Fragment {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.ojo_set, container, false);
     }
+
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         //TODO:
     }
+
     // TODO: Rename method, update argument and hook method into UI event
     public void onButtonPressed(Uri uri) {
         if (mListener != null) {
@@ -46,14 +48,13 @@ public class OjoSet extends Fragment {
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
-        /*
+
         if (context instanceof OnFragmentInteractionListener) {
             mListener = (OnFragmentInteractionListener) context;
         } else {
-            throw new RuntimeException(context.toString()
-                    + " must implement OnFragmentInteractionListener");
+       //     throw new RuntimeException(context.toString() + getString(R.string.mustImpFragment));
         }
-        */
+
     }
 
     @Override
