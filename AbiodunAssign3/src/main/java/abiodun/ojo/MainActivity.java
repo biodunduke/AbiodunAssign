@@ -1,5 +1,6 @@
 package abiodun.ojo;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
@@ -14,6 +15,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Spinner;
+
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements AbHome.OnFragmentInteractionListener {
     static AbHome abHome; //Dependencies must be added
@@ -23,24 +31,65 @@ public class MainActivity extends AppCompatActivity implements AbHome.OnFragment
     MyPagerAdapter myPagerAdapter;
     ViewPager viewPager;
     private DrawerLayout mDrawerLayout;
+    FileOutputStream fos = null;
+    Spinner spinner;
+    public static List<String> list; //To be used in AbHome Fragment
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        String fileName = getString(R.string.fileName);
+        String courseName = getString(R.string.courseName);
+
+        //Writing file
+        StringBuilder fileContent = new StringBuilder("");
+        list = new ArrayList<String>(); //For the spinner
+        list.add(0,getString(R.string.firstName)); //Adding my name as title for the spinner
+        for (int i = 0; i < 5; i++) { //Appending abiodun
+            fileContent.append(courseName);
+            fileContent.append("\n");
+            list.add(courseName); //For the spinner
+        }
+        courseName = fileContent.toString();//Final string to write to file
+        try {
+            fos = openFileOutput(fileName, MODE_PRIVATE);
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+            System.out.println("Error: " + e.toString());
+        }
+        try {
+            fos.write(courseName.getBytes());
+        } catch (IOException e) {
+            e.printStackTrace();
+            System.out.println("Error: " + e.toString());
+        } finally {
+            try {
+                fos.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
 
         //TODO Handle Permission
         //Todo Design all fragments
+        //TODO: French translation
+        //TODO: Get image densities
+        //TODO: WIre the buttons (Nav Drawer)
+
+        //Toolbar
         Toolbar toolbar = findViewById(R.id.abiodun_toolbar);
         setSupportActionBar(toolbar);
         ActionBar actionbar = getSupportActionBar();
         actionbar.setDisplayHomeAsUpEnabled(true);
         actionbar.setHomeAsUpIndicator(R.drawable.ic_menu);
-//Showing the Fragments
+
+        //Showing the Fragments
         abHome = new AbHome();
         abDown = new AbiDown();
         ojSrv = new OjSrv();
         ojoSet = new OjoSet();
+
         viewPager = findViewById(R.id.abiodunviewPager);
         myPagerAdapter = new MyPagerAdapter(getSupportFragmentManager());
         viewPager.setAdapter(myPagerAdapter);
@@ -80,6 +129,7 @@ public class MainActivity extends AppCompatActivity implements AbHome.OnFragment
                 return true;
             }
         });
+
     }
 
     public static class MyPagerAdapter extends FragmentPagerAdapter implements AbHome.OnFragmentInteractionListener {

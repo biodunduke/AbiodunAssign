@@ -1,14 +1,145 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="top|start"
+    android:orientation="vertical"
+    android:padding="10dp"
     tools:context=".OjoSet">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
+        android:id="@+id/abiodunSettingsTitle"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/settings" />
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/settings"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <View
+        android:id="@+id/abiodunDivider7"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="?android:attr/listDivider" />
+    <TextView
+        android:id="@+id/abiodunTvBackgroundColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_background_color" />
 
-</FrameLayout>
+    <View
+        android:id="@+id/abiodunDivider"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="?android:attr/listDivider" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <RadioButton
+            android:id="@+id/abiodunRadioButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/blue" />
+
+        <RadioButton
+            android:id="@+id/abiodunRadioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/white" />
+
+        <RadioButton
+            android:id="@+id/abiodunRadioButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/yellow" />
+
+        <View
+            android:id="@+id/abiodunDivider2"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_weight="1"
+            android:background="?android:attr/listDivider" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/abiodunTvClockFormat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/clock_format" />
+
+    <View
+        android:id="@+id/abiodunDivider3"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="?android:attr/listDivider" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/clock_format"
+        android:textOff="@string/hr_24"
+        android:textOn="@string/hr_12" />
+
+    <View
+        android:id="@+id/abiodunDivider4"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/abiodunFontSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/font_size" />
+
+    <View
+        android:id="@+id/abiodunDivider5"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="?android:attr/listDivider" />
+    <Spinner
+        android:id="@+id/abiodunSpinnerFontSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </Spinner>
+    <View
+        android:id="@+id/abiodunDivider6"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="?android:attr/listDivider" />
+    <Switch
+        android:id="@+id/abiodunSwitchOrientation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/portrait_only" />
+<android.support.constraint.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/abiodunSubmitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+
+        android:text="@string/submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</android.support.constraint.ConstraintLayout>
+
+
+</LinearLayout>

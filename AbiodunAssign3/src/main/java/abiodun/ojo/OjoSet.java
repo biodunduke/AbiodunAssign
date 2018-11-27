@@ -8,6 +8,11 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
+import android.widget.Spinner;
+
+import java.util.ArrayList;
+import java.util.List;
 
 
 /**
@@ -28,8 +33,15 @@ public class OjoSet extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+        View view = inflater.inflate(R.layout.ojo_set, container, false);
+
+        Spinner spinner = view.findViewById(R.id.abiodunSpinnerFontSize);
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(view.getContext(),R.array.fonts_size,android.R.layout.simple_spinner_item);
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+
+        spinner.setAdapter(adapter);
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.ojo_set, container, false);
+        return view;
     }
 
     @Override
@@ -52,7 +64,7 @@ public class OjoSet extends Fragment {
         if (context instanceof OnFragmentInteractionListener) {
             mListener = (OnFragmentInteractionListener) context;
         } else {
-       //     throw new RuntimeException(context.toString() + getString(R.string.mustImpFragment));
+            //     throw new RuntimeException(context.toString() + getString(R.string.mustImpFragment));
         }
 
     }

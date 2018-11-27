@@ -1,15 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#90EE90"
     tools:context=".AbHome">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
+        android:id="@+id/abiodunFullName"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/firstName" />
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:text="@string/fullName" />
+    <TextView
+        android:id="@+id/abiodunStudentNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:text="@string/studentNo" />
+    <TextClock
+        android:id="@+id/abiodunTextClock"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:format12Hour="hh:mm:ss a"
+        android:gravity="center_horizontal"
+        android:textColor="#d41709"
+        android:textSize="44sp"
+        android:textStyle="bold" />
+<Spinner
+    android:id="@+id/abiodunSpinner"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
 
+</Spinner>
 
-</FrameLayout>
+</LinearLayout>
