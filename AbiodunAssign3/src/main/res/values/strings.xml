@@ -22,4 +22,7 @@
     <string name="font_size">Font Size</string>
     <string name="portrait_only">Portrait Only</string>
     <string name="submit">Submit</string>
+    <string name="download_image">Download Image</string>
+    <string name="completion_percentage">% Completion</string>
+    <string name="image_downloaded_from_the_internet">Image downloaded from the internet</string>
 </resources>

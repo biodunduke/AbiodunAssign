@@ -1,13 +1,33 @@
 package abiodun.ojo;
 
 import android.content.Context;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.net.Uri;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.AlphaAnimation;
+import android.view.animation.Animation;
+import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.TextView;
+import android.widget.Toast;
+
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.net.URLConnection;
 
 
 public class AbiDown extends Fragment implements AbHome.OnFragmentInteractionListener {
@@ -22,8 +42,9 @@ public class AbiDown extends Fragment implements AbHome.OnFragmentInteractionLis
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.abi_down, container, false);
+        View view = inflater.inflate(R.layout.abi_down, container, false);
+
+        return view;
     }
 
     @Override
@@ -61,5 +82,6 @@ public class AbiDown extends Fragment implements AbHome.OnFragmentInteractionLis
         // TODO: Update argument type and name
         void onFragmentInteraction(Uri uri);
     }
+
 
 }
