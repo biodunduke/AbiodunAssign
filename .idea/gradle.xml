@@ -20,6 +20,7 @@
             <option value="$PROJECT_DIR$/BasicView3" />
             <option value="$PROJECT_DIR$/BasicViews" />
             <option value="$PROJECT_DIR$/BookMeUp" />
+            <option value="$PROJECT_DIR$/Calculator-UnitTest" />
             <option value="$PROJECT_DIR$/CanvasExample" />
             <option value="$PROJECT_DIR$/ClockModule" />
             <option value="$PROJECT_DIR$/Databases" />
@@ -44,6 +45,7 @@
             <option value="$PROJECT_DIR$/RetrieveDataWeb" />
             <option value="$PROJECT_DIR$/RetrieveDataWeb2" />
             <option value="$PROJECT_DIR$/RuntimePermissions" />
+            <option value="$PROJECT_DIR$/SMSRecieve" />
             <option value="$PROJECT_DIR$/ScreenLayoutDetect" />
             <option value="$PROJECT_DIR$/SendSMS" />
             <option value="$PROJECT_DIR$/SharedPreference" />
@@ -52,9 +54,11 @@
             <option value="$PROJECT_DIR$/StyleTesting" />
             <option value="$PROJECT_DIR$/TableLayout" />
             <option value="$PROJECT_DIR$/TabsLayoutExample" />
+            <option value="$PROJECT_DIR$/WebViewExample" />
             <option value="$PROJECT_DIR$/WriteTextIntoFile" />
             <option value="$PROJECT_DIR$/YouTubeAPI" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/contentProviderTest" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

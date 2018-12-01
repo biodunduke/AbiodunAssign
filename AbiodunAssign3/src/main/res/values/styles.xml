@@ -6,6 +6,7 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textSize">@dimen/font_size_15</item>
     </style>
 
 <style name="fragDown" parent="AppTheme">
@@ -17,6 +18,11 @@
     </style>
     <style name="fragSrv" parent="AppTheme">
         <item name="android:background">@color/ojSrvBackground</item>
+    </style>
+
+    <style name="fragSet" parent="AppTheme">
+        <item name="android:textSize">18sp</item>
+
     </style>
 
 </resources>

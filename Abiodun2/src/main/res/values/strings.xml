@@ -67,7 +67,7 @@
     <string name="pizzanova_url">https://pizzanova.com/</string>
     <string name="pizzapizza_url">https://www.pizzapizza.ca/</string>
     <string name="access_granted">Access already granted</string>
-    <string name="access_notGranted">Requesting Camera Access</string>
-    <string name="request_granted">You granted Camera Access</string>
-    <string name="request_declined">You declined Camera Access</string>
+    <string name="access_notGranted">Requesting Internet Access</string>
+    <string name="request_granted">You granted Internet Access</string>
+    <string name="request_declined">You declined Internet Access</string>
 </resources>

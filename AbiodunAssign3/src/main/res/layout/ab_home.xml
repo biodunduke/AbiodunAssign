@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:theme="@style/fragHome"
+    android:theme="@style/AppTheme"
+    android:background="#90EE90"
     tools:context=".AbHome">
 
     <!-- TODO: Update blank fragment layout -->
@@ -12,7 +13,7 @@
         android:id="@+id/abiodunFullName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="40sp"
+        android:textSize="20sp"
         android:textStyle="bold"
         android:gravity="center_horizontal"
         android:text="@string/fullName" />
@@ -20,7 +21,7 @@
         android:id="@+id/abiodunStudentNumber"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="40sp"
+        android:textSize="20sp"
         android:textStyle="bold"
         android:gravity="center_horizontal"
         android:text="@string/studentNo" />

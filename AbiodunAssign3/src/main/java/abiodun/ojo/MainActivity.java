@@ -1,6 +1,6 @@
 package abiodun.ojo;
 
-import android.graphics.Color;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
@@ -16,6 +16,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -23,7 +24,10 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity implements AbHome.OnFragmentInteractionListener {
+import ru.alexbykov.nopermission.PermissionHelper;
+
+public class MainActivity extends AppCompatActivity implements OjoSet.OnFragmentInteractionListener {
+    private static final int PERMISSION_REQUEST_CODE = 5;
     static AbHome abHome; //Dependencies must be added
     static AbiDown abDown;
     static OjoSet ojoSet;
@@ -33,19 +37,21 @@ public class MainActivity extends AppCompatActivity implements AbHome.OnFragment
     private DrawerLayout mDrawerLayout;
     FileOutputStream fos = null;
     Spinner spinner;
+
+    PermissionHelper permissionHelper;
     public static List<String> list; //To be used in AbHome Fragment
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         String fileName = getString(R.string.fileName);
         String courseName = getString(R.string.courseName);
-
         //Writing file
         StringBuilder fileContent = new StringBuilder("");
         list = new ArrayList<String>(); //For the spinner
-        list.add(0,getString(R.string.firstName)); //Adding my name as title for the spinner
+        list.add(0, getString(R.string.firstName)); //Adding my name as title for the spinner
         for (int i = 0; i < 5; i++) { //Appending abiodun
             fileContent.append(courseName);
             fileContent.append("\n");
@@ -71,11 +77,10 @@ public class MainActivity extends AppCompatActivity implements AbHome.OnFragment
             }
         }
 
-        //TODO Handle Permission
-        //Todo Design all fragments
         //TODO: French translation
-        //TODO: Get image densities
         //TODO: WIre the buttons (Nav Drawer)
+        //TODO: Font Size
+        //TODO: WebServices
 
         //Toolbar
         Toolbar toolbar = findViewById(R.id.abiodun_toolbar);
@@ -93,7 +98,6 @@ public class MainActivity extends AppCompatActivity implements AbHome.OnFragment
         viewPager = findViewById(R.id.abiodunviewPager);
         myPagerAdapter = new MyPagerAdapter(getSupportFragmentManager());
         viewPager.setAdapter(myPagerAdapter);
-
 
         mDrawerLayout = findViewById(R.id.abiodun_drawer_layout);
         mDrawerLayout.addDrawerListener(
@@ -125,6 +129,17 @@ public class MainActivity extends AppCompatActivity implements AbHome.OnFragment
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
                 menuItem.setChecked(true);
+                String itemSelected = (String) menuItem.getTitle();
+                switch (itemSelected) {
+                    case "Abiodun":
+                        abDown = new AbiDown();
+                        FragmentManager manager = getSupportFragmentManager();
+                        manager.beginTransaction().replace(R.id.abiodun_content_frame, abDown).commit();
+                        // Toast.makeText(getApplicationContext(),getString(R.string.firstName),Toast.LENGTH_LONG).show();
+
+                        break;
+                }
+
                 mDrawerLayout.closeDrawers();
                 return true;
             }
@@ -156,7 +171,7 @@ public class MainActivity extends AppCompatActivity implements AbHome.OnFragment
 
         @Override
         public int getCount() {
-            return 4;
+            return 4; //Show only the first fragment
         }
 
         @Override
@@ -166,7 +181,7 @@ public class MainActivity extends AppCompatActivity implements AbHome.OnFragment
 
         @Override
         public void onFragmentInteraction(String name, String desc) {
-            abDown.onFragmentInteraction(name, desc);
+            ojoSet.onFragmentInteraction(name, desc);
         }
     }
 
@@ -184,4 +199,32 @@ public class MainActivity extends AppCompatActivity implements AbHome.OnFragment
         }
         return super.onOptionsItemSelected(item);
     }
+
+
+     @Override
+    public void onRequestPermissionsResult(int requestCode, String permissions[], int[] grantResults) {
+        switch (requestCode) {
+            case PERMISSION_REQUEST_CODE:
+                if (grantResults.length > 0) {
+
+                    Toast.makeText(getApplicationContext(), R.string.request_declined, Toast.LENGTH_SHORT).show();
+                    boolean storageAccepted = grantResults[0] == PackageManager.PERMISSION_GRANTED;
+                    boolean cameraAccepted = grantResults[1] == PackageManager.PERMISSION_GRANTED;
+                    boolean contactAccepted = grantResults[2] == PackageManager.PERMISSION_GRANTED;
+                    boolean smsAccepted = grantResults[2] == PackageManager.PERMISSION_GRANTED;
+
+                    if (storageAccepted && cameraAccepted && contactAccepted && smsAccepted) { //if user grants permission, show a toast then start the camera
+                        Toast.makeText(getApplicationContext(), R.string.request_granted, Toast.LENGTH_SHORT).show();
+                        //   Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+                        //     startActivityForResult(intent, PERMISSION_REQUEST_CODE);
+                    }
+
+
+                } else { //If user declines, show a toast saying so
+                    Toast.makeText(getApplicationContext(), R.string.request_declined, Toast.LENGTH_SHORT).show();
+                }
+                break;
+        }
+    }
+
 }

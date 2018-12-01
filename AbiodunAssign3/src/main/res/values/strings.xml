@@ -25,4 +25,17 @@
     <string name="download_image">Download Image</string>
     <string name="completion_percentage">% Completion</string>
     <string name="image_downloaded_from_the_internet">Image downloaded from the internet</string>
+    <string name="web_services">Web Services</string>
+    <string name="enter_zip_code">Enter ZIP Code</string>
+    <string name="fileExists">File already exist</string>
+    <string name="downloaded">Downloaded</string>
+    <string name="bytesText">bytes</string>
+    <string name="asyncTask">MyAsyncTask</string>
+    <string name="progressUpdate">onProgressUpdate -</string>
+    <string name="downloadStopped">Download stopped!!</string>
+    <string name="cancelCalled">on Cancelled called</string>
+    <string name="notHTTP">Not an HTTP connection</string>
+    <string name="request_granted">You granted Access</string>
+    <string name="request_declined">You declined Access</string>
+    <string name="chooseColor">Choose color</string>
 </resources>

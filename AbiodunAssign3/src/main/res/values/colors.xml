@@ -3,7 +3,8 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
-    <color name="ojSrvBackground">#FDBE02</color>
+    <color name="ojSrvBackground">#F0FFF0</color>
     <color name="abHomeBackground">#90EE90</color>
     <color name="abDownBackground">#ADD8E6</color>
+    <color name="ojoSetBackground">#E6E6FA</color>
 </resources>
