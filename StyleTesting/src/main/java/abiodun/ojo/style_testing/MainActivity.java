@@ -26,7 +26,6 @@ public class MainActivity extends Activity {
 
             @Override
             public void onClick(View arg0) {
-                // TODO Auto-generated method stub
                 tv1.setTextAppearance(getApplicationContext(), R.style.SimpleStyle);
             }
         });
@@ -36,7 +35,6 @@ public class MainActivity extends Activity {
 
             @Override
             public void onClick(View arg0) {
-                // TODO Auto-generated method stub
                 tv2.setTextAppearance(getApplicationContext(), R.style.SimpleStyle_BigPurple);
             }
         });

@@ -11,7 +11,6 @@
     android:theme="@style/fragSet"
     tools:context=".OjoSet">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
         android:id="@+id/abiodunSettingsTitle"
         android:layout_width="match_parent"

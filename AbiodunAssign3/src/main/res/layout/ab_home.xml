@@ -8,7 +8,6 @@
     android:theme="@style/AppTheme"
     tools:context=".AbHome">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
         android:id="@+id/abiodunFullName"
         android:layout_width="match_parent"

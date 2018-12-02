@@ -106,7 +106,6 @@ public class MainActivity extends AppCompatActivity implements OjoSet.OnFragment
         //TODO: French translation
         //TODO: WIre the buttons (Nav Drawer)
         //TODO: Font Size
-        //TODO: WebServices
 
         //Toolbar
         Toolbar toolbar = findViewById(R.id.abiodun_toolbar);
@@ -174,7 +173,7 @@ public class MainActivity extends AppCompatActivity implements OjoSet.OnFragment
 
     @Override
     public void onFragmentInteraction(String name, String desc) {
-        //TODO: do firstname frag here
+
     }
 
     @Override
@@ -254,7 +253,6 @@ public class MainActivity extends AppCompatActivity implements OjoSet.OnFragment
     }
 
     protected void sendSMS(String phoneNo, String message) {
-        // TODO Auto-generated method stub
         String SENT = getString(R.string.smsSent);
         String DELIVERED = getString(R.string.smsDelivered);
 

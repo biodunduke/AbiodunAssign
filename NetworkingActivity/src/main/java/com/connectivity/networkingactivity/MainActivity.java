@@ -78,10 +78,8 @@ public class MainActivity extends Activity {
                 db = dbf.newDocumentBuilder();
                 doc = db.parse(in);
             } catch (ParserConfigurationException e) {
-                // TODO Auto-generated catch block
                 e.printStackTrace();
             } catch (Exception e) {
-                // TODO Auto-generated catch block
                 e.printStackTrace();
             }
             doc.getDocumentElement().normalize();

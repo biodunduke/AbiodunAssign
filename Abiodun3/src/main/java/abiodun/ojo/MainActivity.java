@@ -67,7 +67,6 @@ public class MainActivity extends Activity implements OnClickListener  {
         switch(v.getId())
         {
             case R.id.button_send:
-                // TODO Auto-generated method stub
                 StringBuilder strFileContents = new StringBuilder("");
                 String content = tv.getText().toString();
                 strFileContents.append(content);
@@ -81,7 +80,6 @@ public class MainActivity extends Activity implements OnClickListener  {
                 try {
                     fos = openFileOutput(filename, MODE_PRIVATE|MODE_APPEND);
                 } catch (FileNotFoundException e) {
-                    // TODO Auto-generated catch block
 
                     e.printStackTrace();
                 }
@@ -89,13 +87,11 @@ public class MainActivity extends Activity implements OnClickListener  {
 
                     fos.write(content.getBytes());
                 } catch (IOException e) {
-                    // TODO Auto-generated catch block
                     e.printStackTrace();
                 }
                 try {
                     fos.close();
                 } catch (IOException e) {
-                    // TODO Auto-generated catch block
                     e.printStackTrace();
                 }
 
