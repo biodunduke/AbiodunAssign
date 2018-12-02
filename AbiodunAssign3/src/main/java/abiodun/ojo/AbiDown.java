@@ -18,6 +18,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -34,20 +35,10 @@ import java.net.URLConnection;
 
 public class AbiDown extends Fragment implements AbHome.OnFragmentInteractionListener {
     private static final int PERMISSION_REQUEST_CODE = 5;
-    TextView tv;
-    URL url, url2, url3;
-    int k = 0;
-    DownloadFilesTask dw;
-    String[] fileName = {""};
-    ImageView mImageView;
-    String imageName;
-    String[] path;
-    String PATH;
-    Bitmap myBitmap;
-    File folder;
-    File temp;
-    private Button downBut;
-    private OnFragmentInteractionListener mListener;
+    TextView tv; URL url, url2, url3; int k = 0; DownloadFilesTask dw; String[] fileName = {""};
+    ImageView mImageView; String imageName; String[] path;String PATH; Bitmap myBitmap;
+    File folder;File temp; private Button downBut; private OnFragmentInteractionListener mListener;
+    ProgressBar progressBar;
 
     public AbiDown() {
         // Required empty public constructor
@@ -61,8 +52,10 @@ public class AbiDown extends Fragment implements AbHome.OnFragmentInteractionLis
         tv = view.findViewById(R.id.abiodunProgressUpdate);
 
         mImageView = view.findViewById(R.id.abiodunImage1);
-        downBut = (Button) view.findViewById(R.id.abiodunDownloadButton);
+        downBut = view.findViewById(R.id.abiodunDownloadButton);
+        progressBar=view.findViewById(R.id.abiodunProgressBar);
         tv.setVisibility(mImageView.GONE);
+        progressBar.setVisibility(mImageView.GONE);
         try {
             url = new URL("https://cdn.pixabay.com/photo/2017/01/06/23/21/soap-bubble-1959327_640.jpg");
 
@@ -215,15 +208,16 @@ public class AbiDown extends Fragment implements AbHome.OnFragmentInteractionLis
         }
 
         protected void onProgressUpdate(Integer... values) {
-            //TODO: Display progress bar
             Log.d(getString(R.string.asyncTask), getString(R.string.progressUpdate) + values[0]);
             int i = values.length;
             tv.setVisibility(mImageView.VISIBLE);
+            progressBar.setVisibility(mImageView.VISIBLE);
 
             for (int ii = 0; ii < i; ii++) {
                 k = k + values[ii];
             }
             tv.setText(String.valueOf(k + 1) + getString(R.string.completion_percentage));//Show the % complete
+            progressBar.setProgress(k);
         }
 
         protected void onCancelled() {

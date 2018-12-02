@@ -153,13 +153,13 @@ public class MainActivity extends AppCompatActivity implements OjoSet.OnFragment
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
-                menuItem.setChecked(true);
+                menuItem.setChecked(false);
                 String itemSelected = (String) menuItem.getTitle();
                 switch (itemSelected) {
                     case "Abiodun":
                         abDown = new AbiDown();
                         FragmentManager manager = getSupportFragmentManager();
-                        manager.beginTransaction().replace(R.id.abiodunDownLayout, abDown).commit();
+                        manager.beginTransaction().replace(R.id.abiodun_content_frame, abDown).commit();
                         // Toast.makeText(getApplicationContext(),getString(R.string.firstName),Toast.LENGTH_LONG).show();
                         break;
                 }

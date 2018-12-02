@@ -13,6 +13,9 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
@@ -27,6 +30,8 @@ public class OjSrv extends Fragment implements AbHome.OnFragmentInteractionListe
     String textStr = "";
     String textSource;
     String zipCode;
+    JSONObject jsonObj, coord, weather;
+    String lon, lat, humidity, name, jsonResult;
 
     public OjSrv() {
         // Required empty public constructor
@@ -55,65 +60,80 @@ public class OjSrv extends Fragment implements AbHome.OnFragmentInteractionListe
                         zipText.requestFocus();
                     } else
                         try {
-                        //Register to get API key
+                            //Register to get API key
                             textSource = "https://api.openweathermap.org/data/2.5/weather?zip=" + zipCode +
                                     ",us&appid=5a0684625d9b4a70efbb4616cabdbcf0";
                             webContent.setText(getString(R.string.gettingWebStuff));
+
+                            // To DO
+                            new Thread() { //This moves the network call to another thread (Process)
+                                @Override
+                                public void run() {
+
+                                    URL url = null;
+                                    HttpURLConnection urlConnection;
+
+                                    try {
+                                        url = new URL(textSource);
+                                        urlConnection = (HttpURLConnection) url.openConnection();
+
+                                        int responseCode = urlConnection.getResponseCode();
+                                        if (responseCode == HttpURLConnection.HTTP_OK) { //Check if server can be reached
+                                            BufferedReader bufferReader = new BufferedReader(new InputStreamReader(url.openStream()));
+                                            String StringBuffer;
+
+                                            while ((StringBuffer = bufferReader.readLine()) != null) {
+                                                textStr += StringBuffer; //Keep concatenating the buffer line by line
+                                            }
+                                            bufferReader.close(); //Close the stream
+                                        }
+
+
+                                        getActivity().runOnUiThread(new Runnable() {
+                                            @Override
+                                            public void run() {
+                                                //TODO: Parse JSon
+
+                                                if (!textStr.isEmpty()) {
+                                                    try {
+                                                        /*http://json.parser.online.fr/ to parse*/
+                                                        jsonObj = new JSONObject(textStr);
+                                                        name = jsonObj.getString("name");
+                                                        coord = jsonObj.getJSONObject("coord");
+                                                        weather = jsonObj.getJSONObject("main");
+                                                        humidity = weather.getString("humidity");
+                                                        lon = coord.getString("lon");
+                                                        lat = coord.getString("lat");
+                                                        jsonResult = "\nName: " + name + "\nZip Code: " + zipCode
+                                                                + "\nLongitude: " + lon
+                                                                + "\nLatitude: " + lat + "\nHumidity: " + humidity
+                                                                + ".";
+                                                    } catch (JSONException e) {
+                                                        e.printStackTrace();
+                                                    }
+                                                    webContent.setText(getString(R.string.finished) + jsonResult);
+                                                    Toast.makeText(getContext(), getString(R.string.dataRetireved), Toast.LENGTH_LONG).show();
+                                                } else {
+                                                    webContent.setText(getString(R.string.finished) + getString(R.string.zipNotFound));
+                                                    zipText.setError(getString(R.string.zipNotFound));
+                                                    zipText.requestFocus();
+                                                }
+                                                textStr = "";//Clear the string after displaying
+                                                try {
+
+                                                } catch (Exception e) {
+                                                    e.printStackTrace();
+                                                }
+                                            }
+                                        });
+                                    } catch (Exception e) {
+                                        e.printStackTrace();
+                                    }
+                                }
+                            }.start();
                         } catch (Exception e) {
 
                         }
-                    // To DO
-                    new Thread() { //This moves the network call to another thread (Process)
-                        @Override
-                        public void run() {
-
-                            URL url = null;
-                            HttpURLConnection urlConnection;
-
-                            try {
-                                url = new URL(textSource);
-                                urlConnection = (HttpURLConnection) url.openConnection();
-
-                                int responseCode = urlConnection.getResponseCode();
-                                if (responseCode == HttpURLConnection.HTTP_OK) { //Check if server can be reached
-                                    BufferedReader bufferReader = new BufferedReader(new InputStreamReader(url.openStream()));
-                                    String StringBuffer;
-
-                                    while ((StringBuffer = bufferReader.readLine()) != null) {
-                                        textStr += StringBuffer; //Keep concatenating the buffer line by line
-                                    }
-                                    bufferReader.close(); //Close the stream
-                                }
-
-
-                                getActivity().runOnUiThread(new Runnable() {
-                                    @Override
-                                    public void run() {
-                                        //TODO: Parse JSon
-
-                                        if(!textStr.isEmpty()) {
-                                            webContent.setText(getString(R.string.finished) + textStr);
-                                            Toast.makeText(getContext(), getString(R.string.dataRetireved), Toast.LENGTH_LONG).show();
-                                        }
-                                        else
-                                        {
-                                            webContent.setText(getString(R.string.finished) + getString(R.string.zipNotFound));
-                                            zipText.setError(getString(R.string.zipNotFound));
-                                            zipText.requestFocus();
-                                        }
-                                        textStr="";//Clear the string after displaying
-                                        try {
-
-                                        } catch (Exception e) {
-                                            e.printStackTrace();
-                                        }
-                                    }
-                                });
-                            } catch (Exception e) {
-                                e.printStackTrace();
-                            }
-                        }
-                    }.start();
                 } catch (Exception e) {
                     Toast.makeText(getActivity(), e.toString(), Toast.LENGTH_SHORT).show();
                 }
