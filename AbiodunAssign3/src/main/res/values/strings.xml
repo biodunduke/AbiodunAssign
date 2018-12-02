@@ -37,5 +37,22 @@
     <string name="notHTTP">Not an HTTP connection</string>
     <string name="request_granted">You granted Access</string>
     <string name="request_declined">You declined Access</string>
+    <string name="invalid_url">Invalid URL</string>
+    <string name="github_url">http://github.com/biodunduke/</string>
     <string name="chooseColor">Choose color</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_location">Location</string>
+    <string name="menu_sms">SMS</string>
+    <string name="phoneNo">6478093641</string>
+    <string name="smsSent">SMS_SENT</string>
+    <string name="smsDelivered">SMS_DELIVERED</string>
+    <string name="genericFailure">Generic failure</string>
+    <string name="noService">No service</string>
+    <string name="nullPDU">Null PDU</string>
+    <string name="radioOff">Radio off</string>
+    <string name="deliveredSMS">SMS delivered</string>
+    <string name="smsUndelivered">SMS not delivered</string>
+    <string name="confirmExit">Are you sure you want to exit?</string>
+    <string name="yesDialog">Yes</string>
+    <string name="noDialog">No</string>
 </resources>

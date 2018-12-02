@@ -8,7 +8,6 @@ import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
@@ -17,8 +16,6 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.animation.AlphaAnimation;
-import android.view.animation.Animation;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -34,26 +31,23 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLConnection;
 
-import ru.alexbykov.nopermission.PermissionHelper;
-
 
 public class AbiDown extends Fragment implements AbHome.OnFragmentInteractionListener {
+    private static final int PERMISSION_REQUEST_CODE = 5;
     TextView tv;
     URL url, url2, url3;
     int k = 0;
     DownloadFilesTask dw;
     String[] fileName = {""};
     ImageView mImageView;
-    private Button downBut;
     String imageName;
     String[] path;
     String PATH;
     Bitmap myBitmap;
     File folder;
     File temp;
-    PermissionHelper permissionHelper;
+    private Button downBut;
     private OnFragmentInteractionListener mListener;
-    private static final int PERMISSION_REQUEST_CODE = 5 ;
 
     public AbiDown() {
         // Required empty public constructor
@@ -69,9 +63,6 @@ public class AbiDown extends Fragment implements AbHome.OnFragmentInteractionLis
         mImageView = view.findViewById(R.id.abiodunImage1);
         downBut = (Button) view.findViewById(R.id.abiodunDownloadButton);
         tv.setVisibility(mImageView.GONE);
-        //  PermissionsManager permission = new PermissionsManager();
-        //permission.checkPermissions();
-  //      permissionHelper = new PermissionHelper(this);
         try {
             url = new URL("https://cdn.pixabay.com/photo/2017/01/06/23/21/soap-bubble-1959327_640.jpg");
 
@@ -89,8 +80,6 @@ public class AbiDown extends Fragment implements AbHome.OnFragmentInteractionLis
             folder = new File(PATH);
             temp = new File(folder + "/" + imageName);
             if (temp.exists()) {
-                //  fileName[0] = temp.toString();//folder + "/" + imageName;
-               // downBut.setEnabled(false);
                 tv.setVisibility(mImageView.VISIBLE);
                 tv.setText(getString(R.string.fileExists)); //Show that the file exists
                 myBitmap = BitmapFactory.decodeFile(temp.toString()); //0 for Apple, 2 for Zelda
@@ -102,18 +91,18 @@ public class AbiDown extends Fragment implements AbHome.OnFragmentInteractionLis
         } catch (Exception e) {
 
         }
+
         downBut.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 dw = new DownloadFilesTask();
-                if (ContextCompat.checkSelfPermission(getContext(), Manifest.permission.READ_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
-                    ActivityCompat.requestPermissions(getActivity(),new String[]{Manifest.permission
-                            .READ_EXTERNAL_STORAGE,Manifest.permission.WRITE_EXTERNAL_STORAGE,
-                    Manifest.permission.INTERNET,Manifest.permission.CAMERA,
-                    Manifest.permission.READ_CONTACTS,
-                    Manifest.permission.WRITE_CONTACTS,
-                    Manifest.permission.READ_SMS
-                    },PERMISSION_REQUEST_CODE);
+                if (ContextCompat.checkSelfPermission(getContext(), Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
+                    ActivityCompat.requestPermissions(getActivity(), new String[]{Manifest.permission
+                            .READ_EXTERNAL_STORAGE, Manifest.permission.WRITE_EXTERNAL_STORAGE,
+                            Manifest.permission.INTERNET,
+                    }, PERMISSION_REQUEST_CODE);
+                    if (ContextCompat.checkSelfPermission(getContext(), Manifest.permission.WRITE_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED)
+                        dw.execute(url, url, url);
                 } else {
                     dw.execute(url, url, url);
                 }
@@ -153,6 +142,7 @@ public class AbiDown extends Fragment implements AbHome.OnFragmentInteractionLis
 
     }
 
+
     public interface OnFragmentInteractionListener {
         // TODO: Update argument type and name
         void onFragmentInteraction(Uri uri);
@@ -189,9 +179,6 @@ public class AbiDown extends Fragment implements AbHome.OnFragmentInteractionLis
 
 
                 HttpURLConnection httpConn = (HttpURLConnection) conn;
-
-                //httpConn.setAllowUserInteraction(false);
-                //httpConn.setInstanceFollowRedirects(true);
                 httpConn.setRequestMethod("GET");
                 httpConn.connect();
 
@@ -215,30 +202,20 @@ public class AbiDown extends Fragment implements AbHome.OnFragmentInteractionLis
                     output.flush();
                     output.close();
                     input.close();
-
                 }
 
             } catch (IOException e) {
                 e.printStackTrace();
             }
-
             return total;
         }
-
 
         protected void onPostExecute(Long result) {
             Toast.makeText(getContext(), getString(R.string.downloaded) + result + getString(R.string.bytesText), Toast.LENGTH_LONG).show();
             myBitmap = BitmapFactory.decodeFile(fileName[0]); //0 for Apple, 2 for Zelda
             mImageView.setImageBitmap(myBitmap);
             downBut.setEnabled(false); //disable the button after download
-            //TO fade out the text after download complete
-        /*    final Animation fadeOut = new AlphaAnimation(1.0f, 0.0f);
-            fadeOut.setDuration(3000);
-           tv.startAnimation(fadeOut);
-            tv.setVisibility(mImageView.GONE); //Remove the percent complete after fadeout
-          */
         }
-
 
         protected void onProgressUpdate(Integer... values) {
             Log.d(getString(R.string.asyncTask), getString(R.string.progressUpdate) + values[0]);
@@ -248,32 +225,13 @@ public class AbiDown extends Fragment implements AbHome.OnFragmentInteractionLis
             for (int ii = 0; ii < i; ii++) {
                 k = k + values[ii];
             }
-
             tv.setText(String.valueOf(k + 1) + getString(R.string.completion_percentage));//Show the % complete
         }
-
 
         protected void onCancelled() {
             // stop the progress
             tv.setText(getString(R.string.downloadStopped));
             Toast.makeText(getContext(), getString(R.string.cancelCalled), Toast.LENGTH_LONG).show();
-
         }
     }
-
-    @Override
-    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
-        switch (requestCode){
-            case PERMISSION_REQUEST_CODE:
-                if(grantResults.length>0 && grantResults[0]==PackageManager.PERMISSION_GRANTED){
-                    Toast.makeText(getActivity(),getString(R.string.request_granted),Toast.LENGTH_LONG).show();
-                 //   dw = new DownloadFilesTask();
-                    dw.execute(url, url, url);
-                }
-                else
-                    Toast.makeText(getActivity(),getString(R.string.request_declined),Toast.LENGTH_LONG).show();
-                break;
-        }
-    }
-
 }

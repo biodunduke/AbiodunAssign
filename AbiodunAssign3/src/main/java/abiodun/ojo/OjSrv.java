@@ -16,7 +16,7 @@ import android.view.ViewGroup;
  * {@link OjSrv.OnFragmentInteractionListener} interface
  * to handle interaction events.
  */
-public class OjSrv extends Fragment implements AbHome.OnFragmentInteractionListener/* ,AbiDown.OnFragmentInteractionListener*/{
+public class OjSrv extends Fragment implements AbHome.OnFragmentInteractionListener/* ,AbiDown.OnFragmentInteractionListener*/ {
 
     private OnFragmentInteractionListener mListener;
 
@@ -45,7 +45,7 @@ public class OjSrv extends Fragment implements AbHome.OnFragmentInteractionListe
         if (context instanceof OnFragmentInteractionListener) {
             mListener = (OnFragmentInteractionListener) context;
         } else {
-      //     throw new RuntimeException(context.toString() + getString(R.string.mustImpFragment));
+            //     throw new RuntimeException(context.toString() + getString(R.string.mustImpFragment));
         }
 
     }

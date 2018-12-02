@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:id="@+id/abiodunDownLayout"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="10dp"
@@ -34,11 +35,12 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
     </android.support.constraint.ConstraintLayout>
+
     <TextView
         android:id="@+id/abiodunProgressUpdate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/completion_percentage"/>
+        android:text="@string/completion_percentage" />
 
     <ImageView
         android:id="@+id/abiodunImage1"

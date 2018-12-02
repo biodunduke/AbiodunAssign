@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-<group android:checkableBehavior="single">
-    <item
-        android:id="@+id/abiodunAbiodun"
-        android:title="@string/firstName"
-        android:icon="@drawable/ic_first_name"
-        />
-    <item
-        android:icon="@drawable/ic_last_name"
-        android:title="@string/lastName"
-        android:id="@+id/abiodunOjo"/>
-    <item
-        android:id="@+id/abiodunSettings"
-        android:title="@string/settings"
-        android:icon="@drawable/ic_settings"/>
-</group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/abiodunAbiodun"
+            android:icon="@drawable/ic_first_name"
+            android:title="@string/firstName" />
+        <item
+            android:id="@+id/abiodunOjo"
+            android:icon="@drawable/ic_last_name"
+            android:title="@string/lastName" />
+        <item
+            android:id="@+id/abiodunSettings"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/settings" />
+    </group>
 </menu>

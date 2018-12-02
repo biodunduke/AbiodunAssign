@@ -9,13 +9,14 @@
         <item name="android:textSize">@dimen/font_size_15</item>
     </style>
 
-<style name="fragDown" parent="AppTheme">
-    <item name="android:background">@color/abDownBackground</item>
-</style>
+    <style name="fragDown" parent="AppTheme">
+        <item name="android:background">@color/abDownBackground</item>
+    </style>
 
     <style name="fragHome" parent="AppTheme">
         <item name="android:background">@color/abHomeBackground</item>
     </style>
+
     <style name="fragSrv" parent="AppTheme">
         <item name="android:background">@color/ojSrvBackground</item>
     </style>

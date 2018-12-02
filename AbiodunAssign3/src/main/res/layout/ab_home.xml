@@ -3,9 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#90EE90"
     android:orientation="vertical"
     android:theme="@style/AppTheme"
-    android:background="#90EE90"
     tools:context=".AbHome">
 
     <!-- TODO: Update blank fragment layout -->
@@ -13,18 +13,20 @@
         android:id="@+id/abiodunFullName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
-        android:textStyle="bold"
         android:gravity="center_horizontal"
-        android:text="@string/fullName" />
+        android:text="@string/fullName"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
     <TextView
         android:id="@+id/abiodunStudentNumber"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
-        android:textStyle="bold"
         android:gravity="center_horizontal"
-        android:text="@string/studentNo" />
+        android:text="@string/studentNo"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
     <TextClock
         android:id="@+id/abiodunTextClock"
         android:layout_width="fill_parent"
@@ -35,11 +37,12 @@
         android:textColor="#d41709"
         android:textSize="44sp"
         android:textStyle="bold" />
-<Spinner
-    android:id="@+id/abiodunSpinner"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content">
 
-</Spinner>
+    <Spinner
+        android:id="@+id/abiodunSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Spinner>
 
 </LinearLayout>

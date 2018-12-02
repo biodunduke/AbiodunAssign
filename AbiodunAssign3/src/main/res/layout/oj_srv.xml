@@ -13,6 +13,7 @@
         android:layout_height="50dp"
         android:gravity="center_horizontal|center_vertical"
         android:text="@string/lastName" />
+
     <View
         android:id="@+id/abiodunDivider"
         android:layout_width="match_parent"
@@ -33,16 +34,18 @@
         android:layout_height="10dp"
         android:background="?android:attr/listDivider" />
 
-<Button
-    android:id="@+id/abiodunWebCall"
-    android:layout_width="wrap_content"
-    android:text="@string/web_services"
-    android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/abiodunWebCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/web_services" />
+
     <View
         android:id="@+id/abiodunDivider3"
         android:layout_width="match_parent"
         android:layout_height="10dp"
         android:background="?android:attr/listDivider" />
+
     <TextView
         android:id="@+id/abiodunWebContent"
         android:layout_width="match_parent"

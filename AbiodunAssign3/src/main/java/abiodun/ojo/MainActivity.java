@@ -1,18 +1,37 @@
 package abiodun.ojo;
 
+import android.Manifest;
+import android.app.Activity;
+import android.app.AlertDialog;
+import android.app.PendingIntent;
+import android.content.ActivityNotFoundException;
+import android.content.BroadcastReceiver;
+import android.content.Context;
+import android.content.DialogInterface;
+import android.content.Intent;
+import android.content.IntentFilter;
 import android.content.pm.PackageManager;
+import android.location.Criteria;
+import android.location.Location;
+import android.location.LocationManager;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
+import android.support.design.widget.Snackbar;
+import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
+import android.support.v4.content.ContextCompat;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.telephony.SmsManager;
+import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Spinner;
@@ -24,22 +43,27 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import ru.alexbykov.nopermission.PermissionHelper;
+import static abiodun.ojo.R.id.abiodun_content_frame;
+
 
 public class MainActivity extends AppCompatActivity implements OjoSet.OnFragmentInteractionListener {
     private static final int PERMISSION_REQUEST_CODE = 5;
-    static AbHome abHome; //Dependencies must be added
-    static AbiDown abDown;
-    static OjoSet ojoSet;
-    static OjSrv ojSrv;
+    public static List<String> list; //To be used in AbHome Fragment
+     AbHome abHome; //Dependencies must be added
+     AbiDown abDown;
+     OjoSet ojoSet;
+     OjSrv ojSrv;
     MyPagerAdapter myPagerAdapter;
     ViewPager viewPager;
-    private DrawerLayout mDrawerLayout;
     FileOutputStream fos = null;
     Spinner spinner;
-
-    PermissionHelper permissionHelper;
-    public static List<String> list; //To be used in AbHome Fragment
+    Menu menu;  //Global menu declaration to access menu item
+    LocationManager locationManager;
+    String provider;
+    Criteria criteria;
+    Location location;
+    float lat,lng;
+    private DrawerLayout mDrawerLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,6 +72,8 @@ public class MainActivity extends AppCompatActivity implements OjoSet.OnFragment
 
         String fileName = getString(R.string.fileName);
         String courseName = getString(R.string.courseName);
+        // Creating an empty criteria object
+        criteria = new Criteria();
         //Writing file
         StringBuilder fileContent = new StringBuilder("");
         list = new ArrayList<String>(); //For the spinner
@@ -134,9 +160,8 @@ public class MainActivity extends AppCompatActivity implements OjoSet.OnFragment
                     case "Abiodun":
                         abDown = new AbiDown();
                         FragmentManager manager = getSupportFragmentManager();
-                        manager.beginTransaction().replace(R.id.abiodun_content_frame, abDown).commit();
+                        manager.beginTransaction().replace(R.id.abiodunDownLayout, abDown).commit();
                         // Toast.makeText(getApplicationContext(),getString(R.string.firstName),Toast.LENGTH_LONG).show();
-
                         break;
                 }
 
@@ -147,7 +172,149 @@ public class MainActivity extends AppCompatActivity implements OjoSet.OnFragment
 
     }
 
-    public static class MyPagerAdapter extends FragmentPagerAdapter implements AbHome.OnFragmentInteractionListener {
+    @Override
+    public void onFragmentInteraction(String name, String desc) {
+        //TODO: do firstname frag here
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {  //Create Menu and Inflate it
+        getMenuInflater().inflate(R.menu.menu, menu);
+        this.menu = menu;
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        //New edit
+        super.onOptionsItemSelected(item); //May cause issue
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                mDrawerLayout.openDrawer(GravityCompat.START);
+                return true;
+            case R.id.abiodunMenuHelp:
+                try {
+                    Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(getResources().getString(R.string.github_url)));
+                    startActivity(intent);
+                } catch (ActivityNotFoundException e) {
+                    Toast.makeText(getApplicationContext(), R.string.invalid_url, Toast.LENGTH_SHORT).show();
+                }
+                break;
+            case R.id.abiodunMenuSms:
+                String phoneNo = getString(R.string.phoneNo);
+                String message = getResources().getString(R.string.courseName);
+                if (ContextCompat.checkSelfPermission(getApplicationContext(), Manifest.permission.SEND_SMS) != PackageManager.PERMISSION_GRANTED) {
+                    ActivityCompat.requestPermissions(this, new String[]{
+                            Manifest.permission.SEND_SMS
+                    }, PERMISSION_REQUEST_CODE);
+                    //Check again and send the sms
+                    if (ContextCompat.checkSelfPermission(getApplicationContext(), Manifest.permission.SEND_SMS) == PackageManager.PERMISSION_GRANTED)
+                        sendSMS(phoneNo, message);
+                } else
+                    sendSMS(phoneNo, message);
+                break;
+            case R.id.abiodunMenuLocation:
+                locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
+                if (ActivityCompat.checkSelfPermission(
+                        this, Manifest.permission.ACCESS_FINE_LOCATION)
+                        != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(
+                        this, Manifest.permission.ACCESS_COARSE_LOCATION)
+                        != PackageManager.PERMISSION_GRANTED) {
+                    ActivityCompat.requestPermissions(this, new String[]{
+                            Manifest.permission.ACCESS_FINE_LOCATION,Manifest.permission.ACCESS_COARSE_LOCATION
+                    }, PERMISSION_REQUEST_CODE);
+                }
+                else {
+                    provider = locationManager.getBestProvider(criteria, false);
+                    location = locationManager.getLastKnownLocation(provider);
+                     lat = (float) (location.getLatitude());
+                     lng = (float) (location.getLongitude());
+                     String position = "Longitude: "+String.valueOf(lng)+
+                             ", Latitude: "+String.valueOf(lat);
+                    Snackbar.make(findViewById(abiodun_content_frame), position,Snackbar.LENGTH_LONG).show();
+                }
+                //TODO Location
+                break;
+
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, String permissions[], int[] grantResults) {
+        switch (requestCode) {
+            case PERMISSION_REQUEST_CODE:
+                if (grantResults.length > 0 && grantResults[0]==PackageManager.PERMISSION_GRANTED) {
+                    Toast.makeText(getApplicationContext(), R.string.request_granted, Toast.LENGTH_SHORT).show();
+                } else { //If user declines, show a toast saying so
+                    Toast.makeText(getApplicationContext(), R.string.request_declined, Toast.LENGTH_SHORT).show();
+                }
+                break;
+        }
+    }
+
+    protected void sendSMS(String phoneNo, String message) {
+        // TODO Auto-generated method stub
+        String SENT = getString(R.string.smsSent);
+        String DELIVERED = getString(R.string.smsDelivered);
+
+        PendingIntent sentPI = PendingIntent.getBroadcast(this, 0,
+                new Intent(SENT), 0);
+
+        PendingIntent deliveredPI = PendingIntent.getBroadcast(this, 0,
+                new Intent(DELIVERED), 0);
+
+        //---when the SMS has been sent---
+        registerReceiver(new BroadcastReceiver() {
+            @Override
+            public void onReceive(Context arg0, Intent arg1) {
+                switch (getResultCode()) {
+                    case Activity.RESULT_OK:
+                        Toast.makeText(getBaseContext(), "SMS sent",
+                                Toast.LENGTH_LONG).show();
+                        break;
+                    case SmsManager.RESULT_ERROR_GENERIC_FAILURE:
+                        Toast.makeText(getBaseContext(), getString(R.string.genericFailure),
+                                Toast.LENGTH_LONG).show();
+                        break;
+                    case SmsManager.RESULT_ERROR_NO_SERVICE:
+                        Toast.makeText(getBaseContext(), getString(R.string.noService),
+                                Toast.LENGTH_LONG).show();
+                        break;
+                    case SmsManager.RESULT_ERROR_NULL_PDU:
+                        Toast.makeText(getBaseContext(), getString(R.string.nullPDU),
+                                Toast.LENGTH_LONG).show();
+                        break;
+                    case SmsManager.RESULT_ERROR_RADIO_OFF:
+                        Toast.makeText(getBaseContext(), getString(R.string.radioOff),
+                                Toast.LENGTH_LONG).show();
+                        break;
+                }
+            }
+        }, new IntentFilter(SENT));
+
+        //---when the SMS has been delivered---
+        registerReceiver(new BroadcastReceiver() {
+            @Override
+            public void onReceive(Context arg0, Intent arg1) {
+                switch (getResultCode()) {
+                    case Activity.RESULT_OK:
+                        Toast.makeText(getBaseContext(), getString(R.string.deliveredSMS),
+                                Toast.LENGTH_LONG).show();
+                        break;
+                    case Activity.RESULT_CANCELED:
+                        Toast.makeText(getBaseContext(), getString(R.string.smsUndelivered),
+                                Toast.LENGTH_LONG).show();
+                        break;
+                }
+            }
+        }, new IntentFilter(DELIVERED));
+
+        SmsManager sms = SmsManager.getDefault();
+        sms.sendTextMessage(phoneNo, null, message, sentPI, deliveredPI);
+    }
+
+    public  class MyPagerAdapter extends FragmentPagerAdapter implements AbHome.OnFragmentInteractionListener {
 
         public MyPagerAdapter(FragmentManager fm) {
             super(fm);
@@ -171,7 +338,7 @@ public class MainActivity extends AppCompatActivity implements OjoSet.OnFragment
 
         @Override
         public int getCount() {
-            return 4; //Show only the first fragment
+            return 4; //Four fragments
         }
 
         @Override
@@ -184,47 +351,26 @@ public class MainActivity extends AppCompatActivity implements OjoSet.OnFragment
             ojoSet.onFragmentInteraction(name, desc);
         }
     }
-
-    @Override
-    public void onFragmentInteraction(String name, String desc) {
-        //TODO: do firstname frag here
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case android.R.id.home:
-                mDrawerLayout.openDrawer(GravityCompat.START);
-                return true;
-        }
-        return super.onOptionsItemSelected(item);
-    }
-
-
-     @Override
-    public void onRequestPermissionsResult(int requestCode, String permissions[], int[] grantResults) {
-        switch (requestCode) {
-            case PERMISSION_REQUEST_CODE:
-                if (grantResults.length > 0) {
-
-                    Toast.makeText(getApplicationContext(), R.string.request_declined, Toast.LENGTH_SHORT).show();
-                    boolean storageAccepted = grantResults[0] == PackageManager.PERMISSION_GRANTED;
-                    boolean cameraAccepted = grantResults[1] == PackageManager.PERMISSION_GRANTED;
-                    boolean contactAccepted = grantResults[2] == PackageManager.PERMISSION_GRANTED;
-                    boolean smsAccepted = grantResults[2] == PackageManager.PERMISSION_GRANTED;
-
-                    if (storageAccepted && cameraAccepted && contactAccepted && smsAccepted) { //if user grants permission, show a toast then start the camera
-                        Toast.makeText(getApplicationContext(), R.string.request_granted, Toast.LENGTH_SHORT).show();
-                        //   Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-                        //     startActivityForResult(intent, PERMISSION_REQUEST_CODE);
-                    }
-
-
-                } else { //If user declines, show a toast saying so
-                    Toast.makeText(getApplicationContext(), R.string.request_declined, Toast.LENGTH_SHORT).show();
+    //Handling the back button pressed
+@Override
+    public void onBackPressed(){
+    AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
+    builder.setTitle(getResources().getString(R.string.fullName));
+    builder.setMessage(getString(R.string.confirmExit))
+            .setCancelable(true)
+            .setPositiveButton(getString(R.string.yesDialog), new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialogInterface, int i) {
+                    finish();
                 }
-                break;
-        }
-    }
+            })
+            .setNegativeButton(getString(R.string.noDialog), new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialogInterface, int i) {
+                    onResume();
+                }
+            });
+        builder.show();
 
+}
 }
