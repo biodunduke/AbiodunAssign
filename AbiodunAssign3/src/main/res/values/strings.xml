@@ -55,4 +55,12 @@
     <string name="confirmExit">Are you sure you want to exit?</string>
     <string name="yesDialog">Yes</string>
     <string name="noDialog">No</string>
+    <string name="pageTitle">Page </string>
+    <string name="gettingWebStuff">....In Progress.. Please wait</string>
+    <string name="zipLenght">Invalid Zip Code length</string>
+    <string name="enterZip">Enter zip code</string>
+    <string name="dataRetireved">Data Retrieved Successfully</string>
+    <string name="zipNotFound">Zip Code not found</string>
+    <string name="siteDown">Error, site cannot be reached</string>
+    <string name="finished">Finished:</string>
 </resources>

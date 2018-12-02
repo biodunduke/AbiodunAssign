@@ -343,7 +343,7 @@ public class MainActivity extends AppCompatActivity implements OjoSet.OnFragment
 
         @Override
         public CharSequence getPageTitle(int position) {
-            return "Page " + position;
+            return getString(R.string.pageTitle) + position;
         }
 
         @Override

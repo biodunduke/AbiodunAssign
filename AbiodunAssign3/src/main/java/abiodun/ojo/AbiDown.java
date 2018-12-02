@@ -67,7 +67,6 @@ public class AbiDown extends Fragment implements AbHome.OnFragmentInteractionLis
             url = new URL("https://cdn.pixabay.com/photo/2017/01/06/23/21/soap-bubble-1959327_640.jpg");
 
         } catch (MalformedURLException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
         try {
@@ -144,7 +143,6 @@ public class AbiDown extends Fragment implements AbHome.OnFragmentInteractionLis
 
 
     public interface OnFragmentInteractionListener {
-        // TODO: Update argument type and name
         void onFragmentInteraction(Uri uri);
     }
 
@@ -168,7 +166,6 @@ public class AbiDown extends Fragment implements AbHome.OnFragmentInteractionLis
         }
 
         private long DownloadFile(URL url, int i) {
-            // TODO Auto-generated method stub
             int total = 0;
             try {
 
@@ -218,6 +215,7 @@ public class AbiDown extends Fragment implements AbHome.OnFragmentInteractionLis
         }
 
         protected void onProgressUpdate(Integer... values) {
+            //TODO: Display progress bar
             Log.d(getString(R.string.asyncTask), getString(R.string.progressUpdate) + values[0]);
             int i = values.length;
             tv.setVisibility(mImageView.VISIBLE);
