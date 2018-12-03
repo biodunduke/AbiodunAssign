@@ -103,8 +103,6 @@ public class MainActivity extends AppCompatActivity {
             }
         }
 
-        //TODO: WIre the buttons (Nav Drawer)
-
         //Toolbar
         Toolbar toolbar = findViewById(R.id.abiodun_toolbar);
         setSupportActionBar(toolbar);
@@ -131,6 +129,7 @@ public class MainActivity extends AppCompatActivity {
                 menuItem.setChecked(true);
                 int itemId = menuItem.getItemId();
                 switch (itemId) {
+                    //TODO: Work on NavHeader clickable
                     case R.id.abiodunNavHeader:
                         viewPager.setCurrentItem(0,true);
                         break;
