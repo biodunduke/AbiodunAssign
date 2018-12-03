@@ -87,13 +87,25 @@
         android:layout_height="10dp"
         android:background="?android:attr/listDivider" />
 
-    <ToggleButton
-        android:id="@+id/abiodunToggleButton"
+    <RadioGroup
+        android:id="@+id/abiodunRadioGrpClock"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/clock_format"
-        android:textOff="@string/hr_24"
-        android:textOn="@string/hr_12" />
+        android:padding="10dp">
+        <RadioButton
+            android:id="@+id/abiodun12Hr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/hr_12" />
+
+        <RadioButton
+            android:id="@+id/abiodun24Hr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/hr_24" />
+    </RadioGroup>
 
     <View
         android:id="@+id/abiodunDivider4"

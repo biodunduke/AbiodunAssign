@@ -15,24 +15,19 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Spinner;
 import android.widget.Switch;
-import android.widget.Toast;
-import android.widget.ToggleButton;
 
-
-/**
- * A simple {@link Fragment} subclass.
- * Activities that contain this fragment must implement the
- * {@link OjoSet.OnFragmentInteractionListener} interface
- * to handle interaction events.
- */
 public class OjoSet extends Fragment {
+    /*
+Abiodun Ojo
+N01178447
+*/
     Button prefSave;
-    RadioGroup rdGrp;
-    RadioButton rdBtn;
-    int selectedRadioId;
-    String fragColor;
-    ToggleButton toggleButton;
+    RadioGroup rdGrp, rdGrpClock;
+    RadioButton rdBtn, rdBtnClock;
+    int selectedRadioId, selectedRadioIdClock;
+    String fragColor = "", clockFormat = "", fontSize = "";
     Switch portraitSwitch;
+    Boolean switchValue;
     private OnFragmentInteractionListener mListener;
 
     public OjoSet() {
@@ -53,40 +48,42 @@ public class OjoSet extends Fragment {
         //Edit start
         final SharedPreferences sharedPreferences = PreferenceManager
                 .getDefaultSharedPreferences(getActivity());
-        final SharedPreferences.Editor editor = sharedPreferences.edit();
         rdGrp = view.findViewById(R.id.abiodunRadioGrp);
+        rdGrpClock = view.findViewById(R.id.abiodunRadioGrpClock);
         prefSave = view.findViewById(R.id.abiodunSubmitButton);
-        toggleButton = view.findViewById(R.id.abiodunToggleButton);
         portraitSwitch = view.findViewById(R.id.abiodunSwitchOrientation);
+
 
         prefSave.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
                 selectedRadioId = rdGrp.getCheckedRadioButtonId();
+                selectedRadioIdClock = rdGrpClock.getCheckedRadioButtonId();
                 rdBtn = getActivity().findViewById(selectedRadioId);//Used getActivity instead  of view to deal with error
+                rdBtnClock = getActivity().findViewById(selectedRadioIdClock);
+                fontSize = spinner.getSelectedItem().toString();
+                switchValue = portraitSwitch.isChecked() ? true : false;
                 try {
                     fragColor = rdBtn.getText().toString();
+                    clockFormat = rdBtnClock.getText().toString();
                 } catch (NullPointerException e) {
                     e.printStackTrace();
-                    Toast.makeText(getActivity(), getString(R.string.chooseColor), Toast.LENGTH_LONG).show();
+                    //    Toast.makeText(getActivity(), getString(R.string.chooseColor), Toast.LENGTH_LONG).show();
                 }
-                String toggleValue = toggleButton.getText().toString();
-                String fontSize = spinner.getSelectedItem().toString();
-                Boolean switchValue = portraitSwitch.isChecked() ? true : false;
+
                 SharedPreferences sharedPreferences = PreferenceManager
                         .getDefaultSharedPreferences(getContext());
                 SharedPreferences.Editor editor = sharedPreferences.edit();
                 try {
                     editor.putString("color", fragColor);
-                    editor.putString("format", toggleValue);
+                    editor.putString("format", clockFormat);
                     editor.putString("fontSize", fontSize);
                     editor.putBoolean("portrait", switchValue);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
                 editor.commit();
-                String added = fragColor + ", " + toggleValue + ", " + fontSize + ", " + String.valueOf(switchValue);
-                Toast.makeText(getActivity(), added, Toast.LENGTH_LONG).show();
             }
         });
         // Inflate the layout for this fragment
@@ -96,7 +93,7 @@ public class OjoSet extends Fragment {
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-}
+    }
 
     @Override
     public void onAttach(Context context) {
@@ -104,8 +101,6 @@ public class OjoSet extends Fragment {
 
         if (context instanceof OnFragmentInteractionListener) {
             mListener = (OnFragmentInteractionListener) context;
-        } else {
-            //     throw new RuntimeException(context.toString() + getString(R.string.mustImpFragment));
         }
     }
 

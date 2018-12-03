@@ -34,6 +34,10 @@ import java.net.URLConnection;
 
 
 public class AbiDown extends Fragment {
+    /*
+Abiodun Ojo
+N01178447
+*/
     private static final int PERMISSION_REQUEST_CODE = 5;
     TextView tv; URL url, url2, url3; int k = 0; DownloadFilesTask dw; String[] fileName = {""};
     ImageView mImageView; String imageName; String[] path;String PATH; Bitmap myBitmap;
@@ -140,7 +144,10 @@ public class AbiDown extends Fragment {
     }
 
     public class DownloadFilesTask extends AsyncTask<URL, Integer, Long> {
-
+        /*
+        Abiodun Ojo
+        N01178447
+        */
         @Override
         protected Long doInBackground(URL... urls) {
             int count = urls.length;

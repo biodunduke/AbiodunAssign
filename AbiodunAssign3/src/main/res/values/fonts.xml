@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="fonts_size">
-        <item>Choose font size</item>
         <item>12</item>
         <item>13</item>
         <item>14</item>

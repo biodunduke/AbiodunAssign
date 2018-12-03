@@ -23,7 +23,6 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
-import android.support.v4.app.FragmentTransaction;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.view.ViewPager;
@@ -47,6 +46,10 @@ import static abiodun.ojo.R.id.abiodun_content_frame;
 
 
 public class MainActivity extends AppCompatActivity {
+    /*
+Abiodun Ojo
+N01178447
+*/
     private static final int PERMISSION_REQUEST_CODE = 5;
     public static List<String> list; //To be used in AbHome Fragment
     AbHome abHome; //Dependencies must be added
@@ -129,18 +132,17 @@ public class MainActivity extends AppCompatActivity {
                 menuItem.setChecked(true);
                 int itemId = menuItem.getItemId();
                 switch (itemId) {
-                    //TODO: Work on NavHeader clickable
                     case R.id.abiodunNavHeader:
-                        viewPager.setCurrentItem(0,true);
+                        viewPager.setCurrentItem(0, true);
                         break;
                     case R.id.abiodunAbiodun:
-                        viewPager.setCurrentItem(1,true);
+                        viewPager.setCurrentItem(1, true);
                         break;
                     case R.id.abiodunOjo:
-                        viewPager.setCurrentItem(2,true);
+                        viewPager.setCurrentItem(2, true);
                         break;
                     case R.id.abiodunSettings:
-                        viewPager.setCurrentItem(3,true);
+                        viewPager.setCurrentItem(3, true);
                         break;
                 }
                 mDrawerLayout.closeDrawers();
@@ -285,6 +287,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public class MyPagerAdapter extends FragmentPagerAdapter {//implements AbHome.OnFragmentInteractionListener {
+/*
+Abiodun Ojo
+N01178447
+*/
+
 
         public MyPagerAdapter(FragmentManager fm) {
             super(fm);
