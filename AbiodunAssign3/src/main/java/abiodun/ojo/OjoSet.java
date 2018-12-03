@@ -96,8 +96,7 @@ public class OjoSet extends Fragment {
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        //TODO:
-    }
+}
 
     @Override
     public void onAttach(Context context) {
@@ -108,7 +107,6 @@ public class OjoSet extends Fragment {
         } else {
             //     throw new RuntimeException(context.toString() + getString(R.string.mustImpFragment));
         }
-
     }
 
     @Override
@@ -121,7 +119,6 @@ public class OjoSet extends Fragment {
     }
 
     public interface OnFragmentInteractionListener {
-        // TODO: Update argument type and name
         void onFragmentInteraction(String name, String desc);
     }
 }

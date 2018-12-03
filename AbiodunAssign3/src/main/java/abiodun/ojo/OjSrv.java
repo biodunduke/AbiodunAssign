@@ -21,7 +21,7 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
-public class OjSrv extends Fragment implements AbHome.OnFragmentInteractionListener/* ,AbiDown.OnFragmentInteractionListener*/ {
+public class OjSrv extends Fragment{
 
     private OnFragmentInteractionListener mListener;
     Button btnGet;
@@ -92,8 +92,6 @@ public class OjSrv extends Fragment implements AbHome.OnFragmentInteractionListe
                                         getActivity().runOnUiThread(new Runnable() {
                                             @Override
                                             public void run() {
-                                                //TODO: Parse JSon
-
                                                 if (!textStr.isEmpty()) {
                                                     try {
                                                         /*http://json.parser.online.fr/ to parse*/
@@ -147,7 +145,6 @@ public class OjSrv extends Fragment implements AbHome.OnFragmentInteractionListe
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        //TODO:
     }
 
     @Override
@@ -167,14 +164,13 @@ public class OjSrv extends Fragment implements AbHome.OnFragmentInteractionListe
         super.onDetach();
         mListener = null;
     }
-
+/*
     @Override
     public void onFragmentInteraction(String name, String desc) {
 
     }
-
+*/
     public interface OnFragmentInteractionListener {
-        // TODO: Update argument type and name
         void onFragmentInteraction(Uri uri);
     }
 }

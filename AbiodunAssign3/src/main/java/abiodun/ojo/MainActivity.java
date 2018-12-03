@@ -23,6 +23,7 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.view.ViewPager;
@@ -33,7 +34,6 @@ import android.support.v7.widget.Toolbar;
 import android.telephony.SmsManager;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.Spinner;
 import android.widget.Toast;
 
@@ -46,13 +46,13 @@ import java.util.List;
 import static abiodun.ojo.R.id.abiodun_content_frame;
 
 
-public class MainActivity extends AppCompatActivity implements OjoSet.OnFragmentInteractionListener {
+public class MainActivity extends AppCompatActivity {
     private static final int PERMISSION_REQUEST_CODE = 5;
     public static List<String> list; //To be used in AbHome Fragment
-     AbHome abHome; //Dependencies must be added
-     AbiDown abDown;
-     OjoSet ojoSet;
-     OjSrv ojSrv;
+    AbHome abHome; //Dependencies must be added
+    AbiDown abDown;
+    OjoSet ojoSet;
+    OjSrv ojSrv;
     MyPagerAdapter myPagerAdapter;
     ViewPager viewPager;
     FileOutputStream fos = null;
@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity implements OjoSet.OnFragment
     String provider;
     Criteria criteria;
     Location location;
-    float lat,lng;
+    float lat, lng;
     private DrawerLayout mDrawerLayout;
 
     @Override
@@ -103,9 +103,7 @@ public class MainActivity extends AppCompatActivity implements OjoSet.OnFragment
             }
         }
 
-        //TODO: French translation
         //TODO: WIre the buttons (Nav Drawer)
-        //TODO: Font Size
 
         //Toolbar
         Toolbar toolbar = findViewById(R.id.abiodun_toolbar);
@@ -125,54 +123,31 @@ public class MainActivity extends AppCompatActivity implements OjoSet.OnFragment
         viewPager.setAdapter(myPagerAdapter);
 
         mDrawerLayout = findViewById(R.id.abiodun_drawer_layout);
-        mDrawerLayout.addDrawerListener(
-                new DrawerLayout.DrawerListener() {
-                    @Override
-                    public void onDrawerSlide(View drawerView, float slideOffset) {
-                        //Toast.makeText(getApplicationContext(),"Hey Slide!",Toast.LENGTH_LONG).show(); // Respond when the drawer's position changes
-                    }
-
-                    @Override
-                    public void onDrawerOpened(View drawerView) {
-                        //  Toast.makeText(getApplicationContext(),"Hey Open!",Toast.LENGTH_LONG).show();// Respond when the drawer is opened
-                    }
-
-                    @Override
-                    public void onDrawerClosed(View drawerView) {
-                        //     Toast.makeText(getApplicationContext(),"Hey Closed!",Toast.LENGTH_LONG).show();// Respond when the drawer is closed
-                    }
-
-                    @Override
-                    public void onDrawerStateChanged(int newState) {
-                        // Respond when the drawer motion state changes
-                    }
-                }
-        );
 
         NavigationView navigationView = findViewById(R.id.abiodun_nav_view);
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
-                menuItem.setChecked(false);
-                String itemSelected = (String) menuItem.getTitle();
-                switch (itemSelected) {
-                    case "Abiodun":
-                        abDown = new AbiDown();
-                        FragmentManager manager = getSupportFragmentManager();
-                        manager.beginTransaction().replace(R.id.abiodun_content_frame, abDown).commit();
-                        // Toast.makeText(getApplicationContext(),getString(R.string.firstName),Toast.LENGTH_LONG).show();
+                menuItem.setChecked(true);
+                int itemId = menuItem.getItemId();
+                switch (itemId) {
+                    case R.id.abiodunNavHeader:
+                        viewPager.setCurrentItem(0,true);
+                        break;
+                    case R.id.abiodunAbiodun:
+                        viewPager.setCurrentItem(1,true);
+                        break;
+                    case R.id.abiodunOjo:
+                        viewPager.setCurrentItem(2,true);
+                        break;
+                    case R.id.abiodunSettings:
+                        viewPager.setCurrentItem(3,true);
                         break;
                 }
-
                 mDrawerLayout.closeDrawers();
                 return true;
             }
         });
-
-    }
-
-    @Override
-    public void onFragmentInteraction(String name, String desc) {
 
     }
 
@@ -220,19 +195,17 @@ public class MainActivity extends AppCompatActivity implements OjoSet.OnFragment
                         this, Manifest.permission.ACCESS_COARSE_LOCATION)
                         != PackageManager.PERMISSION_GRANTED) {
                     ActivityCompat.requestPermissions(this, new String[]{
-                            Manifest.permission.ACCESS_FINE_LOCATION,Manifest.permission.ACCESS_COARSE_LOCATION
+                            Manifest.permission.ACCESS_FINE_LOCATION, Manifest.permission.ACCESS_COARSE_LOCATION
                     }, PERMISSION_REQUEST_CODE);
-                }
-                else {
+                } else {
                     provider = locationManager.getBestProvider(criteria, false);
                     location = locationManager.getLastKnownLocation(provider);
-                     lat = (float) (location.getLatitude());
-                     lng = (float) (location.getLongitude());
-                     String position = "Longitude: "+String.valueOf(lng)+
-                             ", Latitude: "+String.valueOf(lat);
-                    Snackbar.make(findViewById(abiodun_content_frame), position,Snackbar.LENGTH_LONG).show();
+                    lat = (float) (location.getLatitude());
+                    lng = (float) (location.getLongitude());
+                    String position = "Longitude: " + String.valueOf(lng) +
+                            ", Latitude: " + String.valueOf(lat);
+                    Snackbar.make(findViewById(abiodun_content_frame), position, Snackbar.LENGTH_LONG).show();
                 }
-                //TODO Location
                 break;
 
         }
@@ -243,7 +216,7 @@ public class MainActivity extends AppCompatActivity implements OjoSet.OnFragment
     public void onRequestPermissionsResult(int requestCode, String permissions[], int[] grantResults) {
         switch (requestCode) {
             case PERMISSION_REQUEST_CODE:
-                if (grantResults.length > 0 && grantResults[0]==PackageManager.PERMISSION_GRANTED) {
+                if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                     Toast.makeText(getApplicationContext(), R.string.request_granted, Toast.LENGTH_SHORT).show();
                 } else { //If user declines, show a toast saying so
                     Toast.makeText(getApplicationContext(), R.string.request_declined, Toast.LENGTH_SHORT).show();
@@ -312,7 +285,7 @@ public class MainActivity extends AppCompatActivity implements OjoSet.OnFragment
         sms.sendTextMessage(phoneNo, null, message, sentPI, deliveredPI);
     }
 
-    public  class MyPagerAdapter extends FragmentPagerAdapter implements AbHome.OnFragmentInteractionListener {
+    public class MyPagerAdapter extends FragmentPagerAdapter {//implements AbHome.OnFragmentInteractionListener {
 
         public MyPagerAdapter(FragmentManager fm) {
             super(fm);
@@ -343,32 +316,34 @@ public class MainActivity extends AppCompatActivity implements OjoSet.OnFragment
         public CharSequence getPageTitle(int position) {
             return getString(R.string.pageTitle) + position;
         }
-
+/*
         @Override
         public void onFragmentInteraction(String name, String desc) {
             ojoSet.onFragmentInteraction(name, desc);
         }
+        */
     }
+
     //Handling the back button pressed
-@Override
-    public void onBackPressed(){
-    AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
-    builder.setTitle(getResources().getString(R.string.fullName));
-    builder.setMessage(getString(R.string.confirmExit))
-            .setCancelable(true)
-            .setPositiveButton(getString(R.string.yesDialog), new DialogInterface.OnClickListener() {
-                @Override
-                public void onClick(DialogInterface dialogInterface, int i) {
-                    finish();
-                }
-            })
-            .setNegativeButton(getString(R.string.noDialog), new DialogInterface.OnClickListener() {
-                @Override
-                public void onClick(DialogInterface dialogInterface, int i) {
-                    onResume();
-                }
-            });
+    @Override
+    public void onBackPressed() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
+        builder.setTitle(getResources().getString(R.string.fullName));
+        builder.setMessage(getString(R.string.confirmExit))
+                .setCancelable(true)
+                .setPositiveButton(getString(R.string.yesDialog), new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        finish();
+                    }
+                })
+                .setNegativeButton(getString(R.string.noDialog), new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        onResume();
+                    }
+                });
         builder.show();
 
-}
+    }
 }
